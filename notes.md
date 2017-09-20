@@ -37,11 +37,11 @@
 	> 解决方法：</br>
 	>不在fragmentA的onResume里写，而改成下面这样写，不可见时不操作，可见时再操作。</font></br>
 	>参考资料：[http://blog.csdn.net/binbin_1989/article/details/64437995](http://blog.csdn.net/binbin_1989/article/details/64437995)
-		
+
 	    @Override  
 	    public void onHiddenChanged(boolean hidden) {  
 	        super.onHiddenChanged(hidden);  
-	      
+
 	        if (hidden) {  
 	            UtilsTools.Log_e(TAG, " --- 不可见()");  
 	        } else {  
@@ -66,6 +66,7 @@
 		char cny = (char)165;
 
 ##git常用命令
+
 	git push origin eas_local:eas_sync
 	git checkout -b eas_local origin/eas_sync
 	git pull
