@@ -7,7 +7,17 @@
 
 ##Android基础知识
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
+	+ 1、《Fragment详解之一——概述》
+	+ 2、《Fragment详解之二——基本使用方法》
+	+ 3、《Fragment详解之三——管理Fragment（1）》
+	+ 4、《Fragment详解之四——管理Fragment（2）》
+	+ 5、《Fragment详解之五——Fragment间参数传递》
+	+ 6、《Fragment详解之六——如何监听fragment中的回退事件与怎样保存fragment状态》
 *	[Fragment的四种跳转](http://www.jianshu.com/p/ab1cb7ddf91f)
+	+ 1、从同一个Activiy的一个Fragment跳转到另外一个Fragment
+	+ 2、从一个Activity的Fragment跳转到另外一个Activity
+	+ 3、从一个Activity跳转到另外一个Activity的Fragment上
+	+ 4、从一个Activity的Fragment跳转到另外一个Activity的Fragment上
 
 
 
