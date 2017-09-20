@@ -7,10 +7,12 @@
 
 ##Android基础知识
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
+*	[Fragment的四种跳转](http://www.jianshu.com/p/ab1cb7ddf91f)
 
 
 
 ##Android项目重构
+*	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 
 
@@ -19,7 +21,7 @@
 
 ##Android常见问题
 *  Fragment懒加载和ViewPager的坑
-	>参考资料：([http://www.cnblogs.com/dasusu/p/5926731.html](http://www.cnblogs.com/dasusu/p/5926731.html))
+	>参考资料：[http://www.cnblogs.com/dasusu/p/5926731.html](http://www.cnblogs.com/dasusu/p/5926731.html)
 *  Activity嵌套多个fragment时，onResume的处理
 	<font color=#FF1493>
 	> 解决方法：</br>
