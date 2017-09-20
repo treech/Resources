@@ -67,14 +67,14 @@
 
 ##git常用命令
 
-	git push origin eas_local:eas_sync
-	git checkout -b eas_local origin/eas_sync
-	git pull
-	git pull origin eas_sync:eas_local
-    git pull origin master:dev
-	git checkout -b dev//基于本地创建分支
-	git checkout -b dev origin/dev //基于远程分支创建本地分支
-	git clone https://git.oschina.net/telneter/iscs_calendar.git
-	git checkout -b eas_local
-	git pull origin eas_sync:eas_local
-	git push origin eas_local:eas_sync
+		git push origin eas_local:eas_sync
+		git checkout -b eas_local origin/eas_sync
+		git pull
+		git pull origin eas_sync:eas_local
+	    git pull origin master:dev
+		git checkout -b dev//基于本地创建分支
+		git checkout -b dev origin/dev //基于远程分支创建本地分支
+		git clone https://git.oschina.net/telneter/iscs_calendar.git
+		git checkout -b eas_local
+		git pull origin eas_sync:eas_local
+		git push origin eas_local:eas_sync
