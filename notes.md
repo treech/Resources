@@ -24,7 +24,7 @@
 ##Android项目重构
 *	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
-
+*	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
 
 
 
@@ -67,14 +67,14 @@
 
 ##git常用命令
 
-		git push origin eas_local:eas_sync
-		git checkout -b eas_local origin/eas_sync
-		git pull
-		git pull origin eas_sync:eas_local
-	    git pull origin master:dev
-		git checkout -b dev//基于本地创建分支
-		git checkout -b dev origin/dev //基于远程分支创建本地分支
-		git clone https://git.oschina.net/telneter/iscs_calendar.git
-		git checkout -b eas_local
-		git pull origin eas_sync:eas_local
-		git push origin eas_local:eas_sync
+	git push origin eas_local:eas_sync
+	git checkout -b eas_local origin/eas_sync
+	git pull
+	git pull origin eas_sync:eas_local
+    git pull origin master:dev
+	git checkout -b dev//基于本地创建分支
+	git checkout -b dev origin/dev //基于远程分支创建本地分支
+	git clone https://git.oschina.net/telneter/iscs_calendar.git
+	git checkout -b eas_local
+	git pull origin eas_sync:eas_local
+	git push origin eas_local:eas_sync
