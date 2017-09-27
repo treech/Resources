@@ -1,11 +1,15 @@
-##Java基础
+## Java基础
 *	[为什么String要设计成不可变的](http://blog.csdn.net/renfufei/article/details/16808775)
 *	请写出代码计算二叉树的最大深度，分别用『递归』和『非递归』的方式实现
 *	[如何检查内存泄漏，并解决](http://www.jianshu.com/p/bf159a9c391a)
 
 
 
-##Android基础知识
+## Android基础知识
+### View
+*	 [Android LayoutInflater原理分析，带你一步步深入了解View(一)](http://blog.csdn.net/guolin_blog/article/details/12921889)
+
+### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
 	+ 1、《Fragment详解之一——概述》
 	+ 2、《Fragment详解之二——基本使用方法》
@@ -21,7 +25,7 @@
 
 
 
-##Android项目重构
+## Android项目重构
 *	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
@@ -29,7 +33,7 @@
 
 
 
-##Android常见问题
+## Android常见问题
 *  Fragment懒加载和ViewPager的坑
 	>参考资料：[http://www.cnblogs.com/dasusu/p/5926731.html](http://www.cnblogs.com/dasusu/p/5926731.html)
 *  Activity嵌套多个fragment时，onResume的处理
@@ -60,12 +64,12 @@
 
 
 
-##Android开发细节问题
+## Android开发细节问题
 *	人民币符号适配(主要是￥中划线一横与两横的问题)
 
 		char cny = (char)165;
 
-##git常用命令
+## git常用命令
 
 	git push origin eas_local:eas_sync
 	git checkout -b eas_local origin/eas_sync
@@ -78,3 +82,9 @@
 	git checkout -b eas_local
 	git pull origin eas_sync:eas_local
 	git push origin eas_local:eas_sync
+### git上库指导
+	1. git init
+	2. git add .
+	3. git commit -am "###"      -------以上3步只是本地提交
+	4. git remote add origin git@xx.xx.xx.xx:repos/xxx/xxx/xxx.git
+	5. git push origin 本地分支:远程分支
