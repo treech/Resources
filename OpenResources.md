@@ -146,10 +146,18 @@
 	>7、自定义不同的item类型（简单配置、无需重写额外方法）</br>
 	>8、设置空布局（比Listview的setEmptyView还要好用！）</br>
 	>9、添加拖拽item</br>
+*	[hongyangAndroid/baseAdapter](https://github.com/hongyangAndroid/baseAdapter)
+	>Android 万能的Adapter for ListView,RecyclerView,GridView等，支持多种Item类型的情况。
+
+### 可拖拽ListView
+*	[bauerca/drag-sort-listview](https://github.com/bauerca/drag-sort-listview)
+	>Android ListView with drag and drop reordering.
 
 ### 粘性列表头部实现
 *	[StickyListHeaders](https://github.com/emilsjolander/StickyListHeaders)
-	>An android library for section headers that stick to the top 
+	>An android library for section headers that stick to the top
+*	[timehop/sticky-headers-recyclerview](https://github.com/timehop/sticky-headers-recyclerview)
+	>[UNMAINTAINED] Sticky Headers decorator for Android's RecyclerView
 
 ### Tablayout
 *	[H07000223/FlycoTabLayout](https://github.com/H07000223/FlycoTabLayout)
@@ -160,6 +168,24 @@
 ### StatusBar
 *	[laobie/StatusBarUtil](https://github.com/laobie/StatusBarUtil)
 	>A util for setting status bar style on Android App. http://t.cn/Rq746Kb
+
+### Toast
+*	[GrenderG/Toasty](https://github.com/GrenderG/Toasty)
+	>The usual Toast, but with steroids
+
+### Button
+*	[android-floating-action-button](https://github.com/futuresimple/android-floating-action-button)
+	>![](https://github.com/futuresimple/android-floating-action-button/blob/master/screenshots/menu.gif)
+*	[dmytrodanylyk/circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
+	>Android Circular Progress Button http://dmytrodanylyk.com/pages/portfo…
+	>![](https://github.com/dmytrodanylyk/circular-progress-button/blob/master/screenshots/intro.gif)
+
+### TextView
+*	[hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
+	>这是一款非常炫酷的TextView，绝对给你惊喜.
+*	[grantland/android-autofittextview](https://github.com/grantland/android-autofittextview)
+	>A TextView that automatically resizes text to fit perfectly within its bounds.
+	>![](https://raw.githubusercontent.com/grantland/android-autofittextview/master/website/static/autofittextview.gif)
 
 ### 布局
 #### 卡片布局
@@ -175,26 +201,15 @@
 
 
 ### 图表
+*	[PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+	>A powerful Android chart view / graph view library, supporting line- bar- pie- radar- bubble- and candlestick charts as well as scaling, dragging and animations.
+
 *	[SuitLines](https://github.com/whataa/SuitLines)
 	>一个小巧且高效的线性图表组件
 *	[lecho/hellocharts-android](https://github.com/lecho/hellocharts-android)
 	>Charts/graphs library for Android compatible with API 8+, several chart types with support for scaling, scrolling and animations
 *	[diogobernardino/WilliamChart](https://github.com/diogobernardino/WilliamChart)
 	>Android library to create charts.
-
-
-### Button
-*	[android-floating-action-button](https://github.com/futuresimple/android-floating-action-button)
-	>![](https://github.com/futuresimple/android-floating-action-button/blob/master/screenshots/menu.gif)
-*	[dmytrodanylyk/circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
-	>Android Circular Progress Button http://dmytrodanylyk.com/pages/portfo…
-	>![](https://github.com/dmytrodanylyk/circular-progress-button/blob/master/screenshots/intro.gif)
-
-### TextView
-*	[hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
-	>这是一款非常炫酷的TextView，绝对给你惊喜.
-
-
 
 ### 图片处理
 *	[uCrop图片裁剪开源库](https://github.com/Yalantis/uCrop)
@@ -229,6 +244,10 @@
 *	[Bigkoo/Android-PickerView](https://github.com/Bigkoo/Android-PickerView)
 	>This is a picker view for android , support linkage effect, timepicker and optionspicker.（时间选择器、省市区三级联动）
 
+### Emoji
+*	[rockerhieu/emojicon](https://github.com/rockerhieu/emojicon)
+	>A library to show emoji in TextView, EditText (like WhatsApp) for Android
+	>![](https://raw.githubusercontent.com/rockerhieu/emojicon/master/images/sample.jpg)
 
 ## 注解
 *	[androidannotations/androidannotations](https://github.com/androidannotations/androidannotations)
@@ -264,6 +283,24 @@
 	>Vitamio for Android http://www.vitamio.org/en/
 *	[daniulive/SmarterStreaming](https://github.com/daniulive/SmarterStreaming)
 	>大牛直播，跨平台(windows/android/iOS)推送(rtmp)、播放器(rtmp/rtsp)，支持录像、导播、动态视频合成、实时快照、水印、音频混音、互动等，国内外为数不多不依赖开源框架，业界真正靠谱的超低延迟(1秒左右)。 http://www.daniulive.com
+*	[CarGuo/GSYVideoPlayer](https://github.com/CarGuo/GSYVideoPlayer)
+	>视频播放器（IJKplayer），HTTPS支持，支持弹幕，支持滤镜，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频本身自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，直接添加控件为封面，列表全屏动画，视频加载速度，列表小窗口支持拖动，5.0的过场效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，其他一些小动画效果，rtsp、concat、mpeg。简书: http://www.jianshu.com/p/9fe377dd9750
+*	[Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
+	>Android/iOS video player based on FFmpeg n3.3, with MediaCodec, VideoToolbox support.
+
+
+### 视频开源项目
+*	[HotBitmapGG/bilibili-android-client](https://github.com/HotBitmapGG/bilibili-android-client)
+	>An unofficial bilibili client for android http://www.jianshu.com/p/f69a55b94c05
+
+
+
+## Json解析
+*	[bluelinelabs/LoganSquare](https://github.com/bluelinelabs/LoganSquare)
+	>Screaming fast JSON parsing and serialization library for Android.
+	>
+	>还有FastJson、GJson
+
 
 ## 日历
 *	[square/android-times-square](https://github.com/square/android-times-square)
@@ -277,10 +314,18 @@
 *	[k9mail/k-9](https://github.com/k9mail/k-9)
 	>K-9 Mail – Advanced Email for Android 📧 https://k9mail.github.io
 
-
 ## 视频资料
 *	[Android](https://github.com/open-android/Android)
 	>GitHub上最火的Android开源项目,所有开源项目都有详细资料和配套视频
+
+## Debug
+*	[amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+	>A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
+
+
+## APK打包
+*	[mcxiaoke/packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)
+	>下一代Android打包工具，100个渠道包只需要10秒钟 https://github.com/mcxiaoke
 
 ## APK反编译
 *	[iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)

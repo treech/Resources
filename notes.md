@@ -8,6 +8,9 @@
 ## Android基础知识
 *	[GcsSloop/AndroidNote](https://github.com/GcsSloop/AndroidNote/tree/master)
 	>安卓学习笔记
+*	[tangqi92/Android-Tips](https://github.com/tangqi92/Android-Tips)
+	>An awesome list of tips for android. http://itangqi.me/2015/09/14/android-…
+
 ### View
 *	[三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](http://blog.csdn.net/u012702547/article/details/52628453)
 *	[Android LayoutInflater原理分析，带你一步步深入了解View(一)](http://blog.csdn.net/guolin_blog/article/details/12921889)
