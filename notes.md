@@ -6,6 +6,8 @@
 
 
 ## Android基础知识
+*	[GcsSloop/AndroidNote](https://github.com/GcsSloop/AndroidNote/tree/master)
+	>安卓学习笔记
 ### View
 *	[三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](http://blog.csdn.net/u012702547/article/details/52628453)
 *	[Android LayoutInflater原理分析，带你一步步深入了解View(一)](http://blog.csdn.net/guolin_blog/article/details/12921889)
@@ -23,10 +25,33 @@
 	+ 2、从一个Activity的Fragment跳转到另外一个Activity
 	+ 3、从一个Activity跳转到另外一个Activity的Fragment上
 	+ 4、从一个Activity的Fragment跳转到另外一个Activity的Fragment上
-
-
+*	[YoKeyword/Fragmentation](https://github.com/YoKeyword/Fragmentation)
+	>A powerful library that manage Fragment for Android! 
+	>
+	>特性
+	>
+	>1、可以快速开发出各种嵌套设计的Fragment App
+	>
+	>2、悬浮球／摇一摇实时查看Fragment的栈视图Dialog，降低开发难度
+	>
+	>3、增加启动模式、startForResult等类似Activity方法
+	>
+	>4、类似Android事件分发机制的Fragment回退方法：onBackPressedSupport()，轻松为每个Fragment实现Back按键事件
+	>
+	>5、提供onSupportVisible()等生命周期方法，简化嵌套Fragment的开发过程； 提供统一的onLazyInitView()懒加载方法
+	>
+	>6、提供 Fragment转场动画 系列解决方案，动态更换动画
+	>
+	>7、更强的兼容性, 解决多点触控、重叠等问题
+	>
+	>8、支持SwipeBack滑动边缘退出(需要使用Fragmentation_SwipeBack库,详情README)
 
 ## Android项目重构
+*	[antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
+	>MVP Android Example
+
+*	[android10/Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
+	>MVVM模式一个干净的设计框架
 *	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
