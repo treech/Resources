@@ -3,6 +3,9 @@
 *	[github开源项目搜索](https://github.com/search)
 
 ## 工具类集合
+*	[vondear/RxTools](https://github.com/vondear/RxTools)
+	>Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 压缩与加密 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 编译运行一下说不定会找到惊喜
+
 *	[Android开发人员不得不收集的工具类集合](https://github.com/vondear/RxTools)
 	>| 支付宝支付 | 微信支付（统一下单） | 微信分享 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 压缩与加密 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 编译运行一下说不定会找到惊喜
 *	[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
@@ -149,12 +152,14 @@
 *	[alibaba/UltraViewPager](https://github.com/alibaba/UltraViewPager)
 	>UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.
 
-
-
-
 ### 可拖拽ListView
 *	[bauerca/drag-sort-listview](https://github.com/bauerca/drag-sort-listview)
 	>Android ListView with drag and drop reordering.
+
+### 可拖拽Pannel
+*	[pedrovgs/DraggablePanel](https://github.com/pedrovgs/DraggablePanel)
+	>Android library used to create an awesome Android UI based on a draggable element similar to the last YouTube graphic component.
+
 
 ### 粘性列表头部实现
 *	[StickyListHeaders](https://github.com/emilsjolander/StickyListHeaders)
@@ -189,6 +194,10 @@
 *	[grantland/android-autofittextview](https://github.com/grantland/android-autofittextview)
 	>A TextView that automatically resizes text to fit perfectly within its bounds.
 	>![](https://raw.githubusercontent.com/grantland/android-autofittextview/master/website/static/autofittextview.gif)
+*	[robinhood/ticker](https://github.com/robinhood/ticker)
+	>An Android text view with scrolling text change animation https://medium.com/robinhood-engineer…
+	>![](https://github.com/robinhood/ticker/blob/master/assets/ticker_main.gif)
+
 
 ### 动画
 *	[公共技术点之 Android 动画基础](http://www.jianshu.com/p/ebfb416c2d63)
@@ -217,6 +226,15 @@
 *	[hongyangAndroid/FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
 	>Android流式布局，支持单选、多选等，适合用于产品标签等。
 
+### 侧滑菜单
+*	[SimonVT/android-menudrawer](https://github.com/SimonVT/android-menudrawer)
+	>*DEPRECATED* A slide-out menu implementation, which allows users to navigate between views in your app. http://simonvt.github.com/android-men…
+
+### 选择器
+*	[gzu-liyujiang/AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker)
+	>安卓选择器类库，包括日期选择器、时间选择器、单项选择器、双项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器等，可自定义顶部及底部界面，可自定义窗口动画……Picker for android, include date&time/option/number/address/city/color/file&directory.
+
+
 
 ### 图表
 *	[PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
@@ -233,6 +251,8 @@
 *	[uCrop图片裁剪开源库](https://github.com/Yalantis/uCrop)
 *	[jdamcd/android-crop](https://github.com/jdamcd/android-crop)
 	>Android library project for cropping images
+*	[ArthurHub/Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper)
+	>Image Cropping Library for Android, optimized for Camera / Gallery.
 
 #### 图片压缩
 *	[transferee](https://github.com/Hitomis/transferee)
@@ -241,6 +261,10 @@
 	>Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法
 *	[zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor)
 	>An android image compression library. 
+
+### 二维码
+*	[bingoogolapple/BGAQRCode-Android](https://github.com/bingoogolapple/BGAQRCode-Android)
+	>QRCode 扫描二维码、扫描条形码、相册获取图片后识别、生成带 Logo 二维码、支持微博微信 QQ 二维码扫描样式
 
 ### 滑动返回
 *	[ikew0ng/SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)
@@ -281,6 +305,10 @@
 	>Android runtime permissions powered by RxJava
 *	[googlesamples/easypermissions](https://github.com/googlesamples/easypermissions)
 	>Simplify Android M system permissions
+*	[Karumi/Dexter](https://github.com/Karumi/Dexter)
+	>Android library that simplifies the process of requesting permissions at runtime. http://karumi.com
+
+
 
 ## Crash
 *	[ACRA/acra](https://github.com/ACRA/acra)
@@ -321,14 +349,19 @@
 	>Standalone Android widget for picking a single date from a calendar view.
 *	[wdullaer/MaterialDateTimePicker](https://github.com/wdullaer/MaterialDateTimePicker)
 	>Pick a date or time on Android in style
+*	[alamkanak/Android-Week-View](https://github.com/alamkanak/Android-Week-View)
+	>Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.
+
+
+
 
 ## 音乐播放器
 *	[aa112901/remusic](https://github.com/aa112901/remusic)
 	>仿网易云音乐 安卓版，netease android，音乐播放器 在线 下载
 *	[ryanhoo/StylishMusicPlayer](https://github.com/ryanhoo/StylishMusicPlayer)
 	>A stylish music player for android device 16+
-
-
+*	[andremion/Music-Player](https://github.com/andremion/Music-Player)
+	>From UI Proposal to Code 🎶▶️ https://medium.com/@andremion/music-p…
 
 ## Email
 *	[k9mail/k-9](https://github.com/k9mail/k-9)
@@ -367,6 +400,13 @@
 *	[alibaba/freeline](https://github.com/alibaba/freeline)
 	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
 
+
+
+
+
+## 优秀开源项目
+*	[qii/weiciyuan](https://github.com/qii/weiciyuan)
+	>Sina Weibo Android Client
 
 
 
