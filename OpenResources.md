@@ -21,6 +21,9 @@
 	>Android快速开发框架，MVP架构，丰富的功能、简单的实现、详细的注释、规范的风格。OKHttp、UIL图片加载、ZXing二维码、沉浸状态栏、下载安装、自动缓存以及各种Base、Demo、UI、Util直接用。全新的手势，侧滑返回、全局右滑返回都OUT啦！BaseHttpListActivity，几行代码搞定http请求列表 加载和缓存；BaseView，自定义View竟然如此简单；万能的Entry<K, V>，两个变量的Model/JavaBean再也不用写了；100多个常用style，一行搞定View属性，一键统一配置UI...
 *	[android-common](https://github.com/litesuits/android-common)
 	>Android Common Utils or Helper. Such as Log, Averager, Base64, Check, FlashLight, KeyguardLock, LogReader, Network, SilentInstaller, TimeAverager, TimeCounter, Toastor, WakeLock, ScreenReceiver, SmsReceiver, PhoneReceiver, NotificationService, AndroidUtil, AppUtil, BitmapUtil, ByteUtil, ClassUtil, DialogUtil, FieldUtil, FileUtil, HexUtil, MD5Uti… 
+*	[QMUI/QMUI_Android](https://github.com/QMUI/QMUI_Android)
+	>提高 Android UI 开发效率的 UI 库 http://qmuiteam.com/android
+
 
 ## 组件化方案
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
@@ -75,8 +78,6 @@
 
 ## UI
 *	[提高 android 应用的颜值，酷炫 UI 组件汇总](https://github.com/madongqiang2201/views)
-*	[aurora-imui](https://github.com/jpush/aurora-imui)
-	>General IM UI components. Android/iOS/RectNative ready. 通用 IM 聊天 UI 组件，已经同时支持 Android/iOS/RN。
 *	[AdvancedPagerSlidingTabStrip](https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip)
 	>Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完美兼容Android自带库和兼容库的ViewPager组件。 https://github.com/HomHomLin/Advanced…
 *	[google/material-design-icons](https://github.com/google/material-design-icons)
@@ -173,7 +174,9 @@
 ### 可拖拽Pannel
 *	[pedrovgs/DraggablePanel](https://github.com/pedrovgs/DraggablePanel)
 	>Android library used to create an awesome Android UI based on a draggable element similar to the last YouTube graphic component.
-
+### 可拖拽tag
+*	[2dxgujun/AndroidTagGroup](https://github.com/2dxgujun/AndroidTagGroup)
+	>🍀A beautiful android tag group widget.
 
 ### 粘性列表头部实现
 *	[StickyListHeaders](https://github.com/emilsjolander/StickyListHeaders)
@@ -215,6 +218,13 @@
 	>An Android text view with scrolling text change animation https://medium.com/robinhood-engineer…
 	>![](https://github.com/robinhood/ticker/blob/master/assets/ticker_main.gif)
 
+### SearchView
+*	[arimorty/floatingsearchview](https://github.com/arimorty/floatingsearchview)
+	>![](https://github.com/arimorty/floatingsearchview/blob/master/images/150696.gif)
+
+### WebView
+*	[Justson/AgentWeb](https://github.com/Justson/AgentWeb)
+	>AgentWeb 是基于 Android WebView 一个轻量级浏览器库 ， 使用很方便 ， 集成进你应用 ，只需几行代码 。 http://www.jianshu.com/p/d657580ac643
 
 ### 动画
 *	[公共技术点之 Android 动画基础](http://www.jianshu.com/p/ebfb416c2d63)
@@ -226,6 +236,17 @@
 	>一个叫做bodymovin 的After Effect 插件能直接将动画转成svg,让apk里的切图容量减少95%的好方法
 *	[dinuscxj/LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable)
 	>Some beautiful android loading drawable, can be combined with any view as the LoadingView or the ProgressBar. Besides, some Drawable can customize the loading progress too. 
+
+*	[geftimov/android-pathview](https://github.com/geftimov/android-pathview)
+	>Android view with both path from constructed path or from svg.
+	>![](https://github.com/geftimov/android-pathview/blob/master/art/settings.gif)
+
+### Theme
+*	[Bilibili/MagicaSakura](https://github.com/Bilibili/MagicaSakura)
+	>[MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. http://app.bilibili.com](MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. http://app.bilibili.com)
+*	[ximsfei/Android-skin-support](https://github.com/ximsfei/Android-skin-support)
+	>Android-skin-support: 一款用心去做的Android 换肤框架, 极低的学习成本, 极好的用户体验. 一行代码就可以实现换肤, 你值得拥有!!!
+
 
 ### 布局
 #### 卡片布局
@@ -341,6 +362,8 @@
 *	[ACRA/acra](https://github.com/ACRA/acra)
 	>Application Crash Reports for Android
 
+*	[Ereza/CustomActivityOnCrash](https://github.com/Ereza/CustomActivityOnCrash)
+	>Android library that allows launching a custom activity when your app crashes, instead of showing the hated "Unfortunately, X has stopped" dialog.
 
 ## 视频
 *	[lipangit/JiaoZiVideoPlayer](https://github.com/lipangit/JiaoZiVideoPlayer)
@@ -376,6 +399,10 @@
 	>
 	>还有FastJson、GJson
 
+## 键盘冲突
+*	[Jacksgong/JKeyboardPanelSwitch](https://github.com/Jacksgong/JKeyboardPanelSwitch)
+	>For resolve the layout conflict when keybord & panel are switching (Android键盘面板冲突 布局闪动处理方案)
+
 
 ## 日历
 *	[square/android-times-square](https://github.com/square/android-times-square)
@@ -389,7 +416,8 @@
 *	[siacs/Conversations](https://github.com/siacs/Conversations)
 	>Conversations is an open source XMPP/Jabber client for the Android platform https://conversations.im
 	>![](https://raw.githubusercontent.com/siacs/Conversations/master/screenshots.png)
-
+*	[aurora-imui](https://github.com/jpush/aurora-imui)
+	>General IM UI components. Android/iOS/RectNative ready. 通用 IM 聊天 UI 组件，已经同时支持 Android/iOS/RN。
 
 ## 音乐播放器
 *	[aa112901/remusic](https://github.com/aa112901/remusic)
