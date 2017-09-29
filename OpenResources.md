@@ -16,9 +16,6 @@
 *	[android-common](https://github.com/litesuits/android-common)
 	>Android Common Utils or Helper. Such as Log, Averager, Base64, Check, FlashLight, KeyguardLock, LogReader, Network, SilentInstaller, TimeAverager, TimeCounter, Toastor, WakeLock, ScreenReceiver, SmsReceiver, PhoneReceiver, NotificationService, AndroidUtil, AppUtil, BitmapUtil, ByteUtil, ClassUtil, DialogUtil, FieldUtil, FileUtil, HexUtil, MD5Uti… 
 
-## 性能优化
-*	[性能优化](http://www.trinea.cn/category/perf/)
-
 ## 组件化方案
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
 	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
@@ -184,6 +181,9 @@
 *	[dmytrodanylyk/circular-progress-button](https://github.com/dmytrodanylyk/circular-progress-button)
 	>Android Circular Progress Button http://dmytrodanylyk.com/pages/portfo…
 	>![](https://github.com/dmytrodanylyk/circular-progress-button/blob/master/screenshots/intro.gif)
+*	[dmytrodanylyk/android-process-button](https://github.com/dmytrodanylyk/android-process-button)
+	>Android Buttons With Built-in Progress Meters. http://dmytrodanylyk.com/pages/portfo…
+	>![](https://github.com/dmytrodanylyk/android-process-button/blob/master/screenshots/sample1_small1.gif)
 
 ### TextView
 *	[hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
@@ -231,7 +231,8 @@
 *	[gzu-liyujiang/AndroidPicker](https://github.com/gzu-liyujiang/AndroidPicker)
 	>安卓选择器类库，包括日期选择器、时间选择器、单项选择器、双项选择器、城市地址选择器、车牌号选择器、数字选择器、星座选择器、生肖选择器、颜色选择器、文件选择器、目录选择器等，可自定义顶部及底部界面，可自定义窗口动画……Picker for android, include date&time/option/number/address/city/color/file&directory.
 
-
+*	[code-troopers/android-betterpickers](https://github.com/code-troopers/android-betterpickers)
+	>![](https://raw.githubusercontent.com/code-troopers/android-betterpickers/master/sample/imagery/screenshot_recurrence.png)
 
 ### 图表
 *	[PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
@@ -332,7 +333,10 @@
 *	[HotBitmapGG/bilibili-android-client](https://github.com/HotBitmapGG/bilibili-android-client)
 	>An unofficial bilibili client for android http://www.jianshu.com/p/f69a55b94c05
 
-
+## Camera
+*	[wuhaoyu1990/MagicCamera](https://github.com/wuhaoyu1990/MagicCamera)
+	>Real-time Filter Camera&VideoRecorder And ImageEditor With Face Beauty For Android---包含美颜等40余种实时滤镜相机，可拍照、录像、图片修改
+	>![](https://github.com/wuhaoyu1990/MagicCamera/blob/master/Screenshot_1.png)
 
 ## Json解析
 *	[bluelinelabs/LoganSquare](https://github.com/bluelinelabs/LoganSquare)
@@ -349,7 +353,10 @@
 *	[alamkanak/Android-Week-View](https://github.com/alamkanak/Android-Week-View)
 	>Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.
 
-
+##　IM
+＊	[siacs/Conversations](https://github.com/siacs/Conversations)
+	＞Conversations is an open source XMPP/Jabber client for the Android platform https://conversations.im
+	＞![](https://raw.githubusercontent.com/siacs/Conversations/master/screenshots.png)
 
 
 ## 音乐播放器
@@ -397,8 +404,13 @@
 *	[alibaba/freeline](https://github.com/alibaba/freeline)
 	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
 
+## 性能优化
+*	[性能优化](http://www.trinea.cn/category/perf/)
 
-
+## 线程池
+*	[yigit/android-priority-jobqueue](https://github.com/yigit/android-priority-jobqueue)
+	>A Job Queue specifically written for Android to easily schedule jobs (tasks) that run in the background, improving UX and application stability.
+*	[Android研究院之应用开发线程池的经典使用(二十九)](http://www.xuanyusong.com/archives/2439)
 
 
 ## 优秀开源项目
