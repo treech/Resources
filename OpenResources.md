@@ -255,6 +255,9 @@
 	>Android library project for cropping images
 *	[ArthurHub/Android-Image-Cropper](https://github.com/ArthurHub/Android-Image-Cropper)
 	>Image Cropping Library for Android, optimized for Camera / Gallery.
+*	[edmodo/cropper](https://github.com/edmodo/cropper)
+	>Android widget for cropping and rotating an image.
+	>![](https://camo.githubusercontent.com/e4fde77bf41d4a60b234b4e268e5cfa8c17d9b6f/687474703a2f2f692e696d6775722e636f6d2f334668735467666c2e6a7067)
 
 #### 图片压缩
 *	[transferee](https://github.com/Hitomis/transferee)
@@ -309,6 +312,8 @@
 	>Simplify Android M system permissions
 *	[Karumi/Dexter](https://github.com/Karumi/Dexter)
 	>Android library that simplifies the process of requesting permissions at runtime. http://karumi.com
+*	[yanzhenjie/AndPermission](https://github.com/yanzhenjie/AndPermission)
+	>[Android Runtime Permission，support the right to apply for permission at any place. https://github.com/yanzhenjie/AndPerm…](Android Runtime Permission，support the right to apply for permission at any place. https://github.com/yanzhenjie/AndPerm…)
 
 
 
@@ -341,6 +346,9 @@
 *	[wuhaoyu1990/MagicCamera](https://github.com/wuhaoyu1990/MagicCamera)
 	>Real-time Filter Camera&VideoRecorder And ImageEditor With Face Beauty For Android---包含美颜等40余种实时滤镜相机，可拍照、录像、图片修改
 	>![](https://github.com/wuhaoyu1990/MagicCamera/blob/master/Screenshot_1.png)
+*	[Skykai521/StickerCamera](https://github.com/Skykai521/StickerCamera)
+	>This is an Android application with camera,picture cropping,collage sticking and tagging.贴纸标签相机,功能:拍照,相片裁剪,给图片贴贴纸,打标签。
+	>![](https://github.com/Skykai521/StickerCamera/blob/master/screenshot/Screenshot_01.gif)
 
 ## Json解析
 *	[bluelinelabs/LoganSquare](https://github.com/bluelinelabs/LoganSquare)
