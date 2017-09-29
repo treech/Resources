@@ -2,7 +2,84 @@
 *	[codekk开源项目搜索](http://p.codekk.com/)
 *	[github开源项目搜索](https://github.com/search)
 
-## Dialog
+## 工具类集合
+*	[Android开发人员不得不收集的工具类集合](https://github.com/vondear/RxTools)
+	>| 支付宝支付 | 微信支付（统一下单） | 微信分享 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 压缩与加密 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 编译运行一下说不定会找到惊喜
+*	[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
+	> Android developers should collect the following utils(updating) http://www.jianshu.com/p/72494773aace
+*	[RJcenter](https://github.com/angcyo/RJcenter)
+	>常用公共类, Android 开源项目, 开发工具, 开发框架, 开发库整理; 牛人推荐整理; http://angcyo.github.io/
+*	[AndroidRapidDevelopLibrarys](https://github.com/bailiangjin/AndroidRapidDevelopLibrarys)
+	>Android快速开发资源库 
+*	[Android-ZBLibrary](https://github.com/TommyLemon/Android-ZBLibrary)
+	>Android快速开发框架，MVP架构，丰富的功能、简单的实现、详细的注释、规范的风格。OKHttp、UIL图片加载、ZXing二维码、沉浸状态栏、下载安装、自动缓存以及各种Base、Demo、UI、Util直接用。全新的手势，侧滑返回、全局右滑返回都OUT啦！BaseHttpListActivity，几行代码搞定http请求列表 加载和缓存；BaseView，自定义View竟然如此简单；万能的Entry<K, V>，两个变量的Model/JavaBean再也不用写了；100多个常用style，一行搞定View属性，一键统一配置UI...
+*	[android-common](https://github.com/litesuits/android-common)
+	>Android Common Utils or Helper. Such as Log, Averager, Base64, Check, FlashLight, KeyguardLock, LogReader, Network, SilentInstaller, TimeAverager, TimeCounter, Toastor, WakeLock, ScreenReceiver, SmsReceiver, PhoneReceiver, NotificationService, AndroidUtil, AppUtil, BitmapUtil, ByteUtil, ClassUtil, DialogUtil, FieldUtil, FileUtil, HexUtil, MD5Uti… 
+
+## 性能优化
+*	[性能优化](http://www.trinea.cn/category/perf/)
+
+## 组件化方案
+*	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
+	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
+*	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
+	>A powerful and lightweight plugin framework for Android
+	>VirtualAPK 是滴滴出行自研的一款优秀的插件化框架，主要有如下几个特性。</br>
+	>1、 功能完备</br>
+	>
+	>    支持几乎所有的 Android 特性；
+	>
+	>    四大组件方面：四大组件均不需要在宿主manifest中预注册，每个组件都有完整的生命周期。</br>
+	>        Activity：支持显示和隐式调用，支持 Activity 的 theme 和 LaunchMode，支持透明主题；</br>
+	>        Service：支持显示和隐式调用，支持 Service 的 start、stop、bind 和 unbind，并支持跨进程 bind 插件中的 Service；</br>
+	>        Receiver：支持静态注册和动态注册的 Receiver；</br>
+	>        ContentProvider：支持 provider的所有操作，包括 CRUD 和 call 方法等，支持跨进程访问插件中的 Provider。
+	>
+	>    自定义View：支持自定义 View，支持自定义属性和 style，支持动画；</br>
+	>    PendingIntent：支持 PendingIntent 以及和其相关的 Alarm、Notification 和AppWidget；</br>
+	>    支持插件 Application 以及插件 manifest 中的 meta-data；</br>
+	>    支持插件中的so。
+	>
+	>2、 优秀的兼容性
+	>
+	>    兼容市面上几乎所有的 Android 手机，这一点已经在滴滴出行客户端中得到验证；</br>
+	>    资源方面适配小米、Vivo、Nubia 等，对未知机型采用自适应适配方案；</br>
+	>    极少的 Binder Hook，目前仅仅 hook 了两个 Binder：AMS 和 IContentProvider，Hook过程做了充分的兼容性适配；</br>
+	>    插件运行逻辑和宿主隔离，确保框架的任何问题都不会影响宿主的正常运行。</br>
+	>
+	>3、 入侵性极低
+	>
+	>    插件开发等同于原生开发，四大组件无需继承特定的基类；</br>
+	>    精简的插件包，插件可以依赖宿主中的代码和资源，也可以不依赖；</br>
+	>    插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
+
+
+### common组件
+*	[MVPArms](https://github.com/JessYanCoding/MVPArms)
+	>A common architecture for Android applications developing based on MVP,integrates many open source projects( like Dagger2,Rxjava,Retrofit... ),to make your developing quicker and easier. 
+*	[android-common](https://github.com/Trinea/android-common)
+	>Android common lib, include ImageCache, HttpCache, DropDownListView, 
+*	[Android-Next](https://github.com/mcxiaoke/Android-Next)
+	>Android Next 公共组件库 http://mcxiaoke.github.io/Android-Next
+*	[SAF](https://github.com/fengzhizi715/SAF)
+	>SAF(Simple Android Framework)是一个简单的android框架，它为开发Android app提供了基础性组件。
+
+### 组件化Demo
+*	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
+	>Android项目组件化示例代码
+*	[ModularizationApp](https://github.com/wutongke/ModularizationApp)
+	>Android 组件化demo http://www.jianshu.com/p/186fa07fc48a
+
+## UI
+*	[提高 android 应用的颜值，酷炫 UI 组件汇总](https://github.com/madongqiang2201/views)
+*	[aurora-imui](https://github.com/jpush/aurora-imui)
+	>General IM UI components. Android/iOS/RectNative ready. 通用 IM 聊天 UI 组件，已经同时支持 Android/iOS/RN。
+*	[AdvancedPagerSlidingTabStrip](https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip)
+	>Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完美兼容Android自带库和兼容库的ViewPager组件。 https://github.com/HomHomLin/Advanced…
+*	[google/material-design-icons](https://github.com/google/material-design-icons)
+	>Material Design icons by Google http://google.github.io/material-desi…
+
+### Dialog
 *	[orhanobut/dialogplus](https://github.com/orhanobut/dialogplus)
 	>Advanced dialog solution for android
 *	[android-dialog](https://github.com/694551594/android-dialog)
@@ -48,90 +125,6 @@
 *	[AppUpdate](https://github.com/xingliuhua/AppUpdate)
 	>App a key update, only a simple code to achieve the update and progress shows that support for mandatory updates 
 
-
-
-## 工具类集合
-*	[Android开发人员不得不收集的工具类集合](https://github.com/vondear/RxTools)
-	>| 支付宝支付 | 微信支付（统一下单） | 微信分享 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 压缩与加密 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 编译运行一下说不定会找到惊喜
-*	[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
-	> Android developers should collect the following utils(updating) http://www.jianshu.com/p/72494773aace
-*	[RJcenter](https://github.com/angcyo/RJcenter)
-	>常用公共类, Android 开源项目, 开发工具, 开发框架, 开发库整理; 牛人推荐整理; http://angcyo.github.io/
-*	[AndroidRapidDevelopLibrarys](https://github.com/bailiangjin/AndroidRapidDevelopLibrarys)
-	>Android快速开发资源库 
-*	[Android-ZBLibrary](https://github.com/TommyLemon/Android-ZBLibrary)
-	>Android快速开发框架，MVP架构，丰富的功能、简单的实现、详细的注释、规范的风格。OKHttp、UIL图片加载、ZXing二维码、沉浸状态栏、下载安装、自动缓存以及各种Base、Demo、UI、Util直接用。全新的手势，侧滑返回、全局右滑返回都OUT啦！BaseHttpListActivity，几行代码搞定http请求列表 加载和缓存；BaseView，自定义View竟然如此简单；万能的Entry<K, V>，两个变量的Model/JavaBean再也不用写了；100多个常用style，一行搞定View属性，一键统一配置UI...
-
-## 性能优化
-*	[性能优化](http://www.trinea.cn/category/perf/)
-
-## 动画
-*	[公共技术点之 Android 动画基础](http://www.jianshu.com/p/ebfb416c2d63)
-*	[BaseAnimation](https://github.com/z56402344/BaseAnimation)
-	>BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source code！ BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source app！
-
-## 组件化方案
-*	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
-	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
-*	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
-	>A powerful and lightweight plugin framework for Android
-	>VirtualAPK 是滴滴出行自研的一款优秀的插件化框架，主要有如下几个特性。</br>
-	>1、 功能完备</br>
-	>
-	>    支持几乎所有的 Android 特性；
-	>
-	>    四大组件方面：四大组件均不需要在宿主manifest中预注册，每个组件都有完整的生命周期。</br>
-	>        Activity：支持显示和隐式调用，支持 Activity 的 theme 和 LaunchMode，支持透明主题；</br>
-	>        Service：支持显示和隐式调用，支持 Service 的 start、stop、bind 和 unbind，并支持跨进程 bind 插件中的 Service；</br>
-	>        Receiver：支持静态注册和动态注册的 Receiver；</br>
-	>        ContentProvider：支持 provider的所有操作，包括 CRUD 和 call 方法等，支持跨进程访问插件中的 Provider。
-	>
-	>    自定义View：支持自定义 View，支持自定义属性和 style，支持动画；</br>
-	>    PendingIntent：支持 PendingIntent 以及和其相关的 Alarm、Notification 和AppWidget；</br>
-	>    支持插件 Application 以及插件 manifest 中的 meta-data；</br>
-	>    支持插件中的so。
-	>
-	>2、 优秀的兼容性
-	>
-	>    兼容市面上几乎所有的 Android 手机，这一点已经在滴滴出行客户端中得到验证；</br>
-	>    资源方面适配小米、Vivo、Nubia 等，对未知机型采用自适应适配方案；</br>
-	>    极少的 Binder Hook，目前仅仅 hook 了两个 Binder：AMS 和 IContentProvider，Hook过程做了充分的兼容性适配；</br>
-	>    插件运行逻辑和宿主隔离，确保框架的任何问题都不会影响宿主的正常运行。</br>
-	>
-	>3、 入侵性极低
-	>
-	>    插件开发等同于原生开发，四大组件无需继承特定的基类；</br>
-	>    精简的插件包，插件可以依赖宿主中的代码和资源，也可以不依赖；</br>
-	>    插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
-
-
-### common组件
-*	[MVPArms](https://github.com/JessYanCoding/MVPArms)
-	>A common architecture for Android applications developing based on MVP,integrates many open source projects( like Dagger2,Rxjava,Retrofit... ),to make your developing quicker and easier. 
-*	[android-common](https://github.com/Trinea/android-common)
-	>Android common lib, include ImageCache, HttpCache, DropDownListView, 
-*	[Android-Next](https://github.com/mcxiaoke/Android-Next)
-	>Android Next 公共组件库 http://mcxiaoke.github.io/Android-Next
-*	[android-common](https://github.com/litesuits/android-common)
-	>Android Common Utils or Helper. Such as Log, Averager, Base64, Check, FlashLight, KeyguardLock, LogReader, Network, SilentInstaller, TimeAverager, TimeCounter, Toastor, WakeLock, ScreenReceiver, SmsReceiver, PhoneReceiver, NotificationService, AndroidUtil, AppUtil, BitmapUtil, ByteUtil, ClassUtil, DialogUtil, FieldUtil, FileUtil, HexUtil, MD5Uti… 
-*	[SAF](https://github.com/fengzhizi715/SAF)
-	>SAF(Simple Android Framework)是一个简单的android框架，它为开发Android app提供了基础性组件。
-
-### 组件化Demo
-*	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
-	>Android项目组件化示例代码
-*	[ModularizationApp](https://github.com/wutongke/ModularizationApp)
-	>Android 组件化demo http://www.jianshu.com/p/186fa07fc48a
-
-## UI
-*	[提高 android 应用的颜值，酷炫 UI 组件汇总](https://github.com/madongqiang2201/views)
-*	[aurora-imui](https://github.com/jpush/aurora-imui)
-	>General IM UI components. Android/iOS/RectNative ready. 通用 IM 聊天 UI 组件，已经同时支持 Android/iOS/RN。
-*	[AdvancedPagerSlidingTabStrip](https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip)
-	>Android AdvancedPagerSlidingTabStrip是一种Android平台的导航控件，完美兼容Android自带库和兼容库的ViewPager组件。 https://github.com/HomHomLin/Advanced…
-*	[google/material-design-icons](https://github.com/google/material-design-icons)
-	>Material Design icons by Google http://google.github.io/material-desi…
-
 ### RecyclerView
 *	[alibaba/vlayout](https://github.com/alibaba/vlayout)
 	>VirtualLayout是阿里最近（2017.2）开源的一个用来辅助RecyclerView的LayoutManager扩展库，通过使用里面的LayoutHelper，我们可以轻松的使用一些比较复杂的布局，如：线性布局、Grid布局、固定布局、浮动布局、栏格布局、通栏布局、一拖N布局、一拖N布局、瀑布流布局。还可以组合使用这些布局。天猫APP里面的一些商品布局就是用到这个库。
@@ -148,6 +141,16 @@
 	>9、添加拖拽item</br>
 *	[hongyangAndroid/baseAdapter](https://github.com/hongyangAndroid/baseAdapter)
 	>Android 万能的Adapter for ListView,RecyclerView,GridView等，支持多种Item类型的情况。
+*	[gabrielemariotti/RecyclerViewItemAnimators](https://github.com/gabrielemariotti/RecyclerViewItemAnimators)
+	>An Android library which provides simple Item animations to RecyclerView items
+
+	
+### ViewPager
+*	[alibaba/UltraViewPager](https://github.com/alibaba/UltraViewPager)
+	>UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.
+
+
+
 
 ### 可拖拽ListView
 *	[bauerca/drag-sort-listview](https://github.com/bauerca/drag-sort-listview)
@@ -187,6 +190,17 @@
 	>A TextView that automatically resizes text to fit perfectly within its bounds.
 	>![](https://raw.githubusercontent.com/grantland/android-autofittextview/master/website/static/autofittextview.gif)
 
+### 动画
+*	[公共技术点之 Android 动画基础](http://www.jianshu.com/p/ebfb416c2d63)
+*	[BaseAnimation](https://github.com/z56402344/BaseAnimation)
+	>BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source code！ BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source app！
+*	[lottie-android](https://github.com/airbnb/lottie-android)
+	>Lottie是Airbnb开源的一个支持 Android、iOS 以及 ReactNative，利用json文件的方式快速实现动画效果的库。
+*	[After Effect 转svg 动画– 神奇的bodymovin 插件](http://www.mq2014.com/after-effect-zhuan-svg-dong-hua-shen-qi-de-bodymovin-cha-jian.html)
+	>一个叫做bodymovin 的After Effect 插件能直接将动画转成svg,让apk里的切图容量减少95%的好方法
+*	[dinuscxj/LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable)
+	>Some beautiful android loading drawable, can be combined with any view as the LoadingView or the ProgressBar. Besides, some Drawable can customize the loading progress too. 
+
 ### 布局
 #### 卡片布局
 *	[gabrielemariotti/cardslib](https://github.com/gabrielemariotti/cardslib)
@@ -198,6 +212,10 @@
 #### 瀑布流布局
 *	[etsy/AndroidStaggeredGrid](https://github.com/etsy/AndroidStaggeredGrid)
 	>AndroidStaggeredGrid是etsy实现的一个android瀑布流控件，没有继承ListView和Gridview，而是从更深层的AbsListVew着手实现
+
+#### 流式布局
+*	[hongyangAndroid/FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
+	>Android流式布局，支持单选、多选等，适合用于产品标签等。
 
 
 ### 图表
@@ -223,13 +241,6 @@
 	>Luban(鲁班)—Image compression with efficiency very close to WeChat Moments/可能是最接近微信朋友圈的图片压缩算法
 *	[zetbaitsu/Compressor](https://github.com/zetbaitsu/Compressor)
 	>An android image compression library. 
-
-
-### 动画
-*	[lottie-android](https://github.com/airbnb/lottie-android)
-	>Lottie是Airbnb开源的一个支持 Android、iOS 以及 ReactNative，利用json文件的方式快速实现动画效果的库。
-*	[After Effect 转svg 动画– 神奇的bodymovin 插件](http://www.mq2014.com/after-effect-zhuan-svg-dong-hua-shen-qi-de-bodymovin-cha-jian.html)
-	>一个叫做bodymovin 的After Effect 插件能直接将动画转成svg,让apk里的切图容量减少95%的好方法
 
 ### 滑动返回
 *	[ikew0ng/SwipeBackLayout](https://github.com/ikew0ng/SwipeBackLayout)
@@ -287,6 +298,9 @@
 	>视频播放器（IJKplayer），HTTPS支持，支持弹幕，支持滤镜，支持基本的拖动，声音、亮度调节，支持边播边缓存，支持视频本身自带rotation的旋转（90,270之类），重力旋转与手动旋转的同步支持，支持列表播放 ，直接添加控件为封面，列表全屏动画，视频加载速度，列表小窗口支持拖动，5.0的过场效果，调整比例，多分辨率切换，支持切换播放器，进度条小窗口预览，其他一些小动画效果，rtsp、concat、mpeg。简书: http://www.jianshu.com/p/9fe377dd9750
 *	[Bilibili/ijkplayer](https://github.com/Bilibili/ijkplayer)
 	>Android/iOS video player based on FFmpeg n3.3, with MediaCodec, VideoToolbox support.
+*	[pili-engineering/PLDroidPlayer](https://github.com/pili-engineering/PLDroidPlayer)
+	>PLDroidPlayer 是七牛推出的一款适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。 https://developer.qiniu.com/pili/sdk/…
+
 
 
 ### 视频开源项目
@@ -305,10 +319,16 @@
 ## 日历
 *	[square/android-times-square](https://github.com/square/android-times-square)
 	>Standalone Android widget for picking a single date from a calendar view.
+*	[wdullaer/MaterialDateTimePicker](https://github.com/wdullaer/MaterialDateTimePicker)
+	>Pick a date or time on Android in style
 
 ## 音乐播放器
 *	[aa112901/remusic](https://github.com/aa112901/remusic)
 	>仿网易云音乐 安卓版，netease android，音乐播放器 在线 下载
+*	[ryanhoo/StylishMusicPlayer](https://github.com/ryanhoo/StylishMusicPlayer)
+	>A stylish music player for android device 16+
+
+
 
 ## Email
 *	[k9mail/k-9](https://github.com/k9mail/k-9)
@@ -322,6 +342,13 @@
 *	[amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 	>A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
 
+## 热修复
+*	[Tencent/tinker](https://github.com/Tencent/tinker)
+	>Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk.
+*	[jasonross/Nuwa](https://github.com/jasonross/Nuwa)
+	>Nuwa, pure java implementation, can hotfix your android application.
+*	[Meituan-Dianping/Robust](https://github.com/Meituan-Dianping/Robust)
+	>Robust is an Android HotFix solution with high compatibility and high stability.Robust can fix bug immediately without publishing apk. 
 
 ## APK打包
 *	[mcxiaoke/packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)
