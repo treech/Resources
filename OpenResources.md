@@ -2,6 +2,12 @@
 *	[codekk开源项目搜索](http://p.codekk.com/)
 *	[github开源项目搜索](https://github.com/search)
 
+## 开源项目收集
+*	[Android开源项目汇总及搜索](http://www.trinea.cn/android/android-open-source-projects-view/)
+*	[有哪些优秀的 Android 应用开源项目、特效、设计资料推荐？](https://www.zhihu.com/question/19804692/answer/21890050)
+*	[Trinea/android-open-project](https://github.com/Trinea/android-open-project)
+	>A categorized collection of Android Open Source Projects, Dev Tools Pro: https://play.google.com/store/apps/de…
+
 ## 工具类集合
 *	[vondear/RxTools](https://github.com/vondear/RxTools)
 	>Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 压缩与加密 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 编译运行一下说不定会找到惊喜
@@ -141,6 +147,20 @@
 *	[gabrielemariotti/RecyclerViewItemAnimators](https://github.com/gabrielemariotti/RecyclerViewItemAnimators)
 	>An Android library which provides simple Item animations to RecyclerView items
 
+#### Item
+*	[drakeet/Effective-MultiType](https://github.com/drakeet/MultiType)
+	>An Android library to create multiple item types list views easily and flexibly
+	在开发我的 TimeMachine 时，我有一个复杂的聊天页面，于是我设计了我的类型池系统，它是完全解
+	耦的，我能够轻松将它抽离出来分享，并给它取名为 MultiType.
+
+	>从前，比如我们写一个类似微博列表页面，这样的列表是十分复杂的：有纯文本的、带转发原文的、带图片>的、带视频的、带文章的等等，甚至穿插一条可以横向滑动的好友推荐条目。不同的 item 类型众多，而且随
+	>着业务发展，还会更多。如果我们使用传统的开发方式，经常要做一些繁琐的工作，代码可能都堆积在一个 >Adapter 中：我们需要覆写 RecyclerView.Adapter 的 getItemViewType 方法，罗列一些 type 整型常量，并且 ViewHolder 转型、绑定数据也比较麻烦。一旦产品需求有变，或者产品设计说需要增加一种新的 item 类型，我们需要去代码堆里找到原来的逻辑去修改，或找到正确的位置去增加代码。这些过程都比较繁琐，侵入较强，需要小心翼翼，以免改错影响到其他地方。
+	
+	>现在好了，我们有了 MultiType，简单来说，MultiType 就是一个多类型列表视图的中间分发框架，它能帮助你快速并且清晰地开发一些复杂的列表页面，数据驱动视图。 它本是为聊天页面开发的，聊天页面的消息类型也是有大量不同种类，且新增频繁，而 MultiType 能够轻松胜任。
+	
+	>MultiType 以灵活直观为第一宗旨进行设计，它内建了 类型 - View 的复用池系统，支持 RecyclerView，随时可拓展新的类型进入列表当中，使用简单，令代码清晰、模块化、灵活可变。
+	
+	>因此，我写了这篇文章，目的有几个：一是以作者的角度对 MultiType 进行入门和进阶详解。二是传递我开发过程中的思想、设计理念，这些偏细腻的内容，即使不使用 MultiType，想必也能带来很多启发。最后就是把自我觉得不错的东西分享给大家，试想如果你制造的东西很多人在用，即使没有带来任何收益，也是一件很自豪的事情。
 	
 ### ViewPager
 *	[alibaba/UltraViewPager](https://github.com/alibaba/UltraViewPager)
