@@ -84,6 +84,8 @@
 	>Material Design icons by Google http://google.github.io/material-desi…
 
 ### Dialog
+*	[H07000223/FlycoDialog_Master](https://github.com/H07000223/FlycoDialog_Master)
+	>An Android Dialog Lib simplify customization.
 *	[orhanobut/dialogplus](https://github.com/orhanobut/dialogplus)
 	>Advanced dialog solution for android
 *	[android-dialog](https://github.com/694551594/android-dialog)
@@ -193,6 +195,8 @@
 ### StatusBar
 *	[laobie/StatusBarUtil](https://github.com/laobie/StatusBarUtil)
 	>A util for setting status bar style on Android App. http://t.cn/Rq746Kb
+＊	[gyf-dev/ImmersionBar](https://github.com/gyf-dev/ImmersionBar)
+	＞android 4.4以上沉浸式状态栏和沉浸式导航栏管理，包括状态栏字体颜色，一句代码轻松实现，以及对bar的其他设置，详见README，http://www.jianshu.com/p/2a884e211a62
 
 ### Toast
 *	[GrenderG/Toasty](https://github.com/GrenderG/Toasty)
@@ -207,6 +211,9 @@
 *	[dmytrodanylyk/android-process-button](https://github.com/dmytrodanylyk/android-process-button)
 	>Android Buttons With Built-in Progress Meters. http://dmytrodanylyk.com/pages/portfo…
 	>![](https://github.com/dmytrodanylyk/android-process-button/blob/master/screenshots/sample1_small1.gif)
+*	[zcweng/ToggleButton](https://github.com/zcweng/ToggleButton)
+	>ToggleButton Widget For Android Dev
+	![](https://github.com/zcweng/ToggleButton/blob/master/ToggleButtonSample/21879.gif)
 
 ### TextView
 *	[hanks-zyh/HTextView](https://github.com/hanks-zyh/HTextView)
@@ -232,8 +239,6 @@
 	>BaseAnimation network Android animation set, custom controls, nearly 200 kinds of source code！ BaseAnimation, if a new version is updated automatically to remind everyone, I hope everyone will contribute their animated XML files or other source, together to create this open source app！
 *	[lottie-android](https://github.com/airbnb/lottie-android)
 	>Lottie是Airbnb开源的一个支持 Android、iOS 以及 ReactNative，利用json文件的方式快速实现动画效果的库。
-*	[After Effect 转svg 动画– 神奇的bodymovin 插件](http://www.mq2014.com/after-effect-zhuan-svg-dong-hua-shen-qi-de-bodymovin-cha-jian.html)
-	>一个叫做bodymovin 的After Effect 插件能直接将动画转成svg,让apk里的切图容量减少95%的好方法
 *	[dinuscxj/LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable)
 	>Some beautiful android loading drawable, can be combined with any view as the LoadingView or the ProgressBar. Besides, some Drawable can customize the loading progress too. 
 
@@ -241,12 +246,20 @@
 	>Android view with both path from constructed path or from svg.
 	>![](https://github.com/geftimov/android-pathview/blob/master/art/settings.gif)
 
+*	[After Effect 转svg 动画– 神奇的bodymovin 插件](http://www.mq2014.com/after-effect-zhuan-svg-dong-hua-shen-qi-de-bodymovin-cha-jian.html)
+	>一个叫做bodymovin 的After Effect 插件能直接将动画转成svg,让apk里的切图容量减少95%的好方法
+
+*	[bonnyfone/vectalign](https://github.com/bonnyfone/vectalign)
+	>Tool for create complex morphing animations using VectorDrawables (allows morphing between any pair of SVG images)
+
 ### Theme
 *	[Bilibili/MagicaSakura](https://github.com/Bilibili/MagicaSakura)
 	>[MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. http://app.bilibili.com](MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. http://app.bilibili.com)
 *	[ximsfei/Android-skin-support](https://github.com/ximsfei/Android-skin-support)
 	>Android-skin-support: 一款用心去做的Android 换肤框架, 极低的学习成本, 极好的用户体验. 一行代码就可以实现换肤, 你值得拥有!!!
-
+*	[garretyoder/Colorful](https://github.com/garretyoder/Colorful)
+	>Android runtime theme library
+	>Colorful is a dynamic theme library allowing you to change your apps' color schemes easily.
 
 ### 布局
 #### 卡片布局
@@ -476,8 +489,10 @@
 ## 优秀开源项目
 *	[qii/weiciyuan](https://github.com/qii/weiciyuan)
 	>Sina Weibo Android Client
-
-
+*	[wangdan/AisenWeiBo](https://github.com/wangdan/AisenWeiBo)
+	＞新浪微博第三方Android客户端
+*	[jaydenxiao2016/AndroidFire](https://github.com/jaydenxiao2016/AndroidFire)
+	>AndroidFire，一款新闻阅读 App框架，基于 Material Design + MVP + RxJava + Retrofit + Glide，基本涵盖了当前 Android 端开发最常用的主流框架，基于此框架可以快速开发一个app。 https://github.com/jaydenxiao2016/And…
 
 
 

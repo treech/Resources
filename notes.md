@@ -52,7 +52,8 @@
 ## Android项目重构
 *	[antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
 	>MVP Android Example
-
+*	[MindorksOpenSource/android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
+	>This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView https://mindorks.com/open-source-proj…
 *	[android10/Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
 	>MVVM模式一个干净的设计框架
 *	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
