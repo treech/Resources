@@ -244,6 +244,10 @@
 	>Charts/graphs library for Android compatible with API 8+, several chart types with support for scaling, scrolling and animations
 *	[diogobernardino/WilliamChart](https://github.com/diogobernardino/WilliamChart)
 	>Android library to create charts.
+*	[xcltapestry/XCL-Charts](https://github.com/xcltapestry/XCL-Charts)
+	>Android图表库(XCL-Charts is a free charting library for Android platform.),基于Android Canvas来绘制各种图表,使用简便,定制灵活。目前支持3D/非3D/背向式/横向/竖向柱形图(Bar Chart)、3D/非3D饼图(Pie Chart)、堆叠图(Stacked Bar Chart)、面积图(Area Chart)、 折线图(Line Chart)、曲线图(Spline Chart)、环形图(Dount Chart)、南丁格尔玫瑰图(Rose Chart)、仪表盘(Dial Chart)、刻度盘(Gauge Chart)、雷达图(Radar Chart)、漏斗图(Funnel Chart)、圆形图(Cir… http://blog.csdn.net/xcl168/article/d…
+	>![](https://raw.githubusercontent.com/xcltapestry/XCL-Charts/master/screens/barpiechart.png)
+
 
 ### 图片处理
 *	[uCrop图片裁剪开源库](https://github.com/Yalantis/uCrop)
@@ -353,10 +357,10 @@
 *	[alamkanak/Android-Week-View](https://github.com/alamkanak/Android-Week-View)
 	>Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.
 
-##　IM
-＊	[siacs/Conversations](https://github.com/siacs/Conversations)
-	＞Conversations is an open source XMPP/Jabber client for the Android platform https://conversations.im
-	＞![](https://raw.githubusercontent.com/siacs/Conversations/master/screenshots.png)
+## IM
+*	[siacs/Conversations](https://github.com/siacs/Conversations)
+	>Conversations is an open source XMPP/Jabber client for the Android platform https://conversations.im
+	>![](https://raw.githubusercontent.com/siacs/Conversations/master/screenshots.png)
 
 
 ## 音乐播放器
