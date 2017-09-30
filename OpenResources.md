@@ -510,6 +510,8 @@
 *	[Android研究院之应用开发线程池的经典使用(二十九)](http://www.xuanyusong.com/archives/2439)
 
 ## 优秀开源项目
+*	[开源中国/android-app](https://gitee.com/oschina/android-app)
+	>OSChina Android 客户端源码 http://www.oschina.net/p/oschina-android-app
 *	[qii/weiciyuan](https://github.com/qii/weiciyuan)
 	>Sina Weibo Android Client
 *	[wangdan/AisenWeiBo](https://github.com/wangdan/AisenWeiBo)
