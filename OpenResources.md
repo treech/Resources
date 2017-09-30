@@ -9,12 +9,6 @@
 *	[移动开发者门户](http://www.apkbus.com/)
 *	[整理的Android开发资源](http://stormzhang.com/android/2014/06/05/android-awesome-resources/)
 
-作者：谭冉冉
-链接：https://www.zhihu.com/question/19804692/answer/33710379
-来源：知乎
-著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
-
-
 ## 开源项目收集
 *	[Android开源项目汇总及搜索](http://www.trinea.cn/android/android-open-source-projects-view/)
 *	[有哪些优秀的 Android 应用开源项目、特效、设计资料推荐？](https://www.zhihu.com/question/19804692/answer/21890050)
