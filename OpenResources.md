@@ -1,6 +1,19 @@
 ## 开源项目搜索
 *	[codekk开源项目搜索](http://p.codekk.com/)
 *	[github开源项目搜索](https://github.com/search)
+*	[Android开发 - OPEN开发经验库](http://www.open-open.com/lib/list/177)
+*	[23Code - 安卓开源代码库](http://www.23code.com/)
+*	[JavaApk-安卓应用游戏源码服务专家](http://www.javaapk.com/)
+*	[源码下载_DevStore官网](http://www.devstore.cn/code/list/pn1-or0.html)
+*	[安卓开发_安卓开发论坛_Android开发_Android论坛](http://www.eoeandroid.com/forum.php)
+*	[移动开发者门户](http://www.apkbus.com/)
+*	[整理的Android开发资源](http://stormzhang.com/android/2014/06/05/android-awesome-resources/)
+
+作者：谭冉冉
+链接：https://www.zhihu.com/question/19804692/answer/33710379
+来源：知乎
+著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
 
 ## 开源项目收集
 *	[Android开源项目汇总及搜索](http://www.trinea.cn/android/android-open-source-projects-view/)
@@ -26,6 +39,8 @@
 
 
 ## 组件化方案
+*	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
+	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
 	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
 *	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
@@ -58,6 +73,8 @@
 	>    插件开发等同于原生开发，四大组件无需继承特定的基类；</br>
 	>    精简的插件包，插件可以依赖宿主中的代码和资源，也可以不依赖；</br>
 	>    插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
+*	[iReaderAndroid/ZeusPlugin](https://github.com/iReaderAndroid/ZeusPlugin)
+	>成熟易懂的Android插件补丁框架（可直接商业化的项目，日活千万级项目多年使用验证稳定）
 
 
 ### common组件
@@ -260,6 +277,9 @@
 *	[garretyoder/Colorful](https://github.com/garretyoder/Colorful)
 	>Android runtime theme library
 	>Colorful is a dynamic theme library allowing you to change your apps' color schemes easily.
+*	[hongyangAndroid/AndroidChangeSkin](https://github.com/hongyangAndroid/AndroidChangeSkin)
+	>一种完全无侵入的换肤方式，支持插件式和应用内，无需重启Activity.
+	
 
 ### 布局
 #### 卡片布局
@@ -277,6 +297,10 @@
 *	[hongyangAndroid/FlowLayout](https://github.com/hongyangAndroid/FlowLayout)
 	>Android流式布局，支持单选、多选等，适合用于产品标签等。
 
+### 可拖动布局
+*	[wenhuaijun/EasyTagDragView](https://github.com/wenhuaijun/EasyTagDragView)
+	>仿网易新闻app下拉标签选择菜单，长按拖动排序，点击增删标签控件
+	
 ### 侧滑菜单
 *	[SimonVT/android-menudrawer](https://github.com/SimonVT/android-menudrawer)
 	>*DEPRECATED* A slide-out menu implementation, which allows users to navigate between views in your app. http://simonvt.github.com/android-men…
@@ -485,7 +509,6 @@
 	>A Job Queue specifically written for Android to easily schedule jobs (tasks) that run in the background, improving UX and application stability.
 *	[Android研究院之应用开发线程池的经典使用(二十九)](http://www.xuanyusong.com/archives/2439)
 
-
 ## 优秀开源项目
 *	[qii/weiciyuan](https://github.com/qii/weiciyuan)
 	>Sina Weibo Android Client
@@ -493,6 +516,14 @@
 	＞新浪微博第三方Android客户端
 *	[jaydenxiao2016/AndroidFire](https://github.com/jaydenxiao2016/AndroidFire)
 	>AndroidFire，一款新闻阅读 App框架，基于 Material Design + MVP + RxJava + Retrofit + Glide，基本涵盖了当前 Android 端开发最常用的主流框架，基于此框架可以快速开发一个app。 https://github.com/jaydenxiao2016/And…
+
+## AndroidStudio插件
+*	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
+	>A plugin for Intellj IDEA & Android Studio which can help you generate interfaces and classes of MVP. 一款Intellj IDEA 和Android Studio 自动生成MVP模式所需接口以及实现类的插件。
+*	[boredream/BorePlugin](https://github.com/boredream/BorePlugin)
+	>Android Studio 自动生成布局代码插件
+
+
 
 
 
