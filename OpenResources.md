@@ -236,6 +236,11 @@
 	>An Android text view with scrolling text change animation https://medium.com/robinhood-engineer…
 	>![](https://github.com/robinhood/ticker/blob/master/assets/ticker_main.gif)
 
+### 自动换行TextView
+*	[paulyung541/LaybelLayout](https://github.com/paulyung541/LaybelLayout)
+	>自动换行布局 标签布局
+	![](https://github.com/paulyung541/LaybelLayout/blob/master/pic/demo1.jpg)
+
 ### SearchView
 *	[arimorty/floatingsearchview](https://github.com/arimorty/floatingsearchview)
 	>![](https://github.com/arimorty/floatingsearchview/blob/master/images/150696.gif)
