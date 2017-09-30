@@ -513,7 +513,7 @@
 *	[qii/weiciyuan](https://github.com/qii/weiciyuan)
 	>Sina Weibo Android Client
 *	[wangdan/AisenWeiBo](https://github.com/wangdan/AisenWeiBo)
-	＞新浪微博第三方Android客户端
+	>新浪微博第三方Android客户端
 *	[jaydenxiao2016/AndroidFire](https://github.com/jaydenxiao2016/AndroidFire)
 	>AndroidFire，一款新闻阅读 App框架，基于 Material Design + MVP + RxJava + Retrofit + Glide，基本涵盖了当前 Android 端开发最常用的主流框架，基于此框架可以快速开发一个app。 https://github.com/jaydenxiao2016/And…
 
