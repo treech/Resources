@@ -239,7 +239,7 @@
 ### 自动换行TextView
 *	[paulyung541/LaybelLayout](https://github.com/paulyung541/LaybelLayout)
 	>自动换行布局 标签布局
-	![](https://github.com/paulyung541/LaybelLayout/blob/master/pic/demo1.jpg)
+	>![](https://github.com/paulyung541/LaybelLayout/blob/master/pic/demo1.jpg)
 
 ### SearchView
 *	[arimorty/floatingsearchview](https://github.com/arimorty/floatingsearchview)
