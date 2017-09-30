@@ -516,6 +516,8 @@
 	>新浪微博第三方Android客户端
 *	[jaydenxiao2016/AndroidFire](https://github.com/jaydenxiao2016/AndroidFire)
 	>AndroidFire，一款新闻阅读 App框架，基于 Material Design + MVP + RxJava + Retrofit + Glide，基本涵盖了当前 Android 端开发最常用的主流框架，基于此框架可以快速开发一个app。 https://github.com/jaydenxiao2016/And…
+*	[codeestX/GeekNews](https://github.com/codeestX/GeekNews)
+	>📚A pure reading App based on Material Design + MVP + RxJava2 + Retrofit + Dagger2 + Realm + Glide
 
 ## AndroidStudio插件
 *	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
