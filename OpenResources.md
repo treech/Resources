@@ -33,6 +33,10 @@
 
 
 ## 组件化方案
+*	[alibaba/atlas](https://github.com/alibaba/atlas)
+	>A powerful Android Dynamic Component Framework.
+*	[singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
+	>DL : dynamic load framework in android http://blog.csdn.net/singwhatiwanna/a…
 *	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
 	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
