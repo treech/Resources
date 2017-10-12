@@ -1,5 +1,10 @@
 ## 开源项目搜索
 *	[github开源项目搜索](https://github.com/search)
+	>[github代码搜索技巧](http://blog.csdn.net/laokdidiao/article/details/51442835)
+	>
+	>[Github 搜索技巧](http://www.jianshu.com/p/7321caea2a08)
+	>
+	>[如何在 Github 上发现优秀的开源项目？](http://www.cnblogs.com/jycboy/p/6388674.html)
 *	[codekk开源项目搜索](http://p.codekk.com/)
 *	[Android开发 - OPEN开发经验库](http://www.open-open.com/lib/list/177)
 *	[23Code - 安卓开源代码库](http://www.23code.com/)
