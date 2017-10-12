@@ -39,6 +39,8 @@
 	>DL : dynamic load framework in android http://blog.csdn.net/singwhatiwanna/a…
 *	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
 	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
+*	[asLody/VirtualApp](https://github.com/asLody/VirtualApp)
+	>An open source implementation of MultiAccount.(Support 4.0 - 8.0).
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
 	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
 *	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
@@ -531,6 +533,9 @@
 *	[boredream/BorePlugin](https://github.com/boredream/BorePlugin)
 	>Android Studio 自动生成布局代码插件
 
+
+## 优秀面试题目
+*	[2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
 
 
 
