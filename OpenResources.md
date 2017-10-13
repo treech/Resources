@@ -535,6 +535,8 @@
 	>App based on Material Design + MVP + Rxjava + Retrofit + Okhttp + RecyclerView + Glide + cache + theme + others + 全民直播 + 高德选址
 	>
 	>MVP项目中比较好的例子
+*	[a371166028/likequanmintv](https://github.com/a371166028/likequanmintv)
+	>基于MVP的Retrofit2(okhttp3)+rxjava+dagger2+greendao+glide+rtmp直播。该项目系仿全民TV,属于独立开发者作品,仅供参考学习，拒绝做一切商业用途，如有侵权，请告知删除
 
 ## AndroidStudio插件
 *	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
