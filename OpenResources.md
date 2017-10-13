@@ -531,6 +531,10 @@
 	>AndroidFire，一款新闻阅读 App框架，基于 Material Design + MVP + RxJava + Retrofit + Glide，基本涵盖了当前 Android 端开发最常用的主流框架，基于此框架可以快速开发一个app。 https://github.com/jaydenxiao2016/And…
 *	[codeestX/GeekNews](https://github.com/codeestX/GeekNews)
 	>📚A pure reading App based on Material Design + MVP + RxJava2 + Retrofit + Dagger2 + Realm + Glide
+*	[SuperMan42/MVP](https://github.com/SuperMan42/MVP)
+	>App based on Material Design + MVP + Rxjava + Retrofit + Okhttp + RecyclerView + Glide + cache + theme + others + 全民直播 + 高德选址
+	>
+	>MVP项目中比较好的例子
 
 ## AndroidStudio插件
 *	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
@@ -541,7 +545,7 @@
 
 ## 优秀面试题目
 *	[2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
-
+*	[android阿里面试题锦集](http://www.jianshu.com/p/cf5092fa2694)
 
 
 
