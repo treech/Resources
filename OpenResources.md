@@ -15,6 +15,8 @@
 *	[整理的Android开发资源](http://stormzhang.com/android/2014/06/05/android-awesome-resources/)
 
 ## 开源项目收集
+*	[Android开源工具项目集合](http://www.open-open.com/lib/view/open1465722194733.html)
+
 *	[Android开源项目汇总及搜索](http://www.trinea.cn/android/android-open-source-projects-view/)
 *	[有哪些优秀的 Android 应用开源项目、特效、设计资料推荐？](https://www.zhihu.com/question/19804692/answer/21890050)
 *	[Trinea/android-open-project](https://github.com/Trinea/android-open-project)
@@ -461,6 +463,9 @@
 	>Android Week View is an android library to display calendars (week view or day view) within the app. It supports custom styling.
 
 ## IM
+*	[meili/TeamTalk](https://github.com/meili/TeamTalk)
+	>TeamTalk 是蘑菇街开源的一款企业办公即时通信软件，最初是为自己内部沟通而做的 IM 工具.
+	>TeamTalk is a solution for enterprise IM
 *	[siacs/Conversations](https://github.com/siacs/Conversations)
 	>Conversations is an open source XMPP/Jabber client for the Android platform https://conversations.im
 	>![](https://raw.githubusercontent.com/siacs/Conversations/master/screenshots.png)
