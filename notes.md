@@ -61,7 +61,12 @@
 *	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
 
 
-
+## 开源框架学习
+*	[解锁Dagger2使用姿势（一）](http://blog.csdn.net/u012702547/article/details/52200927)
+*	[解锁Dagger2使用姿势（二）之带你理解@Scope](http://blog.csdn.net/u012702547/article/details/52213706)
+*	[Dagger2从入门到放弃再到恍然大悟](http://www.jianshu.com/p/39d1df6c877d)
+*	[最简单的Dagger2入门教程](http://blog.csdn.net/lisdye2/article/details/51942511)
+*	[依赖注入的原理](http://blog.csdn.net/lisdye2/article/details/51887402)
 
 ## Android常见问题
 *  Fragment懒加载和ViewPager的坑
