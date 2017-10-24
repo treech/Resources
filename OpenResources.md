@@ -23,6 +23,7 @@
 	>A categorized collection of Android Open Source Projects, Dev Tools Pro: https://play.google.com/store/apps/de…
 
 ## 工具类集合
+*	[一套快速高效的Android集成开发框架EasyAndroid](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550367&idx=1&sn=1eaad7a0cd39385234ebba51dc759520&chksm=f1180562c66f8c74e0723b45b22157fa40d8c88cb560ccacc52b582902677f1befe6b72cfd06&mpshare=1&scene=24&srcid=1024LrIrvjguepP9qRvbOhnO#rd)
 *	[vondear/RxTools](https://github.com/vondear/RxTools)
 	>Android开发人员不得不收集的工具类集合 | 支付宝支付 | 微信支付（统一下单） | 微信分享 | 一键集成UCrop选择圆形头像 | 一键集成二维码和条形码的扫描与生成 | 常用Dialog | WebView的封装可播放视频 | 仿斗鱼滑动验证码 | Toast封装 | 震动 | GPS | Location定位 | 压缩与加密 | 图片缩放 | Exif 图片添加地理位置信息（经纬度） | 编译运行一下说不定会找到惊喜
 *	[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)
@@ -40,6 +41,8 @@
 
 
 ## 组件化方案
+*	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
+*	[【重磅】Android架构师必会：组件化开发及框架](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550443&idx=1&sn=7c4164a5d68d44fae57e893a8910d8bb&chksm=f1180516c66f8c00ae9f05f411f1e0bcbcb6a3f765016b7384db5b43050635df6a4bca848481&mpshare=1&scene=24&srcid=1024UpjiFtSRWy55JV8e0O4U#rd)
 *	[alibaba/atlas](https://github.com/alibaba/atlas)
 	>A powerful Android Dynamic Component Framework.
 *	[singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
@@ -510,20 +513,29 @@
 *	[pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
 
 ## APK瘦身
+*	[玩转APK：实现Android APK瘦身99.99%](https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651113806&idx=1&sn=382593ac7607c743a4ea8830150ec21b&chksm=844c6093b33be985f104bdb5fe8693a1cbd0ab1bf4feb9533635669a23036b3fa3d7f6ad0614&mpshare=1&scene=24&srcid=1024d583ssMju9CotcLcbZaP#rd)
 *	[shwenzhang/AndResGuard](https://github.com/shwenzhang/AndResGuard)
 	>proguard resource for Android by wechat team 
 
-## 编译
+## 编译/Gradle构建
 *	[alibaba/freeline](https://github.com/alibaba/freeline)
 	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
+*	[Android Gradle 使用大全](https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247487574&idx=1&sn=4e5a0aef6366ae5c809a4abc448fc209&chksm=96cdb11ba1ba380d564971ba18b8a397466620200675515fa3f4bed8dcd3267f4e9d9f02469d&mpshare=1&scene=24&srcid=1024XUhOWOVE37P938uQVQA1#rd)
 
 ## 性能优化
 *	[性能优化](http://www.trinea.cn/category/perf/)
 
-## 线程池
+### 线程池优化
 *	[yigit/android-priority-jobqueue](https://github.com/yigit/android-priority-jobqueue)
 	>A Job Queue specifically written for Android to easily schedule jobs (tasks) that run in the background, improving UX and application stability.
 *	[Android研究院之应用开发线程池的经典使用(二十九)](http://www.xuanyusong.com/archives/2439)
+
+##	APP保活
+*	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
+
+## APP逆向分析
+*	[Android逆向之旅---某直播APP的协议加密原理分析以及调用加密方法进行协议参数构造](https://mp.weixin.qq.com/s?__biz=MzIzNDA3MDgwNA==&mid=2649230486&idx=1&sn=6c509f6b9e0912591e46cf7a2cc72032&chksm=f0e75aedc790d3fb39d985ee88dfef7b0bb8a16bb0c646d83dcb7abfecf1ecbca57e11e344bc&mpshare=1&scene=24&srcid=1024jfHPw57muNkYMdDtTpzV#rd)
+
 
 ## 优秀开源项目
 *	[开源中国/android-app](https://gitee.com/oschina/android-app)
@@ -553,6 +565,9 @@
 ## 优秀面试题目
 *	[2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
 *	[android阿里面试题锦集](http://www.jianshu.com/p/cf5092fa2694)
+*	[Android 开发工程师面试指南](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550472&idx=1&sn=fb089cc7c26a37522bff6ff486002a06&chksm=f11805f5c66f8ce3909743c3dd37385e160edc5ab01aaf458c21716abf9e1dd379a24f2b8cff&mpshare=1&scene=24&srcid=1024Jsnjlaq5gjySS1DcIg7w#rd)
+
+
 
 
 
