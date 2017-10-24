@@ -86,7 +86,6 @@
 	>    插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
 *	[iReaderAndroid/ZeusPlugin](https://github.com/iReaderAndroid/ZeusPlugin)
 	>成熟易懂的Android插件补丁框架（可直接商业化的项目，日活千万级项目多年使用验证稳定）
-*	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 
 ### common组件
 *	[MVPArms](https://github.com/JessYanCoding/MVPArms)
