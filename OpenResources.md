@@ -522,6 +522,21 @@
 	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
 *	[Android Gradle 使用大全](https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247487574&idx=1&sn=4e5a0aef6366ae5c809a4abc448fc209&chksm=96cdb11ba1ba380d564971ba18b8a397466620200675515fa3f4bed8dcd3267f4e9d9f02469d&mpshare=1&scene=24&srcid=1024XUhOWOVE37P938uQVQA1#rd)
 
+### Gradle脚本
+*	复制文件
+
+		tasks.withType(JavaCompile) {
+	    compileTask -> compileTask.dependsOn(copyAAR)
+		}
+	
+		//copy the aar output files to other projects
+		task copyAAR(type: Copy) {
+		    from 'build/outputs/aar/common-release.aar'
+		    into '../home/libs/'
+		}
+
+*	
+
 ## 性能优化
 *	[性能优化](http://www.trinea.cn/category/perf/)
 
@@ -560,6 +575,12 @@
 	>A plugin for Intellj IDEA & Android Studio which can help you generate interfaces and classes of MVP. 一款Intellj IDEA 和Android Studio 自动生成MVP模式所需接口以及实现类的插件。
 *	[boredream/BorePlugin](https://github.com/boredream/BorePlugin)
 	>Android Studio 自动生成布局代码插件
+*	[Alibaba Java Coding Guidelines](https://github.com/alibaba/Alibaba-Java-Coding-Guidelines)
+	>阿里巴巴Java开发规约的插件
+*	[t3hnar/CmdSupport](https://github.com/t3hnar/CmdSupport)
+	>Cmd support plugin for Intellij Idea</br>
+	>插件介绍：[Android：在AS里执行脚本——CMD Support插件](http://blog.csdn.net/drkcore/article/details/53557375)</br>
+	>在AS里执行.cmd和.bat等批处理文件
 
 
 ## 优秀面试题目
