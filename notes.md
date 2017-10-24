@@ -56,7 +56,6 @@
 	>This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView https://mindorks.com/open-source-proj…
 *	[android10/Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
 	>MVVM模式一个干净的设计框架
-*	[[墙裂推荐]Android搭建属于自己的技术堆栈和App架构](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550530&idx=1&sn=fcf00db3ec87704fa5ddbc3319687cb4&chksm=f11805bfc66f8ca95d0ded31919a18c61501903ce9aede538b5157030feeb07a50b766a8f3f9&mpshare=1&scene=1&srcid=10172hwfQK6VtLphhAgZXwmR#rd)
 *	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[安卓架构师必备之Android AOP面向切面编程详解，超实用！](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550494&idx=1&sn=6982c5aee321ed731970c763708ae7ec&chksm=f11805e3c66f8cf57a02bde8bea85adf41b3aed795aab4feb08e599e71c0ee991b73a557c52c&mpshare=1&scene=24&srcid=1024F3ecBUxadjdwvYhhLkgp#rd)
