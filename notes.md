@@ -50,6 +50,7 @@
 	>8、支持SwipeBack滑动边缘退出(需要使用Fragmentation_SwipeBack库,详情README)
 
 ## Android项目重构
+*	[Android中 aar 文件的日常使用](http://www.jianshu.com/p/cd80e0ee54d5)
 *	[antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
 	>MVP Android Example
 *	[MindorksOpenSource/android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)

@@ -41,6 +41,7 @@
 
 
 ## 组件化方案
+*	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 *	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
 *	[【重磅】Android架构师必会：组件化开发及框架](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550443&idx=1&sn=7c4164a5d68d44fae57e893a8910d8bb&chksm=f1180516c66f8c00ae9f05f411f1e0bcbcb6a3f765016b7384db5b43050635df6a4bca848481&mpshare=1&scene=24&srcid=1024UpjiFtSRWy55JV8e0O4U#rd)
 *	[alibaba/atlas](https://github.com/alibaba/atlas)
@@ -535,7 +536,27 @@
 		    into '../home/libs/'
 		}
 
+*	编译生成的apk改名
+
+		android {
+			applicationVariants.all { variant ->
+		        variant.outputs.each { output ->
+		            def outputFile = output.outputFile
+		            def fileName
+		            if (outputFile != null && outputFile.name.endsWith('.apk')) {
+		                if (variant.buildType.name.equals('release')) {
+		                    fileName = "business_release.apk"
+		                } else if (variant.buildType.name.equals('debug')) {
+		                    fileName = "business.apk"
+		                }
+		                output.outputFile = new File(outputFile.parent, fileName)
+		            }
+		
+		        }
+		    }
+		｝
 *	
+
 
 ## 性能优化
 *	[性能优化](http://www.trinea.cn/category/perf/)
