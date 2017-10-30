@@ -219,11 +219,12 @@
 *	[Devlight/NavigationTabBar](https://github.com/Devlight/NavigationTabBar)
 	>Navigation tab bar with colorful interactions. 
 
-### StatusBar
+### StatusBar(状态栏及底部导航栏)
 *	[laobie/StatusBarUtil](https://github.com/laobie/StatusBarUtil)
 	>A util for setting status bar style on Android App. http://t.cn/Rq746Kb
 ＊	[gyf-dev/ImmersionBar](https://github.com/gyf-dev/ImmersionBar)
 	＞android 4.4以上沉浸式状态栏和沉浸式导航栏管理，包括状态栏字体颜色，一句代码轻松实现，以及对bar的其他设置，详见README，http://www.jianshu.com/p/2a884e211a62
+
 
 ### Toast
 *	[GrenderG/Toasty](https://github.com/GrenderG/Toasty)
