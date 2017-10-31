@@ -523,6 +523,9 @@
 	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
 *	[Android Gradle 使用大全](https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247487574&idx=1&sn=4e5a0aef6366ae5c809a4abc448fc209&chksm=96cdb11ba1ba380d564971ba18b8a397466620200675515fa3f4bed8dcd3267f4e9d9f02469d&mpshare=1&scene=24&srcid=1024XUhOWOVE37P938uQVQA1#rd)
 
+## 打包
+*	[Android中 aar 文件的日常使用](http://www.jianshu.com/p/cd80e0ee54d5)
+
 ### Gradle脚本
 *	复制文件
 

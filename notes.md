@@ -15,6 +15,9 @@
 *	[三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](http://blog.csdn.net/u012702547/article/details/52628453)
 *	[Android LayoutInflater原理分析，带你一步步深入了解View(一)](http://blog.csdn.net/guolin_blog/article/details/12921889)
 
+### 自定义View
+
+
 ### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
 	+ 1、《Fragment详解之一——概述》
@@ -50,7 +53,7 @@
 	>8、支持SwipeBack滑动边缘退出(需要使用Fragmentation_SwipeBack库,详情README)
 
 ## Android项目重构
-*	[Android中 aar 文件的日常使用](http://www.jianshu.com/p/cd80e0ee54d5)
+*	[如何将既有项目重构成 MVP 模式](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649549997&idx=1&sn=774f53be2eeba53b8a0813dce1fcfcb8&chksm=f11807d0c66f8ec68dc014dd55fdbb93c755b9d11c2608ea19ae9f7f5dd10a50e1ac8f5e80d3&mpshare=1&scene=24&srcid=1027vXARAR6wV3DbwIpVTghR#rd)
 *	[antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
 	>MVP Android Example
 *	[MindorksOpenSource/android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
