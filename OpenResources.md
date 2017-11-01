@@ -39,71 +39,6 @@
 *	[QMUI/QMUI_Android](https://github.com/QMUI/QMUI_Android)
 	>提高 Android UI 开发效率的 UI 库 http://qmuiteam.com/android
 
-
-## 组件化方案
-*	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
-*	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
-*	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
-*	[【重磅】Android架构师必会：组件化开发及框架](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550443&idx=1&sn=7c4164a5d68d44fae57e893a8910d8bb&chksm=f1180516c66f8c00ae9f05f411f1e0bcbcb6a3f765016b7384db5b43050635df6a4bca848481&mpshare=1&scene=24&srcid=1024UpjiFtSRWy55JV8e0O4U#rd)
-*	[alibaba/atlas](https://github.com/alibaba/atlas)
-	>A powerful Android Dynamic Component Framework.
-*	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
-	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
-
-## 插件化方案
-*	[asLody/VirtualApp](https://github.com/asLody/VirtualApp)
-	>An open source implementation of MultiAccount.(Support 4.0 - 8.0).
-*	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
-	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
-*	[singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
-	>DL : dynamic load framework in android http://blog.csdn.net/singwhatiwanna/a…
-*	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
-	>A powerful and lightweight plugin framework for Android
-	>VirtualAPK 是滴滴出行自研的一款优秀的插件化框架，主要有如下几个特性。</br>
-	>1、 功能完备</br>
-	>
-	>    支持几乎所有的 Android 特性；
-	>
-	>    四大组件方面：四大组件均不需要在宿主manifest中预注册，每个组件都有完整的生命周期。</br>
-	>        Activity：支持显示和隐式调用，支持 Activity 的 theme 和 LaunchMode，支持透明主题；</br>
-	>        Service：支持显示和隐式调用，支持 Service 的 start、stop、bind 和 unbind，并支持跨进程 bind 插件中的 Service；</br>
-	>        Receiver：支持静态注册和动态注册的 Receiver；</br>
-	>        ContentProvider：支持 provider的所有操作，包括 CRUD 和 call 方法等，支持跨进程访问插件中的 Provider。
-	>
-	>    自定义View：支持自定义 View，支持自定义属性和 style，支持动画；</br>
-	>    PendingIntent：支持 PendingIntent 以及和其相关的 Alarm、Notification 和AppWidget；</br>
-	>    支持插件 Application 以及插件 manifest 中的 meta-data；</br>
-	>    支持插件中的so。
-	>
-	>2、 优秀的兼容性
-	>
-	>    兼容市面上几乎所有的 Android 手机，这一点已经在滴滴出行客户端中得到验证；</br>
-	>    资源方面适配小米、Vivo、Nubia 等，对未知机型采用自适应适配方案；</br>
-	>    极少的 Binder Hook，目前仅仅 hook 了两个 Binder：AMS 和 IContentProvider，Hook过程做了充分的兼容性适配；</br>
-	>    插件运行逻辑和宿主隔离，确保框架的任何问题都不会影响宿主的正常运行。</br>
-	>
-	>3、 入侵性极低
-	>
-	>    插件开发等同于原生开发，四大组件无需继承特定的基类；</br>
-	>    精简的插件包，插件可以依赖宿主中的代码和资源，也可以不依赖；</br>
-	>    插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
-*	[iReaderAndroid/ZeusPlugin](https://github.com/iReaderAndroid/ZeusPlugin)
-	>成熟易懂的Android插件补丁框架（可直接商业化的项目，日活千万级项目多年使用验证稳定）
-
-### common组件
-*	[android-common](https://github.com/Trinea/android-common)
-	>Android common lib, include ImageCache, HttpCache, DropDownListView, 
-*	[Android-Next](https://github.com/mcxiaoke/Android-Next)
-	>Android Next 公共组件库 http://mcxiaoke.github.io/Android-Next
-*	[SAF](https://github.com/fengzhizi715/SAF)
-	>SAF(Simple Android Framework)是一个简单的android框架，它为开发Android app提供了基础性组件。
-
-### 组件化Demo
-*	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
-	>Android项目组件化示例代码
-*	[ModularizationApp](https://github.com/wutongke/ModularizationApp)
-	>Android 组件化demo http://www.jianshu.com/p/186fa07fc48a
-
 ## UI
 *	[提高 android 应用的颜值，酷炫 UI 组件汇总](https://github.com/madongqiang2201/views)
 *	[AdvancedPagerSlidingTabStrip](https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip)
@@ -588,6 +523,69 @@
 ## APP逆向分析
 *	[Android逆向之旅---某直播APP的协议加密原理分析以及调用加密方法进行协议参数构造](https://mp.weixin.qq.com/s?__biz=MzIzNDA3MDgwNA==&mid=2649230486&idx=1&sn=6c509f6b9e0912591e46cf7a2cc72032&chksm=f0e75aedc790d3fb39d985ee88dfef7b0bb8a16bb0c646d83dcb7abfecf1ecbca57e11e344bc&mpshare=1&scene=24&srcid=1024jfHPw57muNkYMdDtTpzV#rd)
 
+## 组件化方案
+*	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
+*	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
+*	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
+*	[【重磅】Android架构师必会：组件化开发及框架](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550443&idx=1&sn=7c4164a5d68d44fae57e893a8910d8bb&chksm=f1180516c66f8c00ae9f05f411f1e0bcbcb6a3f765016b7384db5b43050635df6a4bca848481&mpshare=1&scene=24&srcid=1024UpjiFtSRWy55JV8e0O4U#rd)
+*	[alibaba/atlas](https://github.com/alibaba/atlas)
+	>A powerful Android Dynamic Component Framework.
+*	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
+	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
+
+## 插件化方案
+*	[asLody/VirtualApp](https://github.com/asLody/VirtualApp)
+	>An open source implementation of MultiAccount.(Support 4.0 - 8.0).
+*	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
+	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
+*	[singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
+	>DL : dynamic load framework in android http://blog.csdn.net/singwhatiwanna/a…
+*	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
+	>A powerful and lightweight plugin framework for Android
+	>VirtualAPK 是滴滴出行自研的一款优秀的插件化框架，主要有如下几个特性。</br>
+	>1、 功能完备</br>
+	>
+	>    支持几乎所有的 Android 特性；
+	>
+	>    四大组件方面：四大组件均不需要在宿主manifest中预注册，每个组件都有完整的生命周期。</br>
+	>        Activity：支持显示和隐式调用，支持 Activity 的 theme 和 LaunchMode，支持透明主题；</br>
+	>        Service：支持显示和隐式调用，支持 Service 的 start、stop、bind 和 unbind，并支持跨进程 bind 插件中的 Service；</br>
+	>        Receiver：支持静态注册和动态注册的 Receiver；</br>
+	>        ContentProvider：支持 provider的所有操作，包括 CRUD 和 call 方法等，支持跨进程访问插件中的 Provider。
+	>
+	>    自定义View：支持自定义 View，支持自定义属性和 style，支持动画；</br>
+	>    PendingIntent：支持 PendingIntent 以及和其相关的 Alarm、Notification 和AppWidget；</br>
+	>    支持插件 Application 以及插件 manifest 中的 meta-data；</br>
+	>    支持插件中的so。
+	>
+	>2、 优秀的兼容性
+	>
+	>    兼容市面上几乎所有的 Android 手机，这一点已经在滴滴出行客户端中得到验证；</br>
+	>    资源方面适配小米、Vivo、Nubia 等，对未知机型采用自适应适配方案；</br>
+	>    极少的 Binder Hook，目前仅仅 hook 了两个 Binder：AMS 和 IContentProvider，Hook过程做了充分的兼容性适配；</br>
+	>    插件运行逻辑和宿主隔离，确保框架的任何问题都不会影响宿主的正常运行。</br>
+	>
+	>3、 入侵性极低
+	>
+	>    插件开发等同于原生开发，四大组件无需继承特定的基类；</br>
+	>    精简的插件包，插件可以依赖宿主中的代码和资源，也可以不依赖；</br>
+	>    插件的构建过程简单，通过Gradle插件来完成插件的构建，整个过程对开发者透明。
+*	[iReaderAndroid/ZeusPlugin](https://github.com/iReaderAndroid/ZeusPlugin)
+	>成熟易懂的Android插件补丁框架（可直接商业化的项目，日活千万级项目多年使用验证稳定）
+
+### common组件
+*	[android-common](https://github.com/Trinea/android-common)
+	>Android common lib, include ImageCache, HttpCache, DropDownListView, 
+*	[Android-Next](https://github.com/mcxiaoke/Android-Next)
+	>Android Next 公共组件库 http://mcxiaoke.github.io/Android-Next
+*	[SAF](https://github.com/fengzhizi715/SAF)
+	>SAF(Simple Android Framework)是一个简单的android框架，它为开发Android app提供了基础性组件。
+
+### 组件化Demo
+*	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
+	>Android项目组件化示例代码
+*	[ModularizationApp](https://github.com/wutongke/ModularizationApp)
+	>Android 组件化demo http://www.jianshu.com/p/186fa07fc48a
 
 ## 面向AOP编程
 *	[安卓架构师必备之Android AOP面向切面编程详解，超实用！](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550494&idx=1&sn=6982c5aee321ed731970c763708ae7ec&chksm=f11805e3c66f8cf57a02bde8bea85adf41b3aed795aab4feb08e599e71c0ee991b73a557c52c&mpshare=1&scene=24&srcid=1024F3ecBUxadjdwvYhhLkgp#rd)
