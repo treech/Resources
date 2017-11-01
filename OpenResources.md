@@ -41,19 +41,22 @@
 
 
 ## 组件化方案
+*	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 *	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
 *	[【重磅】Android架构师必会：组件化开发及框架](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550443&idx=1&sn=7c4164a5d68d44fae57e893a8910d8bb&chksm=f1180516c66f8c00ae9f05f411f1e0bcbcb6a3f765016b7384db5b43050635df6a4bca848481&mpshare=1&scene=24&srcid=1024UpjiFtSRWy55JV8e0O4U#rd)
 *	[alibaba/atlas](https://github.com/alibaba/atlas)
 	>A powerful Android Dynamic Component Framework.
-*	[singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
-	>DL : dynamic load framework in android http://blog.csdn.net/singwhatiwanna/a…
-*	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
-	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
-*	[asLody/VirtualApp](https://github.com/asLody/VirtualApp)
-	>An open source implementation of MultiAccount.(Support 4.0 - 8.0).
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
 	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
+
+## 插件化方案
+*	[asLody/VirtualApp](https://github.com/asLody/VirtualApp)
+	>An open source implementation of MultiAccount.(Support 4.0 - 8.0).
+*	[limpoxe/Android-Plugin-Framework](https://github.com/limpoxe/Android-Plugin-Framework)
+	>Android插件框架，免安装运行插件APK ，支持独立插件和非独立插件
+*	[singwhatiwanna/dynamic-load-apk](https://github.com/singwhatiwanna/dynamic-load-apk)
+	>DL : dynamic load framework in android http://blog.csdn.net/singwhatiwanna/a…
 *	[didi/VirtualAPK](https://github.com/didi/VirtualAPK)
 	>A powerful and lightweight plugin framework for Android
 	>VirtualAPK 是滴滴出行自研的一款优秀的插件化框架，主要有如下几个特性。</br>
@@ -525,6 +528,20 @@
 
 ## 打包
 *	[Android中 aar 文件的日常使用](http://www.jianshu.com/p/cd80e0ee54d5)
+*	本地库(libs中的库)可以被打到aar里面，远程的不会(dependencies中)
+
+	通常来讲，一个简单的Android Library工程，导出aar有这几种方式：
+
+	1、编译后自动会在build/outputs/aar目录下生成.aar文件。此aar仅打包了Library工程的class、libs和资源文件，但Library引用的其他库（比如compile "com.squareup.okhttp3:okhttp:3.4.1")并未包含在aar中。使用Library时还需把它引用的库再手动声明一遍，差评！（此方式也是最常用的方式）
+
+	2、发布到本地Maven库也即私服（或jCenter、MavenCentral）。发布出来的内容除了aar还包含了Library的所有dependencies信息。使用时直接设置好maven库地址，声明引用Libraray，gradle就会帮你自动引用Library中嵌套引用的所有dependencies了。(需要部署私服)
+	
+	参考资料：
+	> [Android导出aar时嵌套引用的那些坑](http://www.jianshu.com/p/7a532de0b111)</br>
+	> [如何解决aar中的第三方依赖无法调用问题](http://blog.csdn.net/hpc19950723/article/details/77773253)
+	> [Androidstudio 打包aar 无法引用类库中 dependencies 远程依赖](http://blog.csdn.net/u011840744/article/details/50608677)
+	> [使用Gradle部署jar包到Maven中央库](http://ningandjiao.iteye.com/blog/1846441)
+
 
 ### Gradle脚本
 *	复制文件
