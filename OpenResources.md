@@ -320,6 +320,11 @@
 	>A library to show emoji in TextView, EditText (like WhatsApp) for Android
 	>![](https://raw.githubusercontent.com/rockerhieu/emojicon/master/images/sample.jpg)
 
+
+## Log
+*	[Log最佳实践](http://www.jianshu.com/p/586c27e77e81)
+*	[日志库Logger/xLog:使用对比解析](http://blog.csdn.net/u013472738/article/details/76349203?locationNum=6&fps=1)
+
 ## 注解
 *	[androidannotations/androidannotations](https://github.com/androidannotations/androidannotations)
 	>功能简介：</br>
