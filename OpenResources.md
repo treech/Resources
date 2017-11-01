@@ -91,8 +91,6 @@
 	>成熟易懂的Android插件补丁框架（可直接商业化的项目，日活千万级项目多年使用验证稳定）
 
 ### common组件
-*	[MVPArms](https://github.com/JessYanCoding/MVPArms)
-	>A common architecture for Android applications developing based on MVP,integrates many open source projects( like Dagger2,Rxjava,Retrofit... ),to make your developing quicker and easier. 
 *	[android-common](https://github.com/Trinea/android-common)
 	>Android common lib, include ImageCache, HttpCache, DropDownListView, 
 *	[Android-Next](https://github.com/mcxiaoke/Android-Next)
@@ -507,26 +505,7 @@
 *	[Meituan-Dianping/Robust](https://github.com/Meituan-Dianping/Robust)
 	>Robust is an Android HotFix solution with high compatibility and high stability.Robust can fix bug immediately without publishing apk. 
 
-## APK打包
-*	[mcxiaoke/packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)
-	>下一代Android打包工具，100个渠道包只需要10秒钟 https://github.com/mcxiaoke
-
-## APK反编译
-*	[iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
-	>A tool for reverse engineering Android apk files https://ibotpeaches.github.io/Apktool
-*	[pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
-
-## APK瘦身
-*	[玩转APK：实现Android APK瘦身99.99%](https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651113806&idx=1&sn=382593ac7607c743a4ea8830150ec21b&chksm=844c6093b33be985f104bdb5fe8693a1cbd0ab1bf4feb9533635669a23036b3fa3d7f6ad0614&mpshare=1&scene=24&srcid=1024d583ssMju9CotcLcbZaP#rd)
-*	[shwenzhang/AndResGuard](https://github.com/shwenzhang/AndResGuard)
-	>proguard resource for Android by wechat team 
-
-## 编译/Gradle构建
-*	[alibaba/freeline](https://github.com/alibaba/freeline)
-	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
-*	[Android Gradle 使用大全](https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247487574&idx=1&sn=4e5a0aef6366ae5c809a4abc448fc209&chksm=96cdb11ba1ba380d564971ba18b8a397466620200675515fa3f4bed8dcd3267f4e9d9f02469d&mpshare=1&scene=24&srcid=1024XUhOWOVE37P938uQVQA1#rd)
-
-## 打包
+## aar打包
 *	[Android中 aar 文件的日常使用](http://www.jianshu.com/p/cd80e0ee54d5)
 *	本地库(libs中的库)可以被打到aar里面，远程的不会(dependencies中)
 
@@ -542,6 +521,14 @@
 	> [Androidstudio 打包aar 无法引用类库中 dependencies 远程依赖](http://blog.csdn.net/u011840744/article/details/50608677)
 	> [使用Gradle部署jar包到Maven中央库](http://ningandjiao.iteye.com/blog/1846441)
 
+## APK打包
+*	[mcxiaoke/packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)
+	>下一代Android打包工具，100个渠道包只需要10秒钟 https://github.com/mcxiaoke
+
+## 编译/Gradle构建
+*	[alibaba/freeline](https://github.com/alibaba/freeline)
+	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
+*	[Android Gradle 使用大全](https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247487574&idx=1&sn=4e5a0aef6366ae5c809a4abc448fc209&chksm=96cdb11ba1ba380d564971ba18b8a397466620200675515fa3f4bed8dcd3267f4e9d9f02469d&mpshare=1&scene=24&srcid=1024XUhOWOVE37P938uQVQA1#rd)
 
 ### Gradle脚本
 *	复制文件
@@ -575,7 +562,16 @@
 		        }
 		    }
 		｝
-*	
+
+## APK反编译
+*	[iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
+	>A tool for reverse engineering Android apk files https://ibotpeaches.github.io/Apktool
+*	[pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
+
+## APK瘦身
+*	[玩转APK：实现Android APK瘦身99.99%](https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651113806&idx=1&sn=382593ac7607c743a4ea8830150ec21b&chksm=844c6093b33be985f104bdb5fe8693a1cbd0ab1bf4feb9533635669a23036b3fa3d7f6ad0614&mpshare=1&scene=24&srcid=1024d583ssMju9CotcLcbZaP#rd)
+*	[shwenzhang/AndResGuard](https://github.com/shwenzhang/AndResGuard)
+	>proguard resource for Android by wechat team 
 
 
 ## 性能优化
@@ -593,6 +589,21 @@
 *	[Android逆向之旅---某直播APP的协议加密原理分析以及调用加密方法进行协议参数构造](https://mp.weixin.qq.com/s?__biz=MzIzNDA3MDgwNA==&mid=2649230486&idx=1&sn=6c509f6b9e0912591e46cf7a2cc72032&chksm=f0e75aedc790d3fb39d985ee88dfef7b0bb8a16bb0c646d83dcb7abfecf1ecbca57e11e344bc&mpshare=1&scene=24&srcid=1024jfHPw57muNkYMdDtTpzV#rd)
 
 
+## 面向AOP编程
+*	[安卓架构师必备之Android AOP面向切面编程详解，超实用！](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550494&idx=1&sn=6982c5aee321ed731970c763708ae7ec&chksm=f11805e3c66f8cf57a02bde8bea85adf41b3aed795aab4feb08e599e71c0ee991b73a557c52c&mpshare=1&scene=24&srcid=1024F3ecBUxadjdwvYhhLkgp#rd)
+*	[安卓AOP实战：面向切片编程](http://www.jianshu.com/p/b96a68ba50db)
+*	[Android实用技巧之:用好泛型,少写代码](http://www.jianshu.com/p/0f6800ded3da)
+*	[安卓AOP实战:APT打造极简路由](http://www.jianshu.com/p/6ccfa7b50f0e)
+	>全局路由TRouter，更优雅的页面跳转
+*	[安卓AOP实战:Javassist强撸EventBus](http://www.jianshu.com/p/33d8a3165b07)
+	>加入OkBus，实现注解传递事件
+*	[安卓AOP三剑客:APT,AspectJ,Javassist](http://www.jianshu.com/p/dca3e2c8608a)
+	>1、去掉所有反射</br>
+	>2、新增apt初始化工厂，替换掉了dagger2。</br>
+	>3、新增aop切片，处理缓存和日志</br>
+	>关键词:AOP+MVP+Retrofit+Rxjava+MaterialDesign+LeanCloud+NodeJS
+
+
 ## 优秀开源项目
 *	[开源中国/android-app](https://gitee.com/oschina/android-app)
 	>OSChina Android 客户端源码 http://www.oschina.net/p/oschina-android-app
@@ -600,6 +611,18 @@
 	>Sina Weibo Android Client
 *	[wangdan/AisenWeiBo](https://github.com/wangdan/AisenWeiBo)
 	>新浪微博第三方Android客户端
+
+### MVP模式优秀开源项目
+*	[MVPArms](https://github.com/JessYanCoding/MVPArms)
+	>A common architecture for Android applications developing based on MVP,integrates many open source projects( like Dagger2,Rxjava,Retrofit... ),to make your developing quicker and easier. 
+*	[JustWayward/BookReader](https://github.com/JustWayward/BookReader)
+	> 📕 "任阅" 网络小说阅读器，实现追书推荐收藏、书籍/标签检索、模拟翻书的翻页效果、缓存书籍、日夜间模式、书签、txt/pdf/epub书籍阅读、字体/主题/亮度设置、Wifi传书等功能~ https://github.com/smuyyh
+*	[north2016/T-MVP](https://github.com/north2016/T-MVP)
+	>Android AOP Architecture by Apt, AspectJ, Javassisit, based on Realm+Databinding+MVP+Retrofit+Rxjava2
+*	[MindorksOpenSource/android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
+	>This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView https://mindorks.com/open-source-proj…
+*	[GitLqr/LQRWeChat](https://github.com/GitLqr/LQRWeChat)
+	>本项目仿最新版微信6.5.7（除图片选择器外），基于融云SDK，使用目前较火的 Rxjava+Retrofit+MVP+Glide 技术开发。相比上个版本，加入发送位置消息，红包消息等功能。
 *	[jaydenxiao2016/AndroidFire](https://github.com/jaydenxiao2016/AndroidFire)
 	>AndroidFire，一款新闻阅读 App框架，基于 Material Design + MVP + RxJava + Retrofit + Glide，基本涵盖了当前 Android 端开发最常用的主流框架，基于此框架可以快速开发一个app。 https://github.com/jaydenxiao2016/And…
 *	[codeestX/GeekNews](https://github.com/codeestX/GeekNews)
