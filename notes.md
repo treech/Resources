@@ -16,7 +16,7 @@
 *	[Android LayoutInflater原理分析，带你一步步深入了解View(一)](http://blog.csdn.net/guolin_blog/article/details/12921889)
 
 ### 自定义View
-
+*	[自定义View，有这一篇就够了](http://blog.csdn.net/huachao1001/article/details/51577291)
 
 ### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)

@@ -39,6 +39,9 @@
 *	[QMUI/QMUI_Android](https://github.com/QMUI/QMUI_Android)
 	>提高 Android UI 开发效率的 UI 库 http://qmuiteam.com/android
 
+## UI适配
+*	[Android AutoLayout全新的适配方式 堪称适配终结者](http://blog.csdn.net/lmj623565791/article/details/49990941)
+
 ## UI
 *	[提高 android 应用的颜值，酷炫 UI 组件汇总](https://github.com/madongqiang2201/views)
 *	[AdvancedPagerSlidingTabStrip](https://github.com/HomHomLin/AdvancedPagerSlidingTabStrip)
@@ -529,6 +532,7 @@
 *	[Android逆向之旅---某直播APP的协议加密原理分析以及调用加密方法进行协议参数构造](https://mp.weixin.qq.com/s?__biz=MzIzNDA3MDgwNA==&mid=2649230486&idx=1&sn=6c509f6b9e0912591e46cf7a2cc72032&chksm=f0e75aedc790d3fb39d985ee88dfef7b0bb8a16bb0c646d83dcb7abfecf1ecbca57e11e344bc&mpshare=1&scene=24&srcid=1024jfHPw57muNkYMdDtTpzV#rd)
 
 ## 组件化方案
+*	[Android 组件化](https://github.com/ccj659/clean-project-architecture/blob/master/README_MODULE.md)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 *	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
@@ -636,6 +640,8 @@
 	>MVP项目中比较好的例子
 *	[a371166028/likequanmintv](https://github.com/a371166028/likequanmintv)
 	>基于MVP的Retrofit2(okhttp3)+rxjava+dagger2+greendao+glide+rtmp直播。该项目系仿全民TV,属于独立开发者作品,仅供参考学习，拒绝做一切商业用途，如有侵权，请告知删除
+*	[liu-xiao-dong/JD-Test](https://github.com/liu-xiao-dong/JD-Test)
+	>仿京东app 采用组件化架构 首页采用屏幕适配的较好方案
 
 ## AndroidStudio插件
 *	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
