@@ -654,7 +654,9 @@
 	>Cmd support plugin for Intellij Idea</br>
 	>插件介绍：[Android：在AS里执行脚本——CMD Support插件](http://blog.csdn.net/drkcore/article/details/53557375)</br>
 	>在AS里执行.cmd和.bat等批处理文件
-
+*	[Android studio统计代码行数插件-->statistic](http://blog.csdn.net/qq_23547831/article/details/50774941)
+*	[amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
+	>A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
 
 ## 优秀面试题目
 *	[2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
