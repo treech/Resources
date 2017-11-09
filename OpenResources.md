@@ -610,6 +610,10 @@
 	>3、新增aop切片，处理缓存和日志</br>
 	>关键词:AOP+MVP+Retrofit+Rxjava+MaterialDesign+LeanCloud+NodeJS
 
+## Rx系列
+*	[trello/RxLifecycle](https://github.com/trello/RxLifecycle)
+	>Lifecycle handling APIs for Android apps using RxJava 
+	>该项目是为了防止RxJava中subscription导致内存泄漏而诞生的，核心思想是通过监听Activity、Fragment的生命周期，来自动断开subscription以防止内存泄漏
 
 ## 优秀开源项目
 *	[开源中国/android-app](https://gitee.com/oschina/android-app)
