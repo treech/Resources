@@ -612,8 +612,8 @@
 
 ## Rx系列
 *	[trello/RxLifecycle](https://github.com/trello/RxLifecycle)
-	>Lifecycle handling APIs for Android apps using RxJava
-	>
+	>Lifecycle handling APIs for Android apps using RxJava</br>
+	>[RxAndroid之Rxlifecycle使用](http://blog.csdn.net/jdsjlzx/article/details/51527542)</br>
 	>该项目是为了防止RxJava中subscription导致内存泄漏而诞生的，核心思想是通过监听Activity、Fragment的生命周期，来自动断开subscription以防止内存泄漏
 
 ## 优秀开源项目
