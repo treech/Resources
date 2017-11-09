@@ -198,6 +198,11 @@
 	>
 	>![](https://github.com/paulyung541/LaybelLayout/blob/master/pic/demo1.jpg)
 
+### 标签布局
+*	[Rukey7/TagLayout](https://github.com/Rukey7/TagLayout)
+	>![](https://raw.githubusercontent.com/Rukey7/ScreenShot/master/TagLayout/tag_choice.png)
+
+
 ### SearchView
 *	[arimorty/floatingsearchview](https://github.com/arimorty/floatingsearchview)
 	>![](https://github.com/arimorty/floatingsearchview/blob/master/images/150696.gif)
