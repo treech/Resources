@@ -18,6 +18,15 @@
 ### 自定义View
 *	[自定义View，有这一篇就够了](http://blog.csdn.net/huachao1001/article/details/51577291)
 
+### View的事件体系
+#### view的事件体系五部曲
+*	[View的事件体系（一）View的基础知识](http://www.jianshu.com/p/531b366f56f2)
+*	[View的事件体系(二)实现View滑动的三种方式](http://www.jianshu.com/p/0da16dbe427e)
+*	[View的事件体系(三)View的弹性滑动](http://www.jianshu.com/p/6eca3fa1b0de)
+*	[View的事件体系(四)View 的事件分发机制](http://www.jianshu.com/p/804eb1a5dd13)
+*	[View的事件体系(五)View滑动冲突的解决方案](http://www.jianshu.com/p/bb6814073f5f)
+
+
 ### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
 	+ 1、《Fragment详解之一——概述》
