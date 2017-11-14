@@ -20,7 +20,7 @@
 
 ### View的事件体系
 #### view的事件体系五部曲
-*	[View的事件体系（一）View的基础知识](http://www.jianshu.com/p/531b366f56f2)
+*	[View的事件体系(一)View的基础知识](http://www.jianshu.com/p/531b366f56f2)
 *	[View的事件体系(二)实现View滑动的三种方式](http://www.jianshu.com/p/0da16dbe427e)
 *	[View的事件体系(三)View的弹性滑动](http://www.jianshu.com/p/6eca3fa1b0de)
 *	[View的事件体系(四)View 的事件分发机制](http://www.jianshu.com/p/804eb1a5dd13)
