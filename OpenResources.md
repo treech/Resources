@@ -230,6 +230,12 @@
 *	[bonnyfone/vectalign](https://github.com/bonnyfone/vectalign)
 	>Tool for create complex morphing animations using VectorDrawables (allows morphing between any pair of SVG images)
 
+### Path动画
+*	[huzenan/EasyPath](https://github.com/huzenan/EasyPath)
+	>Including a light PathParser tool and animated PathView for Android, which is based on vector.</br>
+	>![](https://github.com/huzenan/EasyPath/blob/master/screenshots/icons1.gif)
+
+
 ### Theme
 *	[Bilibili/MagicaSakura](https://github.com/Bilibili/MagicaSakura)
 	>[MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. http://app.bilibili.com](MagicaSakura 是 Android 多主题框架。~ is an Android multi theme library which supporting both daily colorful theme and night theme. http://app.bilibili.com)
