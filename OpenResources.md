@@ -40,6 +40,7 @@
 	>提高 Android UI 开发效率的 UI 库 http://qmuiteam.com/android
 
 ## UI适配
+*	[Android 屏幕适配方案](http://blog.csdn.net/lmj623565791/article/details/45460089)
 *	[Android AutoLayout全新的适配方式 堪称适配终结者](http://blog.csdn.net/lmj623565791/article/details/49990941)
 
 ## UI
@@ -96,6 +97,10 @@
 	>现在一般的Android软件都是需要不断更新的，当你打开某个app的时候，如果有新的版本，它会提示你有新版本需要更新。当有更新时，会弹出一个提示框，点击下载，则在通知来创建一个数字进度条进行下载，下载成功后才到安装界面。
 *	[AppUpdate](https://github.com/xingliuhua/AppUpdate)
 	>App a key update, only a simple code to achieve the update and progress shows that support for mandatory updates 
+
+### 梯度进度条
+*	[Android自定义View之仿京东售后审核进度](https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241816&idx=1&sn=bec620ea73c19afee960cc44a1a60c6e&chksm=88638a77bf140361ae06b0d54242102a2e95c8b7d3c0996fb66b97c95dce8b2df69c6b8eee13&scene=0#rd)
+	>![](http://mmbiz.qpic.cn/mmbiz_png/v1LbPPWiaSt7HyKYJU4fxrY16kwNtcYGQF01sZLISHI3Gla8eD5cOlIjFhCLlicibAkvmPia2FnwDfvmyI8hIj7Idg/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
 
 ### RecyclerView
 *	[alibaba/vlayout](https://github.com/alibaba/vlayout)
