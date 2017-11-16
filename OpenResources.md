@@ -223,11 +223,7 @@
 *	[lottie-android](https://github.com/airbnb/lottie-android)
 	>Lottie是Airbnb开源的一个支持 Android、iOS 以及 ReactNative，利用json文件的方式快速实现动画效果的库。
 *	[dinuscxj/LoadingDrawable](https://github.com/dinuscxj/LoadingDrawable)
-	>Some beautiful android loading drawable, can be combined with any view as the LoadingView or the ProgressBar. Besides, some Drawable can customize the loading progress too. 
-
-*	[geftimov/android-pathview](https://github.com/geftimov/android-pathview)
-	>Android view with both path from constructed path or from svg.
-	>![](https://github.com/geftimov/android-pathview/blob/master/art/settings.gif)
+	>Some beautiful android loading drawable, can be combined with any view as the LoadingView or the ProgressBar. Besides, some Drawable can customize the loading progress too.
 
 ### SVG动画
 *	[Android 高新技术之SVG矢量动画机制](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550614&idx=1&sn=65e0ad83c601dc82cb73fd053eb9a426&chksm=f118046bc66f8d7d2b502c94b8657ad312fb2156c77526f2e41dfc3dcc086646492663d25244&scene=0#rd)
@@ -240,7 +236,9 @@
 *	[huzenan/EasyPath](https://github.com/huzenan/EasyPath)
 	>Including a light PathParser tool and animated PathView for Android, which is based on vector.</br>
 	>![](https://github.com/huzenan/EasyPath/blob/master/screenshots/icons1.gif)
-
+*	[geftimov/android-pathview](https://github.com/geftimov/android-pathview)
+	>Android view with both path from constructed path or from svg.
+	>![](https://github.com/geftimov/android-pathview/blob/master/art/settings.gif)
 
 ### Theme
 *	[Bilibili/MagicaSakura](https://github.com/Bilibili/MagicaSakura)
@@ -678,7 +676,7 @@
 *	[liu-xiao-dong/JD-Test](https://github.com/liu-xiao-dong/JD-Test)
 	>仿京东app 采用组件化架构 首页采用屏幕适配的较好方案
 
-## AndroidStudio插件
+## Android Studio插件
 *	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
 	>A plugin for Intellj IDEA & Android Studio which can help you generate interfaces and classes of MVP. 一款Intellj IDEA 和Android Studio 自动生成MVP模式所需接口以及实现类的插件。
 *	[boredream/BorePlugin](https://github.com/boredream/BorePlugin)
