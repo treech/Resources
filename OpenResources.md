@@ -52,7 +52,8 @@
 
 ### Dialog
 *	[H07000223/FlycoDialog_Master](https://github.com/H07000223/FlycoDialog_Master)
-	>An Android Dialog Lib simplify customization.
+	>An Android Dialog Lib simplify customization.</br>
+	>![](https://github.com/H07000223/FlycoDialog_Master/blob/master/screenshot/normal_dialog_5.png)
 *	[orhanobut/dialogplus](https://github.com/orhanobut/dialogplus)
 	>Advanced dialog solution for android
 *	[android-dialog](https://github.com/694551594/android-dialog)
@@ -95,6 +96,12 @@
 *	[DownloadDialog](https://github.com/Arthurshen98/DownloadDialog)
 	>apk下载，文件下载dialog
 *	[ProgressDialog](https://github.com/HanSon/ProgressDialog)
+
+### BottomDialog
+*	[shaohui10086/BottomDialog](https://github.com/shaohui10086/BottomDialog)
+	>BottomDialog is a bottom dialog layout implemented with DialogFragment, Supports pop-up animation, Support any layout http://shaohui.me</br>
+	>![](https://github.com/shaohui10086/BottomDialog/blob/master/preview/bottom_dialog_edit.gif)</br>
+	>![](https://github.com/shaohui10086/BottomDialog/blob/master/preview/bottom_dialog_share.gif)
 
 #### APP更新进度条
 *	[AppUpdateProgress](https://github.com/seastoneard/AppUpdateProgress)
@@ -254,7 +261,9 @@
 	>Colorful is a dynamic theme library allowing you to change your apps' color schemes easily.
 *	[hongyangAndroid/AndroidChangeSkin](https://github.com/hongyangAndroid/AndroidChangeSkin)
 	>一种完全无侵入的换肤方式，支持插件式和应用内，无需重启Activity.
-	
+*	[qqliu10u/QSkinLoader](https://github.com/qqliu10u/QSkinLoader)
+	>一个支持多种场景的Android换肤框架。基本原理是通过代理LayoutInflater的View创建过程解析皮肤相关属性（background/src/textColor等），将皮肤相关属性设置到View的Tag内，在切换皮肤时寻找对应的皮肤来完成实时刷新动作。此方案具有代码及XML侵入性小、功能完善（支持Activity/Dialog/悬浮窗/PopWindow/Fragment等）、无需重启Activity、支持自定义属性换肤、同时支持资源内换肤和独立资源包（下载后换肤）等优点。接口按流式编程设计，个人感觉，比目前几种换肤框架好用一些。</br>
+	>![](https://github.com/qqliu10u/QSkinLoader/blob/master/skin-change-demo.gif)
 
 ### 布局
 #### 卡片布局
