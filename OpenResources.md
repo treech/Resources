@@ -488,6 +488,11 @@
 *	[alibaba/freeline](https://github.com/alibaba/freeline)
 	>A super fast build tool for Android, an alternative to Instant Run https://www.freelinebuild.com/
 *	[Android Gradle 使用大全](https://mp.weixin.qq.com/s?__biz=MzIwMzYwMTk1NA==&mid=2247487574&idx=1&sn=4e5a0aef6366ae5c809a4abc448fc209&chksm=96cdb11ba1ba380d564971ba18b8a397466620200675515fa3f4bed8dcd3267f4e9d9f02469d&mpshare=1&scene=24&srcid=1024XUhOWOVE37P938uQVQA1#rd)
+*	[加快apk的构建速度，如何把编译时间从130秒降到17秒](http://www.androidchina.net/7668.html)
+
+## Res资源管理
+*	[［推荐］Android Studio下对资源进行分包，很实用](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550103&idx=1&sn=233629374ac06743a938e95ac5d7bacb&chksm=f118066ac66f8f7c1a5219f48ed002571ff06146cb9a36a9d95323c51ac86dbd045a9100436d&mpshare=1&scene=24&srcid=1027fYcgnBF3ZuRSW5kcBIhl#rd)
+	>![](http://mmbiz.qpic.cn/mmbiz_png/ibuh47bPhianZF7ZHmLvQXR4N18m1FGBdLQCOOJNbIuia1SIvRCRzJNNaLr4sbqPMibn3003NG3VJuCBRmicC7MGUicA/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
 
 ### Gradle脚本
 *	复制文件
@@ -535,6 +540,8 @@
 
 ## 性能优化
 *	[性能优化](http://www.trinea.cn/category/perf/)
+*	[Android性能优化(面试必备)](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550105&idx=1&sn=0bcbc44afd52ac7fc709102d719b5e98&chksm=f1180664c66f8f72d3234fff813f6fd87902cd7284192ebf4d7118004208e826bdc6a69819c5&mpshare=1&scene=24&srcid=10273pks6vGlYW8ap08tD7MA#rd)
+
 
 ### 线程池优化
 *	[yigit/android-priority-jobqueue](https://github.com/yigit/android-priority-jobqueue)
@@ -549,7 +556,6 @@
 
 ## 组件化方案
 *	[Android 组件化](https://github.com/ccj659/clean-project-architecture/blob/master/README_MODULE.md)
-*	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 *	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
 *	[【重磅】Android架构师必会：组件化开发及框架](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550443&idx=1&sn=7c4164a5d68d44fae57e893a8910d8bb&chksm=f1180516c66f8c00ae9f05f411f1e0bcbcb6a3f765016b7384db5b43050635df6a4bca848481&mpshare=1&scene=24&srcid=1024UpjiFtSRWy55JV8e0O4U#rd)
@@ -557,6 +563,17 @@
 	>A powerful Android Dynamic Component Framework.
 *	[DDComponentForAndroid](https://github.com/luojilab/DDComponentForAndroid)
 	>一套完整有效的android组件化方案，支持组件的单独调试、集成调试、组件交互、UI跳转、动态加载卸载、组件完全隔离等功能
+
+### 组件化方案之路由器
+*	[Android 组件化 —— 路由设计最佳实践](https://mp.weixin.qq.com/s?__biz=MzI3MDE0NzYwNA==&mid=2651436537&idx=1&sn=9676dc05536b48fe8c6cfafb75ba6e6d&chksm=f1289c82c65f15942fdc75804016635a819d37087bd3447d239bc44faa88d7789689ace25a63&mpshare=1&scene=24&srcid=1115FegaOXPorTiIwINlzkCc#rd)
+*	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
+*	[Android组件化、模块化基石：阿里路由框架ARouter详解](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550125&idx=1&sn=36107b3341fa410d541627545f345bc5&chksm=f1180650c66f8f464a354a8b86c4b3d9a1b74673a6e93389d75cbcf26e281cb3301a7c7f3e7f&mpshare=1&scene=24&srcid=1027qJ8ULIDMb2cuxQcV7DrS#rd)
+
+### 组件化Demo
+*	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
+	>Android项目组件化示例代码
+*	[ModularizationApp](https://github.com/wutongke/ModularizationApp)
+	>Android 组件化demo http://www.jianshu.com/p/186fa07fc48a
 
 ## 插件化方案
 *	[asLody/VirtualApp](https://github.com/asLody/VirtualApp)
@@ -606,12 +623,6 @@
 *	[SAF](https://github.com/fengzhizi715/SAF)
 	>SAF(Simple Android Framework)是一个简单的android框架，它为开发Android app提供了基础性组件。
 
-### 组件化Demo
-*	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
-	>Android项目组件化示例代码
-*	[ModularizationApp](https://github.com/wutongke/ModularizationApp)
-	>Android 组件化demo http://www.jianshu.com/p/186fa07fc48a
-
 ## 面向AOP编程
 *	[安卓架构师必备之Android AOP面向切面编程详解，超实用！](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550494&idx=1&sn=6982c5aee321ed731970c763708ae7ec&chksm=f11805e3c66f8cf57a02bde8bea85adf41b3aed795aab4feb08e599e71c0ee991b73a557c52c&mpshare=1&scene=24&srcid=1024F3ecBUxadjdwvYhhLkgp#rd)
 *	[安卓AOP实战：面向切片编程](http://www.jianshu.com/p/b96a68ba50db)
@@ -633,6 +644,8 @@
 	>该项目是为了防止RxJava中subscription导致内存泄漏而诞生的，核心思想是通过监听Activity、Fragment的生命周期，来自动断开subscription以防止内存泄漏
 
 ## 优秀开源项目
+*	[2017 Android GitHub常用热门开源框架汇总](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550076&idx=1&sn=5357c69fce9cb560dabe886195a83812&chksm=f1180781c66f8e97bb89a68420aea45a06838c5e6bc94f62a58744301408e9f48403cbe7ab10&mpshare=1&scene=24&srcid=1027sXZIpPKPb3znMK6KL5rc#rd)
+
 *	[开源中国/android-app](https://gitee.com/oschina/android-app)
 	>OSChina Android 客户端源码 http://www.oschina.net/p/oschina-android-app
 *	[qii/weiciyuan](https://github.com/qii/weiciyuan)

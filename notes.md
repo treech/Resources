@@ -26,6 +26,9 @@
 *	[View的事件体系(四)View 的事件分发机制](http://www.jianshu.com/p/804eb1a5dd13)
 *	[View的事件体系(五)View滑动冲突的解决方案](http://www.jianshu.com/p/bb6814073f5f)
 
+### 事件分发机制
+*	[一篇文章彻底搞懂Android事件分发机制](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550048&idx=1&sn=613c0cf5bcd2050e960c195537cdc562&chksm=f118079dc66f8e8b372d9afcfb691accf9edbc14251e59a7eb85982f5495835cc4354c48e232&mpshare=1&scene=24&srcid=1027NJY4DeGRYeayjT3EkYvB#rd)
+	>![](http://mmbiz.qpic.cn/mmbiz_png/jE32KtUXy6HJWUt6gmArFJJLSwLBf7QV6OibwmHVAFjZJBmmoaz3xhtEZDZ8lX4cUwcXQT2Yk5B1GIQ63wKuicqg/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
 
 ### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
