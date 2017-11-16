@@ -237,7 +237,7 @@
 	>Including a light PathParser tool and animated PathView for Android, which is based on vector.</br>
 	>![](https://github.com/huzenan/EasyPath/blob/master/screenshots/icons1.gif)
 *	[geftimov/android-pathview](https://github.com/geftimov/android-pathview)
-	>Android view with both path from constructed path or from svg.
+	>Android view with both path from constructed path or from svg.</br>
 	>![](https://github.com/geftimov/android-pathview/blob/master/art/settings.gif)
 
 ### Theme
