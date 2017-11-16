@@ -59,8 +59,6 @@
 	>此框架提供七种对话框的显示，并支持对话框的扩展，目的是为了提供对话框的统一管理，并提供对话框显示的公共接口。 
 *	[Android-AlertView](https://github.com/saiwu-bigkoo/Android-AlertView)
 	>仿iOS的AlertViewController
-*	[NumberProgressBar](https://github.com/daimajia/NumberProgressBar)
-	>A beautiful, slim Android ProgressBar. 
 *	[BubbleSeekBar](https://github.com/woxingxiao/BubbleSeekBar)
 	>A beautiful Android custom seekbar, which has a bubble view with progress appearing upon when seeking. 自定义SeekBar，进度变化由可视化气泡样式呈现
 *	[pedant/sweet-alert-dialog](https://github.com/pedant/sweet-alert-dialog)
@@ -70,9 +68,11 @@
 *	[android-adDialog](https://github.com/yipianfengye/android-adDialog)
 *	[MaterialDialog](https://github.com/drakeet/MaterialDialog)
 	>(Deprecated: This library is deprecated and you should use android.support.v7.app.AlertDialog instead. ) An Android dialog library, has strong extensibility, customizability, and for conveniently building Material Design Dialog in Android version 2.2 ~ L. 
+
+### ProgressBar
+*	[NumberProgressBar](https://github.com/daimajia/NumberProgressBar)
+	>A beautiful, slim Android ProgressBar. 
 *	[RingProgressBar](https://github.com/HotBitmapGG/RingProgressBar)
-*	[DownloadDialog](https://github.com/Arthurshen98/DownloadDialog)
-	>apk下载，文件下载dialog
 *	[DownloadProgressBar](https://github.com/panwrona/DownloadProgressBar)
 	>DownloadProgressBar is an android library that delivers awesome custom progress bar. You can manipulate it's state in every way.
 *	[HorizontalProgress](https://github.com/Liuncoolman/HorizontalProgress)
@@ -89,10 +89,14 @@
 *	[Progress](https://github.com/Harlan1994/Progress)
 	>This contains two kinds of ProgressBar, a Horizontal kind and a cirle kind. 
 *	[LearnProgressBar](https://github.com/kuangxiaoguo0123/LearnProgressBar)
-	>Android custom horizontal and circle progressBar 
+	>Android custom horizontal and circle progressBar
+
+### ProgressDialog
+*	[DownloadDialog](https://github.com/Arthurshen98/DownloadDialog)
+	>apk下载，文件下载dialog
 *	[ProgressDialog](https://github.com/HanSon/ProgressDialog)
 
-### APP更新进度条
+#### APP更新进度条
 *	[AppUpdateProgress](https://github.com/seastoneard/AppUpdateProgress)
 	>现在一般的Android软件都是需要不断更新的，当你打开某个app的时候，如果有新的版本，它会提示你有新版本需要更新。当有更新时，会弹出一个提示框，点击下载，则在通知来创建一个数字进度条进行下载，下载成功后才到安装界面。
 *	[AppUpdate](https://github.com/xingliuhua/AppUpdate)
