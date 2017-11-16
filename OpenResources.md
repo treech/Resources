@@ -229,9 +229,10 @@
 	>Android view with both path from constructed path or from svg.
 	>![](https://github.com/geftimov/android-pathview/blob/master/art/settings.gif)
 
+### SVG动画
+*	[Android 高新技术之SVG矢量动画机制](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550614&idx=1&sn=65e0ad83c601dc82cb73fd053eb9a426&chksm=f118046bc66f8d7d2b502c94b8657ad312fb2156c77526f2e41dfc3dcc086646492663d25244&scene=0#rd)
 *	[After Effect 转svg 动画– 神奇的bodymovin 插件](http://www.mq2014.com/after-effect-zhuan-svg-dong-hua-shen-qi-de-bodymovin-cha-jian.html)
 	>一个叫做bodymovin 的After Effect 插件能直接将动画转成svg,让apk里的切图容量减少95%的好方法
-
 *	[bonnyfone/vectalign](https://github.com/bonnyfone/vectalign)
 	>Tool for create complex morphing animations using VectorDrawables (allows morphing between any pair of SVG images)
 
@@ -692,7 +693,9 @@
 *	[amitshekhariitbhu/Android-Debug-Database](https://github.com/amitshekhariitbhu/Android-Debug-Database)
 	>A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
 
-## 优秀面试题目
+## 面试
+*	[Android笔试面试指南](https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241676&idx=1&sn=81e3d4e876706e44b4e1f4cc5c671232&chksm=88638be3bf1402f5d5142a56a67416c9996703117ef117659f2224aaa716a5b662185af65546&scene=0#rd)
+
 *	[2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
 *	[android阿里面试题锦集](http://www.jianshu.com/p/cf5092fa2694)
 *	[Android 开发工程师面试指南](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550472&idx=1&sn=fb089cc7c26a37522bff6ff486002a06&chksm=f11805f5c66f8ce3909743c3dd37385e160edc5ab01aaf458c21716abf9e1dd379a24f2b8cff&mpshare=1&scene=24&srcid=1024Jsnjlaq5gjySS1DcIg7w#rd)
