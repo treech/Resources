@@ -69,6 +69,12 @@
 *	[android-adDialog](https://github.com/yipianfengye/android-adDialog)
 *	[MaterialDialog](https://github.com/drakeet/MaterialDialog)
 	>(Deprecated: This library is deprecated and you should use android.support.v7.app.AlertDialog instead. ) An Android dialog library, has strong extensibility, customizability, and for conveniently building Material Design Dialog in Android version 2.2 ~ L. 
+*	[hss01248/DialogUtil](https://github.com/hss01248/DialogUtil)
+	>common used dialog with material style ( in support v7)，ios style，get top activity automatically, invoke everywhere (any thread , any window)</br>
+	>![](https://github.com/hss01248/DialogUtil/blob/master/img0/ios_input.jpg)
+*	[hanhailong/sina-popmenu](https://github.com/hanhailong/sina-popmenu)
+	>高仿新浪微博弹框菜单</br>
+	>![](https://raw.githubusercontent.com/hanhailong/AndroidStudyResources/master/screenshot/tanhuang-offical-demo3.gif)
 
 ### ProgressBar
 *	[NumberProgressBar](https://github.com/daimajia/NumberProgressBar)
@@ -103,6 +109,15 @@
 	>![](https://github.com/shaohui10086/BottomDialog/blob/master/preview/bottom_dialog_edit.gif)</br>
 	>![](https://github.com/shaohui10086/BottomDialog/blob/master/preview/bottom_dialog_share.gif)
 
+### popweindow
+*	[kareluo/PopupMenuView](A view just like UIMenuController of iOS, 一个类似iOS中弹框气泡菜单的控件 )
+	>![](https://github.com/kareluo/PopupMenuView/blob/master/screenshot/preview_image.png)
+*	[pinguo-zhouwei/CustomPopwindow](https://github.com/pinguo-zhouwei/CustomPopwindow)
+	>对PopupWindow常用API的简单封装，几行代码就搞定PopupWindow弹窗，使用Builder模式，链式调用，像使用AlertDialog 一样</br>
+	>![](https://github.com/pinguo-zhouwei/CustomPopwindow/blob/master/image/pop_window.gif)
+*	[shalskar/PeekAndPop](https://github.com/shalskar/PeekAndPop)
+	>
+
 #### APP更新进度条
 *	[AppUpdateProgress](https://github.com/seastoneard/AppUpdateProgress)
 	>现在一般的Android软件都是需要不断更新的，当你打开某个app的时候，如果有新的版本，它会提示你有新版本需要更新。当有更新时，会弹出一个提示框，点击下载，则在通知来创建一个数字进度条进行下载，下载成功后才到安装界面。
@@ -112,6 +127,13 @@
 ### 梯度进度条
 *	[Android自定义View之仿京东售后审核进度](https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241816&idx=1&sn=bec620ea73c19afee960cc44a1a60c6e&chksm=88638a77bf140361ae06b0d54242102a2e95c8b7d3c0996fb66b97c95dce8b2df69c6b8eee13&scene=0#rd)
 	>![](http://mmbiz.qpic.cn/mmbiz_png/v1LbPPWiaSt7HyKYJU4fxrY16kwNtcYGQF01sZLISHI3Gla8eD5cOlIjFhCLlicibAkvmPia2FnwDfvmyI8hIj7Idg/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
+
+### 下拉刷新/refresh
+*	[scwang90/SmartRefreshLayout](https://github.com/scwang90/SmartRefreshLayout)
+	> 🔥下拉刷新、上拉加载、RefreshLayout、OverScroll，Android智能下拉刷新框架，支持越界回弹，具有极强的扩展性，集成了几十种炫酷的Header和 Footer。 https://segmentfault.com/a/1190000010…</br>
+	> ![](https://github.com/scwang90/SmartRefreshLayout/blob/master/art/gif_practive_feedlist.gif)
+
+
 
 ### RecyclerView
 *	[alibaba/vlayout](https://github.com/alibaba/vlayout)
