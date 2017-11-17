@@ -42,6 +42,16 @@
 ## UI适配
 *	[Android 屏幕适配方案](http://blog.csdn.net/lmj623565791/article/details/45460089)
 *	[Android AutoLayout全新的适配方式 堪称适配终结者](http://blog.csdn.net/lmj623565791/article/details/49990941)
+*	[Android Autolayout百分比适配方案（加小改进）](http://www.jianshu.com/p/3e956563e959)
+	>方案也提供了对应的jar包，使用方法很简单：
+	>jar后面的分别是标准分辨率width，标准分辨率height，和去除默认生成的常见机型分辨率
+	>（320*480; 480*800; 480*854;540*960; 600*1024; 720*1184; 720*1196; 720*1280; >768*1024; 800*1280; 1080*1812;1080*1920; 1440*2560）需要额外支持的机型分辨率。
+	>
+	>java -jar xx.jar width height width,height_width,height
+	>
+	>java -jar /Users/yujie/Desktop/autolayout.jar 720 1280 1080,1776
+	>
+	>（注意，输入的时候width在前，height在后；生成的文件夹命名是height在前，width在后）
 
 ## UI
 *	[提高 android 应用的颜值，酷炫 UI 组件汇总](https://github.com/madongqiang2201/views)
