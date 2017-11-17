@@ -445,10 +445,10 @@
 
 ## Camera
 *	[wuhaoyu1990/MagicCamera](https://github.com/wuhaoyu1990/MagicCamera)
-	>Real-time Filter Camera&VideoRecorder And ImageEditor With Face Beauty For Android---包含美颜等40余种实时滤镜相机，可拍照、录像、图片修改
+	>Real-time Filter Camera&VideoRecorder And ImageEditor With Face Beauty For Android---包含美颜等40余种实时滤镜相机，可拍照、录像、图片修改</br>
 	>![](https://github.com/wuhaoyu1990/MagicCamera/blob/master/Screenshot_1.png)
 *	[Skykai521/StickerCamera](https://github.com/Skykai521/StickerCamera)
-	>This is an Android application with camera,picture cropping,collage sticking and tagging.贴纸标签相机,功能:拍照,相片裁剪,给图片贴贴纸,打标签。
+	>This is an Android application with camera,picture cropping,collage sticking and tagging.贴纸标签相机,功能:拍照,相片裁剪,给图片贴贴纸,打标签。</br>
 	>![](https://github.com/Skykai521/StickerCamera/blob/master/screenshot/Screenshot_01.gif)
 
 ## Json解析
