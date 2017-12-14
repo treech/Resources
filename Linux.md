@@ -9,4 +9,4 @@
 # 经验
 ## android
 1 Ubuntu下Android Studio的设备连接后设备名后为[null]的解决方法
->  error: insufficient permissions for device（解决adb shell问题)  //后边不要加GROUP=“***
+>  [error: insufficient permissions for device](http://blog.csdn.net/xiaxiangnanxp1989/article/details/8605611) （解决adb shell问题)  //后边不要加GROUP=“***
