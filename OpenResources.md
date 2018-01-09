@@ -240,6 +240,12 @@
 	>An Android text view with scrolling text change animation https://medium.com/robinhood-engineer…
 	>![](https://github.com/robinhood/ticker/blob/master/assets/ticker_main.gif)
 
+### 角标/未读消息
+*	[Android仿微信未读消息数提示数字之BadgeView的使用](http://blog.csdn.net/qq_34471736/article/details/77645953)
+*	[qstumn/BadgeView](https://github.com/qstumn/BadgeView)
+	>支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView</b>
+	>![](https://raw.githubusercontent.com/qstumn/BadgeView/master/demo.png)
+
 ### 自动换行TextView
 *	[paulyung541/LaybelLayout](https://github.com/paulyung541/LaybelLayout)
 	>自动换行布局 标签布局
