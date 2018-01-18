@@ -253,6 +253,7 @@
 *	[MatthiasRobbers/shortbread](https://github.com/MatthiasRobbers/shortbread)
 	>Android library that generates app shortcuts from Shortcut annotations</br>
 	>![](https://github.com/MatthiasRobbers/shortbread/blob/master/sample.png)
+*	[Android O(8.0)创建桌面快捷方式](http://blog.csdn.net/rentee/article/details/77005547)
 
 ### 自动换行TextView
 *	[paulyung541/LaybelLayout](https://github.com/paulyung541/LaybelLayout)
