@@ -245,6 +245,14 @@
 *	[qstumn/BadgeView](https://github.com/qstumn/BadgeView)
 	>支持自由定制外观、拖拽消除的MaterialDesign风格Android BadgeView</b>
 	>![](https://raw.githubusercontent.com/qstumn/BadgeView/master/demo.png)
+*	[leolin310148/ShortcutBadger](https://github.com/leolin310148/ShortcutBadger)
+	>An Android library supports badge notification like iOS in Samsung, LG, Sony and HTC launchers.</br>
+	>![](https://camo.githubusercontent.com/7b71a54e52a5bc395e3f906fa4617722780f6589/68747470733a2f2f7261772e6769746875622e636f6d2f6c656f6c696e3331303134382f53686f72746375744261646765722f6d61737465722f73637265656e73686f74732f73735f6875617765692e706e67)
+
+### Android O/8.0/Android8.0 快捷方式
+*	[MatthiasRobbers/shortbread](https://github.com/MatthiasRobbers/shortbread)
+	>Android library that generates app shortcuts from Shortcut annotations</br>
+	>![](https://github.com/MatthiasRobbers/shortbread/blob/master/sample.png)
 
 ### 自动换行TextView
 *	[paulyung541/LaybelLayout](https://github.com/paulyung541/LaybelLayout)
