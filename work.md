@@ -1,5 +1,6 @@
 ### 中软
 * [中软门户网站](http://ics.chinasoftosg.com/SignOnServlet)
+* [中软邮箱](https://chinasoftinc.com/owa)
 * [中软工时申报](http://psgis.chinasofti.com/oa/portal)    name:姓名全拼 pwd:1234
 * [华为开发云](https://dl.devcloud.hwclouds.com/project/4e862be21c31412387de9f449db5cb5d/scrum/home)
 
