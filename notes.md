@@ -142,3 +142,6 @@
 	3. git commit -am "###"      -------以上3步只是本地提交
 	4. git remote add origin git@xx.xx.xx.xx:repos/xxx/xxx/xxx.git
 	5. git push origin 本地分支:远程分支
+
+### git clone远程分支资源太大总是失败?
+	1. git clone -b 远程分支名 远程库url --depth 1   //仅下载最新版本的代码
