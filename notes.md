@@ -147,7 +147,7 @@
 	1. git clone -b 远程分支名 远程库url --depth 1   //仅下载最新版本的代码
 	[现象] git clone 一个大的项目时失败，错误类似fatal: The remote end hung up unexpectedly | fatal: early EOF | fatal: index-pack failed
 	[原因]项目过大，受硬件限制（类似过载保护），clone过程中会中断
-	[解决]  a、先做一个浅：git clone --depth 1 <repo_URI>；
+	[解决]      a、先做一个浅：git clone --depth 1 <repo_URI>；
 		    b、将浅repo回复完全：git fetch --unshallow
 		    c、then do regular pull ：git pull --all
 注:参考连接:[git&gerrit 使用过程中遇到的问题及解决方法](http://blog.csdn.net/smithallenyu/article/details/50205817) 
