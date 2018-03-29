@@ -15,3 +15,22 @@ http://117.136.240.59:8080/rcs-android/meet-you.git
 盛阁总邮箱:
 13802881627@139.com
 
+移动测试卡1:
+13824439642
+
+
+
+
+
+
+
+
+20170329
+1、主页底部导航布局卡顿主要原因是ConstraintLayout的问题，由于ConstraintLayout的OnMeasure与OnDraw渲染时间太长,换成普通的LinearLayout即可(深度布局考虑用ConstraintLayout，轻量布局尽量使用五大常规布局，避免性能问题)。
+2、日志上传的动作可以放在空闲的时候进行以加速应用启动;
+
+
+参考资料：
+1、ConstraintLayout UI性能分析
+https://www.cnblogs.com/liujingg/p/7161319.html
+
