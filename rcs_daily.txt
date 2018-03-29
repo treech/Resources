@@ -12,3 +12,6 @@ pwd:yeguoqiang#123
 http://117.136.240.59:8080/rcs-android/meet-you.git
 下载命令:git clone -b merge_smartcall_for_newstruct_20171221 http://117.136.240.59:8080/rcs-android/meet-you.git
 
+盛阁总邮箱:
+13802881627@139.com
+
