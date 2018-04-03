@@ -6,6 +6,14 @@
 3、进程间数据的同步;
 
 20170328
+老代码:
+https://code.jointforce.com/rcs/android.git
+name:wswzq
+pwd:wzq123
+branch:asmaster
+下载命令:git clone -b asmaster https://code.jointforce.com/rcs/android.git
+
+新代码:
 name:yeguoqiang
 pwd:yeguoqiang#123
 
