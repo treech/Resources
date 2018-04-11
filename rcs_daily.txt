@@ -11,7 +11,10 @@ https://code.jointforce.com/rcs/android.git
 name:wswzq
 pwd:wzq123
 branch:asmaster
-下载命令:git clone -b asmaster https://code.jointforce.com/rcs/android.git
+下载命令:
+git clone -b asmaster https://code.jointforce.com/rcs/android.git
+如果仓库太大下载不下来，可以只下载最近一次提交
+git clone -b asmaster https://code.jointforce.com/rcs/android.git --depth 1
 
 新代码:
 name:yeguoqiang
