@@ -125,7 +125,21 @@
 
 *   关于数据库的操作，由于默认每次写操作(读操作可以不用)都会开启一个事务，大量数据的写操作需要用开启事务避免每次写操作都创建一个事务以提高app性能
 	最常见的场景:for循环插入数据库execSQL,需要开启事务。
-
+	伪代码:
+	
+	db.beginTransaction();  //手动设置开始事务
+        try{
+            //批量处理操作
+            for(Collection c:colls){
+                insert(db, c);
+            }
+            db.setTransactionSuccessful(); //设置事务处理成功，不设置会自动回滚不提交。
+	    //在setTransactionSuccessful和endTransaction之间不进行任何数据库操作
+           }catch(Exception e){
+               MyLog.printStackTraceString(e);
+           }finally{
+               db.endTransaction(); //处理完成
+           }
 ## git常用命令
 
 	git push origin eas_local:eas_sync
