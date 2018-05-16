@@ -27,3 +27,19 @@ SUBSYSTEM=="usb", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="103a",MODE="0666"
 SUBSYSTEM=="usb",ATTRS{idVendor}=="18d1",ATTRS{idProduct}=="4ee7",MODE="0666"
 SUBSYSTEM=="usb",ATTRS{idVendor}=="18d1",ATTRS{idProduct}=="201c",MODE="0666"
 注意:只需要修改idVendor与idProduct属性即可.
+
+# adb命令
+查找:
+find . -name "*.java"|xargs grep -rwni 'abc' --color
+
+查看activity堆栈
+adb shell logcat | grep ActivityManager
+adb shell dumpsys activity activities
+
+adb 查看最上层成activity名字:
+linux:
+adb shell dumpsys activity | grep "mFocusedActivity"
+
+windows:
+adb shell dumpsys activity | findstr "mFocusedActivity"
+

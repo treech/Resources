@@ -140,6 +140,10 @@
            }finally{
                db.endTransaction(); //处理完成
            }
+
+*  比较两个List集合中相同(不同)元素性能最高的方法
+   参考文章:[获取两个List中的不同元素，4种方法，逐步优化，学习使用](https://www.cnblogs.com/arrrrrya/p/8119142.html)
+
 ## git常用命令
 
 	git push origin eas_local:eas_sync
