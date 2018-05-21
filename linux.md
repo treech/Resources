@@ -53,13 +53,13 @@ adb shell dumpsys |grep BroadcastRecord
 android-studio sdk jdk
 
 # 需要备份的配置
-有四个:
+有四个:</br>
 etc/profile</br> 
 ~/.bashrc</br>
 etc/vim/vimrc</br>
 .gitconfig</br>
 
-#装双系统需知
+# 装双系统需知
 u盘装windows需要用大白菜装机</br>
 u盘装ubuntu需要用ultralSO</br>
 windows引导启动ubuntu需要用easybcd</br>
