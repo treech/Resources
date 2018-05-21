@@ -47,6 +47,17 @@ adb shell dumpsys activity | findstr "mFocusedActivity"
 adb shell dumpsys |grep BroadcastRecord
 
 # 重新装ubuntu需要用到的东西
-[gralde地址](http://services.gradle.org/distributions/)
+[gradle地址](http://services.gradle.org/distributions/)
 
- 
+# 需要提前下载好的东西
+android-studio sdk jdk
+
+# 需要备份的配置
+有三个:
+etc/profile ~/.bashrc etc/vim/vimrc
+
+#装双系统需知
+u盘装windows需要用大白菜装机
+u盘装ubuntu需要用ultralSO
+windows引导启动ubuntu需要用easybcd
+
