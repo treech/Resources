@@ -53,8 +53,11 @@ adb shell dumpsys |grep BroadcastRecord
 android-studio sdk jdk
 
 # 需要备份的配置
-有三个:
-etc/profile ~/.bashrc etc/vim/vimrc
+有四个:
+etc/profile 
+~/.bashrc 
+etc/vim/vimrc
+.gitconfig
 
 #装双系统需知
 u盘装windows需要用大白菜装机
