@@ -44,4 +44,9 @@ windows:
 adb shell dumpsys activity | findstr "mFocusedActivity"
 
 查看Android 系统发送的广播：
-adb shell dumpsys |grep BroadcastRecord 
+adb shell dumpsys |grep BroadcastRecord
+
+# 重新装ubuntu需要用到的东西
+[gralde地址](http://services.gradle.org/distributions/)
+
+ 
