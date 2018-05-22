@@ -60,7 +60,7 @@ etc/profile</br>
 ~/.bashrc</br>
 etc/vim/vimrc</br>
 .gitconfig</br>
-etc/udev/rules.d/51-Android.rules
+etc/udev/rules.d/51-android.rules
 
 # 装双系统需知
 u盘装windows需要用大白菜装机</br>
