@@ -22,11 +22,13 @@ grep -A 5 foo file -n显示foo及后5行
 1 Ubuntu下Android Studio的设备连接后设备名后为[null]的解决方法
 >  [error: insufficient permissions for device](http://blog.csdn.net/xiaxiangnanxp1989/article/details/8605611) （解决adb shell问题)  //后边不要加GROUP=“***
 2 Ubuntu adb配置
->etc/udev/rules.d路径下新建51-Android.rules文件，内容如下:
+>etc/udev/rules.d路径下新建51-android.rules文件，内容如下:
 SUBSYSTEM=="usb", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="103a",MODE="0666"
 SUBSYSTEM=="usb",ATTRS{idVendor}=="18d1",ATTRS{idProduct}=="4ee7",MODE="0666"
 SUBSYSTEM=="usb",ATTRS{idVendor}=="18d1",ATTRS{idProduct}=="201c",MODE="0666"
 注意:只需要修改idVendor与idProduct属性即可.
+如果以上不行需要用下面这种:
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0666", GROUP="plugdev"
 
 # adb命令
 查找:
