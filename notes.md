@@ -171,4 +171,10 @@
 	[解决]      a、先做一个浅：git clone --depth 1 <repo_URI>；
 		    b、将浅repo回复完全：git fetch --unshallow
 		    c、then do regular pull ：git pull --all
-注:参考连接:[git&gerrit 使用过程中遇到的问题及解决方法](http://blog.csdn.net/smithallenyu/article/details/50205817) 
+注:参考连接:[git&gerrit 使用过程中遇到的问题及解决方法](http://blog.csdn.net/smithallenyu/article/details/50205817)
+
+### git分支dev同步master分支代码
+
+    分两步走:
+       1.git checkout dev
+       2. git merege origin/master
