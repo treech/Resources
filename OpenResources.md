@@ -609,7 +609,19 @@
 *	[Android研究院之应用开发线程池的经典使用(二十九)](http://www.xuanyusong.com/archives/2439)
 
 ##	APP保活
+*   [IM/推送心跳保活篇](http://www.52im.net/forum.php?mod=collection&action=view&ctid=17&fromop=all)
+*   [Android微信智能心跳方案](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207243549&idx=1&sn=4ebe4beb8123f1b5ab58810ac8bc5994&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd)
+*   [Android进程保活全攻略（上）](https://blog.csdn.net/u012124438/article/details/53141113)
+*   [Android进程保活全攻略（中）](https://blog.csdn.net/u012124438/article/details/53143601)
+*   [Android后台保活4.0~8.0系统（一）](https://blog.csdn.net/yi_master/article/details/74231336)
+*   [Android后台保活4.0~8.0系统（二）](https://blog.csdn.net/yi_master/article/details/74424156)
+*   [Android后台保活4.0~8.0系统（三）](https://blog.csdn.net/yi_master/article/details/80025706)
+*   [Android进程保活](https://www.cnblogs.com/fuyaozhishang/p/6667301.html)
 *	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
+>   
+    注：Android 进程常驻（0）----MarsDaemon使用说明
+    6.0以下的保活效果很好的一个方案：
+    https://github.com/Marswin/MarsDaemon
 
 ## APP逆向分析
 *	[Android逆向之旅---某直播APP的协议加密原理分析以及调用加密方法进行协议参数构造](https://mp.weixin.qq.com/s?__biz=MzIzNDA3MDgwNA==&mid=2649230486&idx=1&sn=6c509f6b9e0912591e46cf7a2cc72032&chksm=f0e75aedc790d3fb39d985ee88dfef7b0bb8a16bb0c646d83dcb7abfecf1ecbca57e11e344bc&mpshare=1&scene=24&srcid=1024jfHPw57muNkYMdDtTpzV#rd)
