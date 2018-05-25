@@ -59,7 +59,7 @@ android-studio sdk jdk
 etc/profile</br> 
 ~/.bashrc</br>
 etc/vim/vimrc</br>
-备注：最好修改~/.vimrc文件，可以参考[Vim的强大配置文件（一键配置）](https://blog.csdn.net/u010871058/article/details/54253774)
+> 备注：最好修改~/.vimrc文件，可以参考[Vim的强大配置文件（一键配置）](https://blog.csdn.net/u010871058/article/details/54253774)
 .gitconfig</br>
 etc/udev/rules.d/51-android.rules
 
