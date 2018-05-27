@@ -56,16 +56,28 @@ adb shell dumpsys |grep BroadcastRecord
 android-studio sdk jdk
 
 # 需要备份的配置
-有五个:</br>
-~/.bashrc</br>
-~/.vimrc</br>
-.gitconfig</br>
+有四个:
+
+~/.bashrc
+
+~/.vimrc
+
+.gitconfig
+
 etc/udev/rules.d/51-android.rules
+
+有6个包需要备份:
+
 ~/.gradle
+
 android-studio
+
 sdk
+
 eclipse
+
 jdk
+
 sublime_text
 
 
