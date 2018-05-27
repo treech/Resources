@@ -85,4 +85,4 @@ sublime_text
 u盘装windows需要用大白菜装机</br>
 u盘装ubuntu需要用ultralSO</br>
 windows引导启动ubuntu需要用easybcd</br>
-
+参考：[Ubuntu 16.04 安装基础入门教程](https://jingyan.baidu.com/article/3c48dd348bc005e10be358eb.html),需要注意的是便捷启动改成syslinux,ubuntu安装完成再用windows中的easybcd引导启动，同时选择syslinux与boot所在分区的盘。
