@@ -23,6 +23,7 @@ grep -A 5 foo file -n显示foo及后5行
 >  [error: insufficient permissions for device](http://blog.csdn.net/xiaxiangnanxp1989/article/details/8605611) （解决adb shell问题)  //后边不要加GROUP=“***
 2 Ubuntu adb配置
 >etc/udev/rules.d路径下新建51-android.rules文件，内容如下:
+
 SUBSYSTEM=="usb", ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="103a",MODE="0666"
 SUBSYSTEM=="usb",ATTRS{idVendor}=="18d1",ATTRS{idProduct}=="4ee7",MODE="0666"
 SUBSYSTEM=="usb",ATTRS{idVendor}=="18d1",ATTRS{idProduct}=="201c",MODE="0666"
@@ -56,12 +57,17 @@ android-studio sdk jdk
 
 # 需要备份的配置
 有五个:</br>
-etc/profile</br> 
 ~/.bashrc</br>
-etc/vim/vimrc</br>
-> 备注：最好修改~/.vimrc文件，可以参考[Vim的强大配置文件（一键配置）](https://blog.csdn.net/u010871058/article/details/54253774)
+~/.vimrc</br>
 .gitconfig</br>
 etc/udev/rules.d/51-android.rules
+~/.gradle
+android-studio
+sdk
+eclipse
+jdk
+sublime_text
+
 
 # 装双系统需知
 u盘装windows需要用大白菜装机</br>
