@@ -1,10 +1,3 @@
-20180327
-
-一、移动方李盛阁总要求:
-1、数据库迭代升级；
-2、换肤框架的设计;
-3、进程间数据的同步;
-
 20170328
 老代码:
 https://code.jointforce.com/rcs/android.git
@@ -29,26 +22,14 @@ http://117.136.240.59:8080/rcs-android/meet-you.git
 移动测试卡1:
 13824439642
 
-
-
-
-
-
-
-
-20170329
-1、主页底部导航布局卡顿主要原因是ConstraintLayout的问题，由于ConstraintLayout的OnMeasure与OnDraw渲染时间太长,换成普通的LinearLayout即可(深度布局考虑用ConstraintLayout，轻量布局尽量使用五大常规布局，避免性能问题)。
-2、日志上传的动作可以放在空闲的时候进行以加速应用启动;
-
-
-参考资料：
-1、ConstraintLayout UI性能分析
-https://www.cnblogs.com/liujingg/p/7161319.html
-
-
 20180517
 开发日报:
 https://yiqixie.com/s/home/fcAC8805WSTnnK_zEzFxiSzJs
+
+JIRA帐号密码:
+http://192.168.185.250:8555/projects/HFXCG/issues/HFXCG-738?filter=allopenissues
+yeguoqiang
+123456
 
 工作计划:
 https://yiqixie.com/s/home/fcAAuzlNVVKAlKbyFwelCduaP
