@@ -23,6 +23,9 @@ http://117.136.240.59:8080/rcs-android/meet-you.git
 13824439642
 
 20180517
+移动认证网址:
+https://auth.nfjd.gmcc.net/dana-na/auth/url_default/welcome.cgi
+
 开发日报:
 https://yiqixie.com/s/home/fcAC8805WSTnnK_zEzFxiSzJs
 
