@@ -144,6 +144,45 @@
 *  比较两个List集合中相同(不同)元素性能最高的方法
    参考文章:[获取两个List中的不同元素，4种方法，逐步优化，学习使用](https://www.cnblogs.com/arrrrrya/p/8119142.html)
 
+## 权限问题
+
+	 /**
+	 * 检查权限是否被授予，此方法主要针对checkSelfPermission总是返回PERMISSION_GRANTED的问题
+	 * @param permission
+	 * @param context
+	 * @return
+	 */
+	public static boolean selfPermissionGranted(String permission, Context context) {
+		// For Android < Android M, self permissions are always granted.
+		boolean result = true;
+		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
+			if (getTargetSdkVersion(context) >= Build.VERSION_CODES.M) {
+				// targetSdkVersion >= Android M, we can
+				// use Context#checkSelfPermission
+				result = context.checkSelfPermission(permission)
+						== PackageManager.PERMISSION_GRANTED;
+			} else {
+				// targetSdkVersion < Android M, we have to use PermissionChecker
+				result = PermissionChecker.checkSelfPermission(context, permission)
+						== PermissionChecker.PERMISSION_GRANTED;
+			}
+		}
+		return result;
+	}
+
+	public static int getTargetSdkVersion(Context context) {
+		int targetSdkVersion = 0;
+		try {
+			final PackageInfo info = context.getPackageManager().getPackageInfo(
+					context.getPackageName(), 0);
+			targetSdkVersion = info.applicationInfo.targetSdkVersion;
+		} catch (PackageManager.NameNotFoundException e) {
+			e.printStackTrace();
+		}
+		return targetSdkVersion;
+	}
+
+
 ## git常用命令
 
 	git push origin eas_local:eas_sync
