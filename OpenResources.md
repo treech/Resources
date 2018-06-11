@@ -645,6 +645,11 @@
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[Android组件化、模块化基石：阿里路由框架ARouter详解](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550125&idx=1&sn=36107b3341fa410d541627545f345bc5&chksm=f1180650c66f8f464a354a8b86c4b3d9a1b74673a6e93389d75cbcf26e281cb3301a7c7f3e7f&mpshare=1&scene=24&srcid=1027qJ8ULIDMb2cuxQcV7DrS#rd)
 
+### 组件化之多进程方案
+*	[iqiyi/Andromeda](https://github.com/iqiyi/Andromeda)
+	>Andromeda simplifies local/remote communication for Android modularization
+	>(刚刚，爱奇艺发布重磅开源项目!)[https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ%3D%3D&mid=2247486330&idx=1&sn=be588d5eac6660708d669dbb071f519a&chksm=eae1fe28dd96773e9025008d56f8bd321d62d85e95afba51686c4b0361cd3baad08312385aae]
+
 ### 组件化Demo
 *	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
 	>Android项目组件化示例代码
