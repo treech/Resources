@@ -652,6 +652,8 @@
 *	[iqiyi/Andromeda](https://github.com/iqiyi/Andromeda)
 	>Andromeda simplifies local/remote communication for Android modularization
 	>(刚刚，爱奇艺发布重磅开源项目!)[https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ%3D%3D&mid=2247486330&idx=1&sn=be588d5eac6660708d669dbb071f519a&chksm=eae1fe28dd96773e9025008d56f8bd321d62d85e95afba51686c4b0361cd3baad08312385aae]
+*	[HiWong/InterStellar](https://github.com/HiWong/InterStellar)
+	>InterStellar是一个能够适用于多进程的组件通信框架
 
 ### 组件化Demo
 *	[AndroidModulePattern](https://github.com/guiying712/AndroidModulePattern)
