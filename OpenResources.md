@@ -587,6 +587,10 @@
 		    }
 		｝
 
+##  查看引入的库和jar包之间的依赖关系
+*	查看依赖关系gradlew XXX:dependencies > de.txt XXX为 模块名
+	>参考链接[Android Studio中解决重复依赖DexException](https://www.jianshu.com/p/a3373318f635)
+
 ## APK反编译
 *	[iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
 	>A tool for reverse engineering Android apk files https://ibotpeaches.github.io/Apktool
