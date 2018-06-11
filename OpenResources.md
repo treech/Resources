@@ -554,6 +554,9 @@
 *	[［推荐］Android Studio下对资源进行分包，很实用](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550103&idx=1&sn=233629374ac06743a938e95ac5d7bacb&chksm=f118066ac66f8f7c1a5219f48ed002571ff06146cb9a36a9d95323c51ac86dbd045a9100436d&mpshare=1&scene=24&srcid=1027fYcgnBF3ZuRSW5kcBIhl#rd)
 	>![](http://mmbiz.qpic.cn/mmbiz_png/ibuh47bPhianZF7ZHmLvQXR4N18m1FGBdLQCOOJNbIuia1SIvRCRzJNNaLr4sbqPMibn3003NG3VJuCBRmicC7MGUicA/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
 
+## Gradle版本下载
+*	(http://services.gradle.org/distributions/)[http://services.gradle.org/distributions/]
+
 ### Gradle脚本
 *	复制文件
 
