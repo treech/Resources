@@ -16,7 +16,8 @@ grep 'abc' test.log|grep '123'
 grep -C 5 foo file -n显示file文件里匹配foo字串那行以及上下5行
 grep -B 5 foo file -n显示foo及前5行
 grep -A 5 foo file -n显示foo及后5行
-参考资料:(linux grep命令详解)[https://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856896.html]
+
+参考资料:[linux grep命令详解](https://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856896.html)
 
 # 经验
 ## android
