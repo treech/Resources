@@ -1,3 +1,7 @@
+# 国内镜像源(以清华 阿里 官方三选一)
+[ubuntu源列表（清华，阿里，官方，选一即可)](https://www.cnblogs.com/iamhenanese/p/5514111.html)
+
+
 #  技巧
 1 Linux下nautilus：图形与终端的结合 
 >[ Linux下nautilus：图形与终端的结合 ](http://blog.csdn.net/xy_kok/article/details/72954046) 
