@@ -64,7 +64,7 @@ adb shell dumpsys |grep BroadcastRecord
 android-studio sdk jdk
 
 # 需要备份的配置
-有四个:
+有五个:
 
 ~/.bashrc
 
@@ -73,6 +73,8 @@ android-studio sdk jdk
 .gitconfig
 
 etc/udev/rules.d/51-android.rules
+
+etc/apt/source.list
 
 有6个包需要备份:
 
