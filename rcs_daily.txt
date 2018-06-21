@@ -13,6 +13,9 @@ git clone -b asmaster https://code.jointforce.com/rcs/android.git --depth 1
 name:yeguoqiang
 pwd:yeguoqiang#123
 
+name:lipin
+pwd:lipin#123
+
 http://117.136.240.59:8080/rcs-android/meet-you.git
 下载命令:git clone -b merge_smartcall_for_newstruct_20171221 http://117.136.240.59:8080/rcs-android/meet-you.git
 
