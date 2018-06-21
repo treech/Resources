@@ -19,17 +19,18 @@ pwd:lipin#123
 http://117.136.240.59:8080/rcs-android/meet-you.git
 下载命令:git clone -b merge_smartcall_for_newstruct_20171221 http://117.136.240.59:8080/rcs-android/meet-you.git
 
-盛阁总邮箱:
+李盛阁邮箱:
 13802881627@139.com
 
-移动测试卡1:
-13824439642
 
 20180517
 移动认证网址:
 https://auth.nfjd.gmcc.net/dana-na/auth/url_default/welcome.cgi
 dwxieshuangjian
 13632310848
+
+dwyeguoqiang
+18942901340
 
 开发日报:
 https://yiqixie.com/s/home/fcAC8805WSTnnK_zEzFxiSzJs
