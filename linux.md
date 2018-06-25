@@ -17,11 +17,11 @@
 注：n，显示行号　R，查找所有文件包含子目录　i,忽略大小写 最后的“xxx”表示想要查找的文件名
 
 > 查找并显示test.log文件中含有关键字的行
-grep -E 'abc|123' test.log
-grep 'abc' test.log|grep '123' 
-grep -C 5 foo file -n显示file文件里匹配foo字串那行以及上下5行
-grep -B 5 foo file -n显示foo及前5行
-grep -A 5 foo file -n显示foo及后5行
+grep -E 'abc|123' test.log</br>
+grep 'abc' test.log|grep '123' </br>
+grep -C 5 foo file -n显示file文件里匹配foo字串那行以及上下5行</br>
+grep -B 5 foo file -n显示foo及前5行</br>
+grep -A 5 foo file -n显示foo及后5行</br>
 
 ## vi命令
 ### 替换(可以用于注释)
