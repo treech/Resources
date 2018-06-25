@@ -12,7 +12,7 @@
 
 >$ nautilus -q	//如果当前打开了多个文件管理器，不需要鼠标一个个点掉，一个命令就可以将其尽数关闭
 
-2 Vi
+## grep find命令
 >grep -niR '想要查找的字符' xxx
 注：n，显示行号　R，查找所有文件包含子目录　i,忽略大小写 最后的“xxx”表示想要查找的文件名
 
@@ -23,11 +23,13 @@ grep -C 5 foo file -n显示file文件里匹配foo字串那行以及上下5行
 grep -B 5 foo file -n显示foo及前5行
 grep -A 5 foo file -n显示foo及后5行
 
-> 编辑
-替换(可以用于注释)
+## vi命令
+### 替换(可以用于注释)
+'''
 1,10s/#//g		去掉1-10行行首的#
 1,10s/^/#/g		给1-10行行首加上#
 %s/^/#/g		给所有行行首加上#
+'''
 
 参考资料:[linux grep命令详解](https://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856896.html)
 
