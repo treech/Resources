@@ -23,6 +23,12 @@ grep -C 5 foo file -n显示file文件里匹配foo字串那行以及上下5行
 grep -B 5 foo file -n显示foo及前5行
 grep -A 5 foo file -n显示foo及后5行
 
+> 编辑
+替换(可以用于注释)
+1,10s/#//g		去掉1-10行行首的#
+1,10s/^/#/g		给1-10行行首加上#
+%s/^/#/g		给所有行行首加上#
+
 参考资料:[linux grep命令详解](https://www.cnblogs.com/ggjucheng/archive/2013/01/13/2856896.html)
 
 # 经验
