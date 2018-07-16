@@ -1,0 +1,2 @@
+Android插件化（六）: OpenAtlasの改写aapt以防止资源ID冲突
+https://www.300168.com/yidong/show-2791.html
