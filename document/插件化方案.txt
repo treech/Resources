@@ -1,2 +1,5 @@
 Android插件化（六）: OpenAtlasの改写aapt以防止资源ID冲突
 https://www.300168.com/yidong/show-2791.html
+
+Router:一款单品、组件化、插件化全支持的路由框架
+https://blog.csdn.net/liu470368500/article/details/79282561
