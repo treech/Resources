@@ -764,6 +764,8 @@
 	>仿京东app 采用组件化架构 首页采用屏幕适配的较好方案
 
 ## Android Studio插件
+*	[balsikandar/Android-Studio-Plugins](https://github.com/balsikandar/Android-Studio-Plugins)
+	>This is a list of all awesome and useful android studio plugins
 *	[githubwing/MVPHelper](https://github.com/githubwing/MVPHelper)
 	>A plugin for Intellj IDEA & Android Studio which can help you generate interfaces and classes of MVP. 一款Intellj IDEA 和Android Studio 自动生成MVP模式所需接口以及实现类的插件。
 *	[boredream/BorePlugin](https://github.com/boredream/BorePlugin)
