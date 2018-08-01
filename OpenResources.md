@@ -739,6 +739,10 @@
 *	[wangdan/AisenWeiBo](https://github.com/wangdan/AisenWeiBo)
 	>新浪微博第三方Android客户端
 
+## 反射及动态代理
+*	[juexingzhe/ProxyTest](https://github.com/juexingzhe/ProxyTest)
+	>反射+注解+动态代理综合使用，具体：http://www.jianshu.com/p/fad15887a05e
+
 ### MVP模式优秀开源项目
 *	[MVPArms](https://github.com/JessYanCoding/MVPArms)
 	>A common architecture for Android applications developing based on MVP,integrates many open source projects( like Dagger2,Rxjava,Retrofit... ),to make your developing quicker and easier. 
