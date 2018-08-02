@@ -739,6 +739,9 @@
 *	[wangdan/AisenWeiBo](https://github.com/wangdan/AisenWeiBo)
 	>新浪微博第三方Android客户端
 
+## 浏览器WebView
+*	[腾讯X5WebView集成使用](https://blog.csdn.net/sinat_35241409/article/details/79098724)
+
 ## 反射及动态代理
 *	[juexingzhe/ProxyTest](https://github.com/juexingzhe/ProxyTest)
 	>反射+注解+动态代理综合使用，具体：http://www.jianshu.com/p/fad15887a05e
