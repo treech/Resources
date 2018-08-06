@@ -196,6 +196,7 @@
 	git checkout -b eas_local
 	git pull origin eas_sync:eas_local
 	git push origin eas_local:eas_sync
+
 ### git上库指导
 	1. git init
 	2. git add .
@@ -217,3 +218,5 @@
     分两步走:
        1.git checkout dev
        2. git merege origin/master
+## github访问速度太慢解决方案
+*	[解决访问github慢的问题](https://www.cnblogs.com/fengnovo/p/5959880.html)
