@@ -517,6 +517,10 @@
 	>A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
 
 ## 热修复
+*	[Android热补丁动态修复技术（一）：从Dex分包原理到热补丁](https://blog.csdn.net/u010386612/article/details/50885320)
+*	[Android热补丁动态修复技术（二）：实战！CLASS_ISPREVERIFIED问题！](https://blog.csdn.net/u010386612/article/details/51077291)
+*	[Android热补丁动态修复技术（三）—— 使用Javassist注入字节码，完成热补丁框架雏形（可使用）](https://blog.csdn.net/u010386612/article/details/51131642)
+*	[Android热补丁动态修复技术（四）：自动化生成补丁——解决混淆问题](https://blog.csdn.net/u010386612/article/details/51192421)
 *	[Android热修复技术——QQ空间补丁方案解析](https://blog.csdn.net/asiaLIYAZHOU/article/details/70495589)
 *	[Tencent/tinker](https://github.com/Tencent/tinker)
 	>Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk.
