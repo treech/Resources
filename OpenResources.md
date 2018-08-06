@@ -517,13 +517,14 @@
 	>A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
 
 ## 热修复
+*	[Android热修复技术——QQ空间补丁方案解析](https://blog.csdn.net/asiaLIYAZHOU/article/details/70495589)
 *	[Tencent/tinker](https://github.com/Tencent/tinker)
 	>Tinker is a hot-fix solution library for Android, it supports dex, library and resources update without reinstall apk.
 *	[jasonross/Nuwa](https://github.com/jasonross/Nuwa)
 	>Nuwa, pure java implementation, can hotfix your android application.
 *	[Meituan-Dianping/Robust](https://github.com/Meituan-Dianping/Robust)
 	>Robust is an Android HotFix solution with high compatibility and high stability.Robust can fix bug immediately without publishing apk. 
-
+	
 ## aar打包
 *	[Android中 aar 文件的日常使用](http://www.jianshu.com/p/cd80e0ee54d5)
 *	本地库(libs中的库)可以被打到aar里面，远程的不会(dependencies中)
