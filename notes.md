@@ -220,3 +220,4 @@
        2. git merege origin/master
 ## github访问速度太慢解决方案
 *	[解决访问github慢的问题](https://www.cnblogs.com/fengnovo/p/5959880.html)
+*	[git clone 速度慢怎么办？](https://blog.csdn.net/DlMmU/article/details/79562021)
