@@ -87,7 +87,7 @@
 *	[最简单的Dagger2入门教程](http://blog.csdn.net/lisdye2/article/details/51942511)
 *	[依赖注入的原理](http://blog.csdn.net/lisdye2/article/details/51887402)
 
-##	[luxiaoming/dagger2Demo](https://github.com/luxiaoming/dagger2Demo)
+###	[luxiaoming/dagger2Demo](https://github.com/luxiaoming/dagger2Demo)
 	>有可能是最实战的dagger2教程，手把手教你使用。更多精彩，关注公众号:代码GG之家 欢迎
 
 ## Android常见问题
