@@ -639,6 +639,8 @@
 *	[Android逆向之旅---某直播APP的协议加密原理分析以及调用加密方法进行协议参数构造](https://mp.weixin.qq.com/s?__biz=MzIzNDA3MDgwNA==&mid=2649230486&idx=1&sn=6c509f6b9e0912591e46cf7a2cc72032&chksm=f0e75aedc790d3fb39d985ee88dfef7b0bb8a16bb0c646d83dcb7abfecf1ecbca57e11e344bc&mpshare=1&scene=24&srcid=1024jfHPw57muNkYMdDtTpzV#rd)
 
 ## 组件化方案
+*	[JessYanCoding/ArmsComponent](https://github.com/JessYanCoding/ArmsComponent)
+	>A complete android componentization solution, powered by MVPArms (MVPArms 官方快速组件化方案).
 *	[Android 组件化](https://github.com/ccj659/clean-project-architecture/blob/master/README_MODULE.md)
 *	[Android组件化方案](http://blog.csdn.net/guiying712/article/details/55213884)
 *	[安卓架构之Android 模块化/模块化探索与实践](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550499&idx=1&sn=f976d318acbdafb50dc541816ba877ba&chksm=f11805dec66f8cc8fbdba0c5c19daa6df45c1c4d17e273d65946abb17c8157a02cd1e915fe87&mpshare=1&scene=24&srcid=10241J3veeU7VlPpgrVwMh6E#rd)
