@@ -721,6 +721,7 @@
 	>SAF(Simple Android Framework)是一个简单的android框架，它为开发Android app提供了基础性组件。
 
 ## 面向AOP编程
+*	Android实现AOP,可以使用的方案主要有两个,一个是[https://github.com/JakeWharton/hugo](https://github.com/JakeWharton/hugo),一个是沪江的[https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx](https://github.com/HujiangTechnology/gradle_plugin_android_aspectjx),都是基于aspectJ的，所以也可以直接配置aspectJ。
 *	[安卓架构师必备之Android AOP面向切面编程详解，超实用！](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550494&idx=1&sn=6982c5aee321ed731970c763708ae7ec&chksm=f11805e3c66f8cf57a02bde8bea85adf41b3aed795aab4feb08e599e71c0ee991b73a557c52c&mpshare=1&scene=24&srcid=1024F3ecBUxadjdwvYhhLkgp#rd)
 *	[安卓AOP实战：面向切片编程](http://www.jianshu.com/p/b96a68ba50db)
 *	[Android实用技巧之:用好泛型,少写代码](http://www.jianshu.com/p/0f6800ded3da)
