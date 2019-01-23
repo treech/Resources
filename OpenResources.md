@@ -813,6 +813,10 @@
 * [fiddler手机https抓包](http://www.51testing.com/html/43/489243-3714380.html)
 * [解决Fiddler "creation of the root certificate was not successful”的问题](http://blog.csdn.net/dassh/article/details/50961362)
 
+## 联动效果
+* [Android8.0对于CoordinatorLayout、RecyclerView 精准fling的优化](https://blog.csdn.net/humorousz/article/details/79552635) 
+
+
 
 
 
