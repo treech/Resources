@@ -6,10 +6,12 @@
 
 
 ## Android基础知识
-*	[GcsSloop/AndroidNote](https://github.com/GcsSloop/AndroidNote/tree/master)
-	>安卓学习笔记
-*	[tangqi92/Android-Tips](https://github.com/tangqi92/Android-Tips)
-	>An awesome list of tips for android. http://itangqi.me/2015/09/14/android-…
+* [GcsSloop/AndroidNote](https://github.com/GcsSloop/AndroidNote/tree/master)
+
+  >安卓学习笔记
+* [tangqi92/Android-Tips](https://github.com/tangqi92/Android-Tips)
+
+  >An awesome list of tips for android. http://itangqi.me/2015/09/14/android-…
 
 ### View
 *	[三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](http://blog.csdn.net/u012702547/article/details/52628453)
@@ -27,8 +29,9 @@
 *	[View的事件体系(五)View滑动冲突的解决方案](http://www.jianshu.com/p/bb6814073f5f)
 
 ### 事件分发机制
-*	[一篇文章彻底搞懂Android事件分发机制](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550048&idx=1&sn=613c0cf5bcd2050e960c195537cdc562&chksm=f118079dc66f8e8b372d9afcfb691accf9edbc14251e59a7eb85982f5495835cc4354c48e232&mpshare=1&scene=24&srcid=1027NJY4DeGRYeayjT3EkYvB#rd)
-	>![](http://mmbiz.qpic.cn/mmbiz_png/jE32KtUXy6HJWUt6gmArFJJLSwLBf7QV6OibwmHVAFjZJBmmoaz3xhtEZDZ8lX4cUwcXQT2Yk5B1GIQ63wKuicqg/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
+* [一篇文章彻底搞懂Android事件分发机制](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550048&idx=1&sn=613c0cf5bcd2050e960c195537cdc562&chksm=f118079dc66f8e8b372d9afcfb691accf9edbc14251e59a7eb85982f5495835cc4354c48e232&mpshare=1&scene=24&srcid=1027NJY4DeGRYeayjT3EkYvB#rd)
+
+  >![](http://mmbiz.qpic.cn/mmbiz_png/jE32KtUXy6HJWUt6gmArFJJLSwLBf7QV6OibwmHVAFjZJBmmoaz3xhtEZDZ8lX4cUwcXQT2Yk5B1GIQ63wKuicqg/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
 
 ### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
@@ -66,12 +69,15 @@
 
 ## Android项目重构
 *	[如何将既有项目重构成 MVP 模式](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649549997&idx=1&sn=774f53be2eeba53b8a0813dce1fcfcb8&chksm=f11807d0c66f8ec68dc014dd55fdbb93c755b9d11c2608ea19ae9f7f5dd10a50e1ac8f5e80d3&mpshare=1&scene=24&srcid=1027vXARAR6wV3DbwIpVTghR#rd)
-*	[antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
-	>MVP Android Example
-*	[MindorksOpenSource/android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
-	>This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView https://mindorks.com/open-source-proj…
-*	[android10/Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
-	>MVVM模式一个干净的设计框架
+* [antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
+
+  >MVP Android Example
+* [MindorksOpenSource/android-mvp-architecture](https://github.com/MindorksOpenSource/android-mvp-architecture)
+
+  >This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView https://mindorks.com/open-source-proj…
+* [android10/Android-CleanArchitecture](https://github.com/android10/Android-CleanArchitecture)
+
+  >MVVM模式一个干净的设计框架
 *	[Android架构合集](https://github.com/wwttt2004/Android-Architecture)
 *	组件化之后组件间activity跳转，如果完全解耦需使用[**ActivityRouter**](https://github.com/mzule/ActivityRouter)以及阿里巴巴路由框架[**ARouter**](https://github.com/alibaba/ARouter)
 *	[基于开源项目搭建 Android 技术堆栈](https://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651113557&idx=1&sn=8d1ef7cf5f65f9b53cf726c5de108c38&chksm=844c6188b33be89e487955f1da533402ab845aa2e27eda04afbb96436e77b8d88c259fd0ae33&mpshare=1&scene=24&srcid=10248D7nCMjrfL9tnZ2TQqgT#rd)
@@ -91,8 +97,9 @@
 	>有可能是最实战的dagger2教程，手把手教你使用。更多精彩，关注公众号:代码GG之家 欢迎
 
 ## Android常见问题
-*  Fragment懒加载和ViewPager的坑
-	>参考资料：[http://www.cnblogs.com/dasusu/p/5926731.html](http://www.cnblogs.com/dasusu/p/5926731.html)
+* Fragment懒加载和ViewPager的坑
+
+  >参考资料：[http://www.cnblogs.com/dasusu/p/5926731.html](http://www.cnblogs.com/dasusu/p/5926731.html)
 *  Activity嵌套多个fragment时，onResume的处理
 	<font color=#FF1493>
 	> 解决方法：</br>
@@ -102,7 +109,7 @@
 	    @Override  
 	    public void onHiddenChanged(boolean hidden) {  
 	        super.onHiddenChanged(hidden);  
-
+    
 	        if (hidden) {  
 	            UtilsTools.Log_e(TAG, " --- 不可见()");  
 	        } else {  
@@ -172,7 +179,7 @@
 		}
 		return result;
 	}
-
+	
 	public static int getTargetSdkVersion(Context context) {
 		int targetSdkVersion = 0;
 		try {
@@ -192,7 +199,7 @@
 	git checkout -b eas_local origin/eas_sync
 	git pull
 	git pull origin eas_sync:eas_local
-    git pull origin master:dev
+	git pull origin master:dev
 	git checkout -b dev//基于本地创建分支
 	git checkout -b dev origin/dev //基于远程分支创建本地分支
 	git clone https://git.oschina.net/telneter/iscs_calendar.git
@@ -224,3 +231,13 @@
 ## github访问速度太慢解决方案
 *	[解决访问github慢的问题](https://www.cnblogs.com/fengnovo/p/5959880.html)
 *	[git clone 速度慢怎么办？](https://blog.csdn.net/DlMmU/article/details/79562021)
+
+## markdown神器 -Typora
+
+## 抓包神器 -Charles、Fiddler
+
+## 远程协助工具 -Teamviewer
+
+## API测试工具 -Postman
+
+## 后台API展示-Swigger
