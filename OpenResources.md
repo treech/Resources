@@ -15,13 +15,14 @@
 *	[整理的Android开发资源](http://stormzhang.com/android/2014/06/05/android-awesome-resources/)
 
 ## 开源项目收集
-*	[Android开源工具项目集合](http://www.open-open.com/lib/view/open1465722194733.html)
+* [Android开源工具项目集合](http://www.open-open.com/lib/view/open1465722194733.html)
 
-*	[Android开源项目汇总及搜索](http://www.trinea.cn/android/android-open-source-projects-view/)
-*	[有哪些优秀的 Android 应用开源项目、特效、设计资料推荐？](https://www.zhihu.com/question/19804692/answer/21890050)
+* [Android开源项目汇总及搜索](http://www.trinea.cn/android/android-open-source-projects-view/)
+* [有哪些优秀的 Android 应用开源项目、特效、设计资料推荐？](https://www.zhihu.com/question/19804692/answer/21890050)
 * [Trinea/android-open-project](https://github.com/Trinea/android-open-project)
 
   >A categorized collection of Android Open Source Projects, Dev Tools Pro: https://play.google.com/store/apps/de…
+* [AOSF：全称为Android Open Source Framework，即Android优秀开源框架汇总。包含：网络请求okhttp，图片下载glide，数据库greenDAO，链式框架RxJava，组件路由ARouter，消息传递通信EventBus，热更新Tinker，插件化框架Replugin，文件下载FileDownloaer，图片选择PhotoPicker，图片滤镜/毛玻璃等特效处理，GIF图片展示控件，图片九宫格控件NineGridView，对话框Dialog，导航指示器ViewpagerIndicator，进度条ProgressWheel，下拉刷新SmartRefreshLayout，key-value高效数据存储MMKV等，应有尽有](https://github.com/Ericsongyl/AOSF)
 
 ## 工具类集合
 *	[一套快速高效的Android集成开发框架EasyAndroid](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550367&idx=1&sn=1eaad7a0cd39385234ebba51dc759520&chksm=f1180562c66f8c74e0723b45b22157fa40d8c88cb560ccacc52b582902677f1befe6b72cfd06&mpshare=1&scene=24&srcid=1024LrIrvjguepP9qRvbOhnO#rd)
@@ -541,6 +542,10 @@
 
   >PLDroidPlayer 是七牛推出的一款适用于 Android 平台的播放器 SDK，采用全自研的跨平台播放内核，拥有丰富的功能和优异的性能，可高度定制化和二次开发。 https://developer.qiniu.com/pili/sdk/…
 
+* [google/ExoPlayer](https://github.com/google/ExoPlayer)
+
+  >An extensible media player for Android
+
 
 
 ### 视频开源项目
@@ -959,3 +964,5 @@
 
   简称 "DoKit" 。一款功能齐全的客户端（ iOS 、Android ）研发助手，你值得拥有。
 
+## 埋点统计
+* [在项目中轻松集成友盟统计](https://www.jianshu.com/p/4756af01b984)
