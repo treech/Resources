@@ -965,4 +965,5 @@
   简称 "DoKit" 。一款功能齐全的客户端（ iOS 、Android ）研发助手，你值得拥有。
 
 ## 埋点统计
+* [友盟官网集成文档](https://developer.umeng.com/docs/66632/detail/66889)
 * [在项目中轻松集成友盟统计](https://www.jianshu.com/p/4756af01b984)
