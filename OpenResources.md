@@ -546,6 +546,9 @@
 
   >An extensible media player for Android
 
+* [EasyDSS/EasyPlayer](https://github.com/EasyDSS/EasyPlayer)
+  >An elegant, simple, fast RTSP/RTMP/HLS/HTTP Player.EasyPlayer support RTSP(RTP over TCP/UDP)version& RTMP version & Pro version，cover all kinds of streaming media！EasyPlayer是一款精炼、高效、稳定的流媒体播放器，分为RTSP版、RTMP版和Pro版本，支持各种各样的流媒体音视频播放！ http://www.pvale.com/
+
 
 
 ### 视频开源项目
