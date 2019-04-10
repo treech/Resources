@@ -33,6 +33,8 @@
 
   >![](http://mmbiz.qpic.cn/mmbiz_png/jE32KtUXy6HJWUt6gmArFJJLSwLBf7QV6OibwmHVAFjZJBmmoaz3xhtEZDZ8lX4cUwcXQT2Yk5B1GIQ63wKuicqg/640?wx_fmt=png&wxfrom=5&wx_lazy=1)
 
+* [android ViewPager嵌套使用的滑动冲突解决方案，优先让里层的ViewPager滑动完毕后外层的ViewPager再滑动](https://blog.csdn.net/puyacheer/article/details/79091795)
+
 ### Fragment
 *	[Fragment详解](http://blog.csdn.net/harvic880925/article/details/44927375)
 	+ 1、《Fragment详解之一——概述》
@@ -109,7 +111,7 @@
 	    @Override  
 	    public void onHiddenChanged(boolean hidden) {  
 	        super.onHiddenChanged(hidden);  
-    
+        
 	        if (hidden) {  
 	            UtilsTools.Log_e(TAG, " --- 不可见()");  
 	        } else {  
@@ -192,6 +194,11 @@
 		return targetSdkVersion;
 	}
 
+## Paint画文字时文字居中显示
+*  参考[paint.ascent()和paint.descent() 文字居中显示](https://blog.csdn.net/mori2014/article/details/77369782)
+
+*  参考[用TextPaint来绘制文字](https://www.cnblogs.com/tianzhijiexian/p/4297664.html)
+
 
 ## git常用命令
 
@@ -218,7 +225,7 @@
 	1. git clone -b 远程分支名 远程库url --depth 1   //仅下载最新版本的代码
 	[现象] git clone 一个大的项目时失败，错误类似fatal: The remote end hung up unexpectedly | fatal: early EOF | fatal: index-pack failed
 	[原因]项目过大，受硬件限制（类似过载保护），clone过程中会中断
-	[解决]      a、先做一个浅：git clone --depth 1 <repo_URI>；
+	[解决]   a、先做一个浅：git clone --depth 1 <repo_URI>；
 		    b、将浅repo回复完全：git fetch --unshallow
 		    c、then do regular pull ：git pull --all
 注:参考连接:[git&gerrit 使用过程中遇到的问题及解决方法](http://blog.csdn.net/smithallenyu/article/details/50205817)
@@ -231,6 +238,22 @@
 ## github访问速度太慢解决方案
 *	[解决访问github慢的问题](https://www.cnblogs.com/fengnovo/p/5959880.html)
 *	[git clone 速度慢怎么办？](https://blog.csdn.net/DlMmU/article/details/79562021)
+
+## adb清空缓存日志
+*   [ADB 清除Android手机缓存区域日志](https://blog.csdn.net/u013166958/article/details/79096221)
+    adb logcat -c -b main -b events -b radio -b system
+    adb logcat -c
+*   [ADB logcat 过滤方法(抓取日志)](https://www.cnblogs.com/bydzhangxiaowei/p/8168598.html)
+    adb logcat | grep -–color=auto $pid
+*   [Android PC端用ADB抓取指定应用日志](https://blog.csdn.net/sun8532685/article/details/83861002)
+    adb shell "ps | grep com.antelope.app"
+    adb logcat -c
+    adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
+
+
+## 源码学习
+*   [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
+    主要是分析HandlerActionQueue.post()方法以及view的原理
 
 ## markdown神器 -Typora
 
