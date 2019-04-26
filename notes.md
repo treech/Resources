@@ -156,6 +156,10 @@
 *  比较两个List集合中相同(不同)元素性能最高的方法
    参考文章:[获取两个List中的不同元素，4种方法，逐步优化，学习使用](https://www.cnblogs.com/arrrrrya/p/8119142.html)
 
+*  Butterknife出现Bindview空指针异常主要有2个问题点需要排查：
+    1.butterknife的gradle配置有问题;
+    2.butterknife的binding过程是顶级布局往下一层一层绑定，一旦parent id绑定失败(一般是类型转换错误)，该父布局的子布局所有view都会绑定失败，error log通常只会提示子view的空指针异常，需要继续往上查找log查看父布局哪个view类型转换异常。
+
 ## 权限问题
 
 	 /**
@@ -254,6 +258,8 @@
 ## 源码学习
 *   [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
     主要是分析HandlerActionQueue.post()方法以及view的原理
+
+## [Android Studio 中超级常用的快捷键使用，提高代码编写效率](https://blog.csdn.net/Lone1yCode/article/details/79516856)
 
 ## markdown神器 -Typora
 
