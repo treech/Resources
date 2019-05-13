@@ -218,6 +218,16 @@
 	git pull origin eas_sync:eas_local
 	git push origin eas_local:eas_sync
 
+### git打tag
+    git tag
+    git tag -a v1.4 -m 'my version 1.4'
+    git show v1.4
+    参考：[Git 基础 - 打标签](https://git-scm.com/book/zh/v1/Git-%E5%9F%BA%E7%A1%80-%E6%89%93%E6%A0%87%E7%AD%BE)
+
+### git同步远程已删除的分支和删除本地多余的分支
+    [git同步远程已删除的分支和删除本地多余的分支](https://www.cnblogs.com/saysmy/p/9166331.html)
+    git remote prune origin
+    
 ### git上库指导
 	1. git init
 	2. git add .
@@ -268,5 +278,7 @@
 ## 远程协助工具 -Teamviewer
 
 ## API测试工具 -Postman
+*  [postman-变量/环境/过滤等](https://blog.csdn.net/zxz_tsgx/article/details/51681080)
+*  
 
 ## 后台API展示-Swigger
