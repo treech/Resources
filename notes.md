@@ -160,6 +160,9 @@
     1.butterknife的gradle配置有问题;
     2.butterknife的binding过程是顶级布局往下一层一层绑定，一旦parent id绑定失败(一般是类型转换错误)，该父布局的子布局所有view都会绑定失败，error log通常只会提示子view的空指针异常，需要继续往上查找log查看父布局哪个view类型转换异常。
 
+*   xshell执行远程虚拟机上的程序，需要xshell退出后远程虚拟机上的程序继续在后台执行
+    1.nohup ./Demo.sh &
+
 ## 权限问题
 
 	 /**
@@ -227,7 +230,7 @@
 ### git同步远程已删除的分支和删除本地多余的分支
     [git同步远程已删除的分支和删除本地多余的分支](https://www.cnblogs.com/saysmy/p/9166331.html)
     git remote prune origin
-    
+
 ### git上库指导
 	1. git init
 	2. git add .
