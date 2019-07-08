@@ -125,9 +125,9 @@
 	>解决方法：</br>
 	>getFragmentManager()是所在fragment 父容器的碎片管理</br>
 	>getChildFragmentManager()是在fragment 里面子容器的碎片管理</font></br>
-	>参考资料：[http://blog.csdn.net/u012224845/article/details/50344199](http://blog.csdn.net/u012224845/article/details/50344199)
+    >参考资料：[http://blog.csdn.net/u012224845/article/details/50344199](http://blog.csdn.net/u012224845/article/details/50344199)
 
-
+*   [Fragment返回栈的手动管理](https://blog.csdn.net/recordGrowth/article/details/83349653)
 
 
 ## Android开发细节问题
@@ -162,6 +162,9 @@
 
 *   xshell执行远程虚拟机上的程序，需要xshell退出后远程虚拟机上的程序继续在后台执行
     1.nohup ./Demo.sh &
+
+*    [Activity切换动画实现，以及黑屏问题解决](https://www.jianshu.com/p/9b24929cf58e)
+
 
 ## 权限问题
 
