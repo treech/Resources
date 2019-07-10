@@ -86,6 +86,19 @@
 *	[[墙裂推荐]Android搭建属于自己的技术堆栈和App架构](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550530&idx=1&sn=fcf00db3ec87704fa5ddbc3319687cb4&chksm=f11805bfc66f8ca95d0ded31919a18c61501903ce9aede538b5157030feeb07a50b766a8f3f9&mpshare=1&scene=24&srcid=10172hwfQK6VtLphhAgZXwmR#rd)
 
 
+## Android项目快速开发
+* [tianzhijiexian/SelectorInjection](https://github.com/tianzhijiexian/SelectorInjection)
+
+    >一个强大的selector注入器，它可以让view自动产生selector状态，免去了写selector文件的麻烦。
+* [qyxxjd/MultipleStatusView](https://github.com/qyxxjd/MultipleStatusView) 
+
+    >一个支持多种状态的自定义View,可以方便的切换到：加载中视图、错误视图、空数据视图、网络异常视图、内容视图。
+* [czy1121/loadinglayout](https://github.com/czy1121/loadinglayout)
+
+    >简单实用的页面多状态布局(content,loading,empty,error)
+* [WangGanxin/LoadDataLayout](https://github.com/WangGanxin/LoadDataLayout)
+
+    >App公共组件：加载数据Layout，高效开发必备！
 
 ## 开源框架学习
 ### Dagger2
