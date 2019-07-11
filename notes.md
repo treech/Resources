@@ -288,11 +288,40 @@
 *    [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
 
 ## 源码学习
-*    [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
-主要是分析HandlerActionQueue.post()方法以及view的原理
-*    [android面试题-okhttp内核剖析](https://www.jianshu.com/p/9ed2c2f2a52c)
+* [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
+  主要是分析HandlerActionQueue.post()方法以及view的原理
 
-## [Android Studio 中超级常用的快捷键使用，提高代码编写效率](https://blog.csdn.net/Lone1yCode/article/details/79516856)
+* [android面试题-okhttp内核剖析](https://www.jianshu.com/p/9ed2c2f2a52c)
+
+  
+
+## 工具的使用
+
+### Charles抓https请求的爬坑路
+
+第一步:[Android安装Charles证书（华为手机测试）](https://blog.csdn.net/weixin_42034554/article/details/86669159)
+
+​	注意：可以使用电脑浏览器访问chls.pro/ssl，下载charles-proxy-ssl-proxying-certificate.pem文件然后adb push到sd卡
+
+第二步:[Charles抓https显示unknown解决方法](https://www.jianshu.com/p/498884193013)
+
+​	注意：Charles的SSL Proxying Settings，添加所有的域名这一步一定要有，否则就算信任了证书也全都是unknown
+
+第三步:[如何解决 Android7.0之后部分手机无法抓包](https://blog.csdn.net/muranfei/article/details/89182997)
+​	注意：关键代码
+
+```
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" overridePins="true" />
+            <certificates src="user" overridePins="true" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>
+```
+
+*  [Android Studio 中超级常用的快捷键使用，提高代码编写效率](https://blog.csdn.net/Lone1yCode/article/details/79516856)
 
 *  [postman-变量/环境/过滤等](https://blog.csdn.net/zxz_tsgx/article/details/51681080)
 
