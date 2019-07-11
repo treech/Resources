@@ -284,23 +284,20 @@
     adb logcat -c
     adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
 
+## 查看gralde依赖关系
+*    [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
 
 ## 源码学习
 *    [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
 主要是分析HandlerActionQueue.post()方法以及view的原理
 *    [android面试题-okhttp内核剖析](https://www.jianshu.com/p/9ed2c2f2a52c)
 
-
 ## [Android Studio 中超级常用的快捷键使用，提高代码编写效率](https://blog.csdn.net/Lone1yCode/article/details/79516856)
 
-## markdown神器 -Typora
-
-## 抓包神器 -Charles、Fiddler
-
-## 远程协助工具 -Teamviewer
-
-## API测试工具 -Postman
 *  [postman-变量/环境/过滤等](https://blog.csdn.net/zxz_tsgx/article/details/51681080)
-*  
 
-## 后台API展示-Swigger
+markdown神器 -Typora
+抓包神器 -Charles、Fiddler
+远程协助工具 -Teamviewer
+API测试工具 -Postman
+后台API展示-Swigger
