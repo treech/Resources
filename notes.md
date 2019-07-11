@@ -108,8 +108,9 @@
 *	[最简单的Dagger2入门教程](http://blog.csdn.net/lisdye2/article/details/51942511)
 *	[依赖注入的原理](http://blog.csdn.net/lisdye2/article/details/51887402)
 
-###	[luxiaoming/dagger2Demo](https://github.com/luxiaoming/dagger2Demo)
-	>有可能是最实战的dagger2教程，手把手教你使用。更多精彩，关注公众号:代码GG之家 欢迎
+* [luxiaoming/dagger2Demo](https://github.com/luxiaoming/dagger2Demo)
+
+  >有可能是最实战的dagger2教程，手把手教你使用。更多精彩，关注公众号:代码GG之家 欢迎
 
 ## Android常见问题
 * Fragment懒加载和ViewPager的坑
@@ -285,8 +286,10 @@
 
 
 ## 源码学习
-*   [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
-    主要是分析HandlerActionQueue.post()方法以及view的原理
+*    [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
+主要是分析HandlerActionQueue.post()方法以及view的原理
+*    [android面试题-okhttp内核剖析](https://www.jianshu.com/p/9ed2c2f2a52c)
+
 
 ## [Android Studio 中超级常用的快捷键使用，提高代码编写效率](https://blog.csdn.net/Lone1yCode/article/details/79516856)
 
