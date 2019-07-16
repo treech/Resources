@@ -270,8 +270,7 @@
        1.git checkout dev
        2. git merege origin/master
 ## github访问速度太慢解决方案
-*	[解决访问github慢的问题](https://www.cnblogs.com/fengnovo/p/5959880.html)
-*	[git clone 速度慢怎么办？](https://blog.csdn.net/DlMmU/article/details/79562021)
+*	[加快访问GitHub的速度](https://blog.csdn.net/jiduochou963/article/details/87870710)
 
 ## adb清空缓存日志
 *   [ADB 清除Android手机缓存区域日志](https://blog.csdn.net/u013166958/article/details/79096221)
@@ -284,8 +283,9 @@
     adb logcat -c
     adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
 
-## 查看gralde依赖关系
+## Gradle
 *    [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
+*    [Android Studio版本与Gradle版本的对应关系](https://developer.android.google.cn/studio/releases/gradle-plugin)
 
 ## 源码学习
 * [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
@@ -297,7 +297,7 @@
 
 ## 工具的使用
 
-### Charles抓https请求的爬坑路
+*    Charles抓https请求的爬坑路
 
 第一步:[Android安装Charles证书（华为手机测试）](https://blog.csdn.net/weixin_42034554/article/details/86669159)
 
@@ -325,8 +325,8 @@
 
 *  [postman-变量/环境/过滤等](https://blog.csdn.net/zxz_tsgx/article/details/51681080)
 
-markdown神器 -Typora
-抓包神器 -Charles、Fiddler
-远程协助工具 -Teamviewer
-API测试工具 -Postman
-后台API展示-Swigger
+*  markdown神器 -Typora
+*  抓包神器 -Charles、Fiddler
+*  远程协助工具 -Teamviewer
+*  API测试工具 -Postman
+*  后台API展示-Swigger

@@ -141,16 +141,20 @@
 	>![](https://github.com/shaohui10086/BottomDialog/blob/master/preview/bottom_dialog_edit.gif)</br>
 	>![](https://github.com/shaohui10086/BottomDialog/blob/master/preview/bottom_dialog_share.gif)
 
-### popweindow
+### Popwindow
 * [kareluo/PopupMenuView](A view just like UIMenuController of iOS, 一个类似iOS中弹框气泡菜单的控件 )
 
-  >![](https://github.com/kareluo/PopupMenuView/blob/master/screenshot/preview_image.png)
+    >![](https://github.com/kareluo/PopupMenuView/blob/master/screenshot/preview_image.png)
 *	[pinguo-zhouwei/CustomPopwindow](https://github.com/pinguo-zhouwei/CustomPopwindow)
-	>对PopupWindow常用API的简单封装，几行代码就搞定PopupWindow弹窗，使用Builder模式，链式调用，像使用AlertDialog 一样</br>
-	>![](https://github.com/pinguo-zhouwei/CustomPopwindow/blob/master/image/pop_window.gif)
-* [shalskar/PeekAndPop](https://github.com/shalskar/PeekAndPop)
+    >对PopupWindow常用API的简单封装，几行代码就搞定PopupWindow弹窗，使用Builder模式，链式调用，像使用AlertDialog 一样</br>
+    >![](https://github.com/pinguo-zhouwei/CustomPopwindow/blob/master/image/pop_window.gif)
+*   [shalskar/PeekAndPop](https://github.com/shalskar/PeekAndPop)
+* [goweii/AnyLayer](https://github.com/goweii/AnyLayer)
 
-  >
+    >用于替代Android自带Dialog和PopupWindow
+* [goweii/AnyDialog](https://github.com/goweii/AnyDialog)
+
+    >Android高定制性，高易用性Dialog
 
 #### APP更新进度条
 * [AppUpdateProgress](https://github.com/seastoneard/AppUpdateProgress)
@@ -547,6 +551,7 @@
   >An extensible media player for Android
 
 * [EasyDSS/EasyPlayer](https://github.com/EasyDSS/EasyPlayer)
+
   >An elegant, simple, fast RTSP/RTMP/HLS/HTTP Player.EasyPlayer support RTSP(RTP over TCP/UDP)version& RTMP version & Pro version，cover all kinds of streaming media！EasyPlayer是一款精炼、高效、稳定的流媒体播放器，分为RTSP版、RTMP版和Pro版本，支持各种各样的流媒体音视频播放！ http://www.pvale.com/
 
 
@@ -949,11 +954,14 @@
 *	octotree github tree 树形目录查看插件
 
 ## 面试
-*	[Android笔试面试指南](https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241676&idx=1&sn=81e3d4e876706e44b4e1f4cc5c671232&chksm=88638be3bf1402f5d5142a56a67416c9996703117ef117659f2224aaa716a5b662185af65546&scene=0#rd)
-
-*	[2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
-*	[android阿里面试题锦集](http://www.jianshu.com/p/cf5092fa2694)
-*	[Android 开发工程师面试指南](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550472&idx=1&sn=fb089cc7c26a37522bff6ff486002a06&chksm=f11805f5c66f8ce3909743c3dd37385e160edc5ab01aaf458c21716abf9e1dd379a24f2b8cff&mpshare=1&scene=24&srcid=1024Jsnjlaq5gjySS1DcIg7w#rd)
+* [Android笔试面试指南](https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241676&idx=1&sn=81e3d4e876706e44b4e1f4cc5c671232&chksm=88638be3bf1402f5d5142a56a67416c9996703117ef117659f2224aaa716a5b662185af65546&scene=0#rd)
+* [2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
+* [android阿里面试题锦集](http://www.jianshu.com/p/cf5092fa2694)
+* [Android 开发工程师面试指南](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649550472&idx=1&sn=fb089cc7c26a37522bff6ff486002a06&chksm=f11805f5c66f8ce3909743c3dd37385e160edc5ab01aaf458c21716abf9e1dd379a24f2b8cff&mpshare=1&scene=24&srcid=1024Jsnjlaq5gjySS1DcIg7w#rd)
+* [2018下半年Android面试历程](http://www.sohu.com/a/280960238_100004247) 
+* [Okhttp3 总结研究 （面试）](https://blog.csdn.net/u012881042/article/details/79759203)
+* [OkHttp3源码解析--设计模式](https://blog.csdn.net/wujian946110509/article/details/86718060)
+* [常见的HTTP请求错误码](https://blog.csdn.net/qiutiandepaomo/article/details/81984830)
 
 ## TCP/IP 数据包
 * [fiddler手机https抓包](http://www.51testing.com/html/43/489243-3714380.html)
