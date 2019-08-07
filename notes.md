@@ -3,8 +3,6 @@
 *	请写出代码计算二叉树的最大深度，分别用『递归』和『非递归』的方式实现
 *	[如何检查内存泄漏，并解决](http://www.jianshu.com/p/bf159a9c391a)
 
-
-
 ## Android基础知识
 * [GcsSloop/AndroidNote](https://github.com/GcsSloop/AndroidNote/tree/master)
 
@@ -143,6 +141,7 @@
 
 *   [Fragment返回栈的手动管理](https://blog.csdn.net/recordGrowth/article/details/83349653)
 
+*	[Android资源文件夹下面values/style.xml、values-v19/style.xml、values-v21/style.xml主题调用规则](https://blog.csdn.net/amoscxy/article/details/77943127)
 
 ## Android开发细节问题
 *	人民币符号适配(主要是￥中划线一横与两横的问题)
@@ -178,7 +177,6 @@
     1.nohup ./Demo.sh &
 
 *    [Activity切换动画实现，以及黑屏问题解决](https://www.jianshu.com/p/9b24929cf58e)
-
 
 ## 权限问题
 
@@ -222,7 +220,6 @@
 *  参考[paint.ascent()和paint.descent() 文字居中显示](https://blog.csdn.net/mori2014/article/details/77369782)
 
 *  参考[用TextPaint来绘制文字](https://www.cnblogs.com/tianzhijiexian/p/4297664.html)
-
 
 ## git常用命令
 
@@ -271,6 +268,7 @@
        2. git merege origin/master
 ## github访问速度太慢解决方案
 *	[加快访问GitHub的速度](https://blog.csdn.net/jiduochou963/article/details/87870710)
+*	打开[码云](https://gitee.com/)，然后从github上导入进去，再下载速度贼快，大工程都这么下载
 
 ## adb清空缓存日志
 *   [ADB 清除Android手机缓存区域日志](https://blog.csdn.net/u013166958/article/details/79096221)
@@ -293,7 +291,6 @@
 
 * [android面试题-okhttp内核剖析](https://www.jianshu.com/p/9ed2c2f2a52c)
 
-  
 
 ## 工具的使用
 
