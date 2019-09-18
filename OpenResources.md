@@ -966,6 +966,8 @@
 ## TCP/IP 数据包
 * [fiddler手机https抓包](http://www.51testing.com/html/43/489243-3714380.html)
 * [解决Fiddler "creation of the root certificate was not successful”的问题](http://blog.csdn.net/dassh/article/details/50961362)
+* 手机不连接wifi抓包APP-抓包精灵
+* Telnet IP端口 网络万用表
 
 ## 联动效果
 * [Android8.0对于CoordinatorLayout、RecyclerView 精准fling的优化](https://blog.csdn.net/humorousz/article/details/79552635) 
@@ -978,3 +980,8 @@
 ## 埋点统计
 * [友盟官网集成文档](https://developer.umeng.com/docs/66632/detail/66889)
 * [在项目中轻松集成友盟统计](https://www.jianshu.com/p/4756af01b984)
+
+## 百度网盘优质资源
+* 链接: https://pan.baidu.com/s/1-6cwQs_kdxDe4XS0sZaU0Q 提取码: b4me
+* 链接: https://pan.baidu.com/s/1HWBVZUeNIs-SbWCu7Rr01w 提取码: 9gbc
+* 链接: https://pan.baidu.com/s/1bgV3BcV4dJPv4pkvBQDgAw 提取码: 1s4z
