@@ -266,6 +266,12 @@
     分两步走:
        1.git checkout dev
        2. git merege origin/master
+### git同步代码仓并保留提交记录
+    cd existing_repo
+    git remote rename origin old-origin
+    git remote add origin http://172.16.90.180/netposa_whapp/vid.git
+    git push -u origin --all
+    git push -u origin --tag
 ## github访问速度太慢解决方案
 *	[加快访问GitHub的速度](https://blog.csdn.net/jiduochou963/article/details/87870710)
 *	打开[码云](https://gitee.com/)，然后从github上导入进去，再下载速度贼快，大工程都这么下载
