@@ -290,6 +290,7 @@
 ## Gradle
 *    [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
 *    [Android Studio版本与Gradle版本的对应关系](https://developer.android.google.cn/studio/releases/gradle-plugin)
+*    Gradle本地缓存文件过大，修改到D盘缓存的办法（不配置的话，Windows中默认是在C:\Users\<username>\.gradle），新建系统环境变量GRADLE_USER_HOME=D:\android\.gradle
 
 ## 源码学习
 * [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
