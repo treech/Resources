@@ -288,9 +288,14 @@
     adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
 
 ## Gradle
-*    [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
-*    [Android Studio版本与Gradle版本的对应关系](https://developer.android.google.cn/studio/releases/gradle-plugin)
-*    Gradle本地缓存文件过大，修改到D盘缓存的办法（不配置的话，Windows中默认是在C:\Users\<username>\.gradle），新建系统环境变量GRADLE_USER_HOME=D:\android\.gradle
+* [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
+
+* [Android Studio版本与Gradle版本的对应关系](https://developer.android.google.cn/studio/releases/gradle-plugin)
+
+* Gradle本地缓存文件过大，修改到D盘缓存的办法（不配置的话，Windows中默认是在C:\Users\<username>\.gradle），新建系统环境变量GRADLE_USER_HOME=D:\android\.gradle
+
+### gradle和gradlew的区别
+    gradlew命令会执行gradle-wrapper.properties中的gradle版本，gradle命令必须指定某个版本，而gradle会经常升级，所以最好用gradlew命令
 
 ## 源码学习
 * [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
