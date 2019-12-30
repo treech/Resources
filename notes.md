@@ -16,7 +16,10 @@
 *	[Android LayoutInflater原理分析，带你一步步深入了解View(一)](http://blog.csdn.net/guolin_blog/article/details/12921889)
 
 ### 自定义View
-*	[自定义View，有这一篇就够了](http://blog.csdn.net/huachao1001/article/details/51577291)
+* [自定义View，有这一篇就够了](http://blog.csdn.net/huachao1001/article/details/51577291)
+* [Canvas中drawRoundRect()方法介绍](https://www.jianshu.com/p/c050bee691d3)
+* [Android GradientDrawable取代shape的使用](https://www.jianshu.com/p/7588590f64a5)
+* [ViewOutlineProvider实现圆角矩形](https://www.jianshu.com/p/14c502ab05f9)
 
 ### View的事件体系
 #### view的事件体系五部曲
@@ -303,6 +306,9 @@
 
 * [android面试题-okhttp内核剖析](https://www.jianshu.com/p/9ed2c2f2a52c)
 
+## Flutter
+* Flutter 第三方包 https://pub.flutter-io.cn/
+
 
 ## 工具的使用
 
@@ -345,3 +351,6 @@
 * 后台API展示-Swigger
 
 * google浏览器插件-谷歌访问助手
+
+## 科学上网
+* [https://github.com/bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
