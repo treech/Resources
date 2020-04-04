@@ -369,9 +369,9 @@ apikey
 ## 科学上网
 * [https://github.com/bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
 
-* [自建ss服务器教程]([https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B](https://github.com/Alvin9999/new-pac/wiki/自建ss服务器教程))
+* [自建ss服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B)
 
-* [自建ss服务器教程]([https://t1.free-air.org/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/](https://t1.free-air.org/自建ss服务器教程/))
+* [自建ss服务器教程](https://t1.free-air.org/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/)
 
 * vps地址:https://www.vultr.com
 
