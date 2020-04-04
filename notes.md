@@ -20,6 +20,7 @@
 * [Canvas中drawRoundRect()方法介绍](https://www.jianshu.com/p/c050bee691d3)
 * [Android GradientDrawable取代shape的使用](https://www.jianshu.com/p/7588590f64a5)
 * [ViewOutlineProvider实现圆角矩形](https://www.jianshu.com/p/14c502ab05f9)
+* [【Android UI】TextView的垂直方向概念之top，bottom，ascent，descent，baseline](https://blog.csdn.net/xude1985/article/details/51532949)
 
 ### View的事件体系
 #### view的事件体系五部曲
@@ -300,6 +301,19 @@
 ### gradle和gradlew的区别
     gradlew命令会执行gradle-wrapper.properties中的gradle版本，gradle命令必须指定某个版本，而gradle会经常升级，所以最好用gradlew命令
 
+### 发布开源库到Jcenter
+- 多moduleAndroid库提交到Maven最佳实践
+- [Android Studio将项目发布到Maven仓库（3种方式最新最全）](https://blog.csdn.net/xmxkf/article/details/80674232)
+- [bintray-release使用指南（一）](https://www.jianshu.com/p/b4c46ee78b2f)
+- [ttps://www.jianshu.com/p/d778f96a1e93](gradle 发布jar或者aar到maven私服时pom文件缺少依赖)
+- https://docs.gradle.org/5.4.1/userguide/publishing_maven.html#publishing_maven
+- [在 Docker 中用 Jenkins 搭建 Android 自动化打包](https://devbins.github.io/post/jenkins/)
+
+https://bintray.com/
+username
+yeguoqiang6
+apikey
+1809887721a2eee40615c2faf30e495136c6f8ed
 ## 源码学习
 * [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
   主要是分析HandlerActionQueue.post()方法以及view的原理
@@ -354,3 +368,13 @@
 
 ## 科学上网
 * [https://github.com/bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
+
+* [自建ss服务器教程]([https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B](https://github.com/Alvin9999/new-pac/wiki/自建ss服务器教程))
+
+* [自建ss服务器教程]([https://t1.free-air.org/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/](https://t1.free-air.org/自建ss服务器教程/))
+
+* vps地址:https://www.vultr.com
+
+  QQ邮箱地址/Abcd12345,
+
+  149.28.38.247/root/f2$M.fvk[L7buj)U
