@@ -373,6 +373,29 @@ apikey
 
 * [自建ss服务器教程](https://t1.free-air.org/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/)
 
+    > 脚本一：**CentOS 6和7/Debian6+/Ubuntu14+ ShadowsocksR一键部署管理脚本**
+    >
+    > ```
+    > yum -y install wget
+    > 
+    > wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
+    > ```
+    >
+    > 脚本二：**谷歌BBR加速**
+    >
+    > ```
+    > yum -y install wget
+    > 
+    > wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
+    > 
+    > chmod +x bbr.sh
+    > 
+    > ./bbr.sh
+    > ```
+    > **查看加速bbr进程**
+    >
+    > + 输入命令lsmod | grep bbr 如果出现tcp_bbr字样表示bbr已安装并启动成功
+
 * vps地址:https://www.vultr.com
 
   QQ邮箱地址/Abcd12345,
