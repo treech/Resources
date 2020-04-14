@@ -1,3 +1,4 @@
+[TOC]
 ## Java基础
 *	[为什么String要设计成不可变的](http://blog.csdn.net/renfufei/article/details/16808775)
 *	请写出代码计算二叉树的最大深度，分别用『递归』和『非递归』的方式实现
@@ -120,21 +121,22 @@
   >参考资料：[http://www.cnblogs.com/dasusu/p/5926731.html](http://www.cnblogs.com/dasusu/p/5926731.html)
 *  Activity嵌套多个fragment时，onResume的处理
 	<font color=#FF1493>
+	
 	> 解决方法：</br>
 	>不在fragmentA的onResume里写，而改成下面这样写，不可见时不操作，可见时再操作。</font></br>
-	>参考资料：[http://blog.csdn.net/binbin_1989/article/details/64437995](http://blog.csdn.net/binbin_1989/article/details/64437995)
+>参考资料：[http://blog.csdn.net/binbin_1989/article/details/64437995](http://blog.csdn.net/binbin_1989/article/details/64437995)
 
 	    @Override  
 	    public void onHiddenChanged(boolean hidden) {  
-	        super.onHiddenChanged(hidden);  
-        
+	       super.onHiddenChanged(hidden);  
+	     
 	        if (hidden) {  
 	            UtilsTools.Log_e(TAG, " --- 不可见()");  
 	        } else {  
 	            initData();  
 	            UtilsTools.Log_e(TAG, " --- 当前可见()");  
 	        }  
-	    }
+	}
 
 *	Activity被回收后Fragment嵌套的Fragment不显示问题
 	><font color=#FF1493>
@@ -290,6 +292,31 @@
     adb shell "ps | grep com.antelope.app"
     adb logcat -c
     adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
+
+## Charles抓日志记录
++ [Windows下用Charles对Android抓包HTTPS](https://blog.csdn.net/ybdesire/article/details/80636248)
+> Android 7.0以上抓取Https请求还需要添加网络安全配置`网络安全配置`,具体可以参考[网络安全配置](https://developer.android.com/training/articles/security-config.html)
+
+ ```java
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest ... >
+	 <application android:networkSecurityConfig="@xml/network_security_config"
+					 ... >
+		 ...
+	 </application>
+ </manifest>
+ ```
+ 其中network_security_config.xml具体为以下内容
+ ```java
+ <?xml version="1.0" encoding="utf-8"?>
+ <network-security-config>
+	 <base-config>
+		 <trust-anchors>
+			 <certificates src="user" />
+		 </trust-anchors>
+	 </base-config>
+ </network-security-config>
+ ```
 
 ## Gradle
 * [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
