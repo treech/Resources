@@ -293,31 +293,6 @@
     adb logcat -c
     adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
 
-## Charles抓日志记录
-+ [Windows下用Charles对Android抓包HTTPS](https://blog.csdn.net/ybdesire/article/details/80636248)
-> Android 7.0以上抓取Https请求还需要添加网络安全配置`网络安全配置`,具体可以参考[网络安全配置](https://developer.android.com/training/articles/security-config.html)
-
- ```java
- <?xml version="1.0" encoding="utf-8"?>
- <manifest ... >
-	 <application android:networkSecurityConfig="@xml/network_security_config"
-					 ... >
-		 ...
-	 </application>
- </manifest>
- ```
- 其中network_security_config.xml具体为以下内容
- ```java
- <?xml version="1.0" encoding="utf-8"?>
- <network-security-config>
-	 <base-config>
-		 <trust-anchors>
-			 <certificates src="user" />
-		 </trust-anchors>
-	 </base-config>
- </network-security-config>
- ```
-
 ## Gradle
 * [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
 * [Android Studio版本与Gradle版本的对应关系](https://developer.android.google.cn/studio/releases/gradle-plugin)
@@ -353,7 +328,7 @@ apikey
 
 ## 工具的使用
 
-*    Charles抓https请求的爬坑路
+### Charles抓https请求的爬坑路
 
 第一步:[Android安装Charles证书（华为手机测试）](https://blog.csdn.net/weixin_42034554/article/details/86669159)
 
@@ -377,6 +352,29 @@ apikey
 </network-security-config>
 ```
 
+### [Windows下用Charles对Android抓包HTTPS](https://blog.csdn.net/ybdesire/article/details/80636248)
+> Android 7.0以上抓取Https请求还需要添加网络安全配置`网络安全配置`,具体可以参考[网络安全配置](https://developer.android.com/training/articles/security-config.html)
+
+ ```java
+ <?xml version="1.0" encoding="utf-8"?>
+ <manifest ... >
+	 <application android:networkSecurityConfig="@xml/network_security_config"
+					 ... >
+		 ...
+	 </application>
+ </manifest>
+ ```
+ 其中network_security_config.xml具体为以下内容
+ ```java
+ <?xml version="1.0" encoding="utf-8"?>
+ <network-security-config>
+	 <base-config>
+		 <trust-anchors>
+			 <certificates src="user" />
+		 </trust-anchors>
+	 </base-config>
+ </network-security-config>
+ ```
 * [Android Studio 中超级常用的快捷键使用，提高代码编写效率](https://blog.csdn.net/Lone1yCode/article/details/79516856)
 
 * [postman-变量/环境/过滤等](https://blog.csdn.net/zxz_tsgx/article/details/51681080)
