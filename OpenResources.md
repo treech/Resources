@@ -1,3 +1,5 @@
+[TOC]
+
 ## 开源项目搜索
 *	[github开源项目搜索](https://github.com/search)
 	>[github代码搜索技巧](http://blog.csdn.net/laokdidiao/article/details/51442835)
@@ -684,9 +686,9 @@
 *	复制文件
 
 		tasks.withType(JavaCompile) {
-	    compileTask -> compileTask.dependsOn(copyAAR)
+		compileTask -> compileTask.dependsOn(copyAAR)
 		}
-	
+		
 		//copy the aar output files to other projects
 		task copyAAR(type: Copy) {
 		    from 'build/outputs/aar/common-release.aar'
@@ -962,6 +964,10 @@
 * [Okhttp3 总结研究 （面试）](https://blog.csdn.net/u012881042/article/details/79759203)
 * [OkHttp3源码解析--设计模式](https://blog.csdn.net/wujian946110509/article/details/86718060)
 * [常见的HTTP请求错误码](https://blog.csdn.net/qiutiandepaomo/article/details/81984830)
+
+### 算法面试
+
+- [互联网公司最常见的面试算法题有哪些？](https://www.zhihu.com/question/24964987)
 
 ## TCP/IP 数据包
 * [fiddler手机https抓包](http://www.51testing.com/html/43/489243-3714380.html)

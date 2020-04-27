@@ -424,5 +424,3 @@ apikey
 * vps地址:https://www.vultr.com
 
   QQ邮箱地址/Abcd12345,
-
-  149.28.38.247/root/f2$M.fvk[L7buj)U

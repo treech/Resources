@@ -1,3 +1,15 @@
+[TOC]
+
+# Flutter常见问题
+
+
+1. 使用Flutter稳定版本，使用以下命令切换stable分支
+    ```flutter
+    flutter channel stable && flutter upgrade
+    flutter clean
+    flutter run
+    ```
+
 # 开源项目
 
 [alibaba/flutter-go](https://github.com/alibaba/flutter-go)
