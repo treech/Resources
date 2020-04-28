@@ -305,17 +305,34 @@
 
 ### 发布开源库到Jcenter
 - 多moduleAndroid库提交到Maven最佳实践
+
 - [Android Studio将项目发布到Maven仓库（3种方式最新最全）](https://blog.csdn.net/xmxkf/article/details/80674232)
+
 - [bintray-release使用指南（一）](https://www.jianshu.com/p/b4c46ee78b2f)
+
 - [ttps://www.jianshu.com/p/d778f96a1e93](gradle 发布jar或者aar到maven私服时pom文件缺少依赖)
+
 - https://docs.gradle.org/5.4.1/userguide/publishing_maven.html#publishing_maven
+
 - [在 Docker 中用 Jenkins 搭建 Android 自动化打包](https://devbins.github.io/post/jenkins/)
+
+#### 踩坑记录
+- 开了ss后发现依然没法上传到`https://bintray.com/`,此时需要在`Project`的`gradle.properties`中添加以下proxy内容
+    ```java
+    systemProp.http.proxyHost=127.0.0.1
+    systemProp.http.proxyPort=1080
+    systemProp.https.proxyHost=127.0.0.1
+    systemProp.https.proxyPort=1080
+    ```
+
+- 多Module Project需要单独发布某一个module时Gradle>`ModuleName`>Tasks>publishing>bintrayUpload即可单独发布某一个module
 
 https://bintray.com/
 username
 yeguoqiang6
 apikey
 1809887721a2eee40615c2faf30e495136c6f8ed
+
 ## 源码学习
 * [【Android源码解析】View.post()到底干了啥](https://www.cnblogs.com/dasusu/p/8047172.html)
   主要是分析HandlerActionQueue.post()方法以及view的原理
