@@ -11,6 +11,9 @@
 * [tangqi92/Android-Tips](https://github.com/tangqi92/Android-Tips)
 
   >An awesome list of tips for android. http://itangqi.me/2015/09/14/android-…
+  >
+
+* [A diagram of the Android Activity / Fragment lifecycle](https://github.com/xxv/android-lifecycle)
 
 ### View
 *	[三个案例带你看懂LayoutInflater中inflate方法两个参数和三个参数的区别](http://blog.csdn.net/u012702547/article/details/52628453)
@@ -438,6 +441,24 @@ apikey
     >
     > + 输入命令lsmod | grep bbr 如果出现tcp_bbr字样表示bbr已安装并启动成功
 
+* **电脑共享科学上网给手机，谷歌验证通过**
+
+  1、ss客户端选项设置-本地代理-勾选“允许来自局域网的连接”
+
+  2、手机连接此电脑共享的wifi
+  
+  3、连接好之后长按此wifi，勾选“显示高级选项”
+  
+  4、代理服务器选择“手动”
+  
+  5、代理主机名填写你自己电脑的ip地址，代理端口一般是1080
+  
+  6、连接上之后，电脑上务必关掉防火墙！我就因为没关防火墙浪费半天时间！
+  
+  7、如果你的电脑可以爬梯，那么手机应该也就没问题了。
+  
+  参考：http://www.samsungmembers.cn/thread-255981-29-15.html
+  
 * vps地址:https://www.vultr.com
 
   QQ邮箱地址/Abcd12345,
