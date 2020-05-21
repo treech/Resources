@@ -185,7 +185,26 @@
 *   xshell执行远程虚拟机上的程序，需要xshell退出后远程虚拟机上的程序继续在后台执行
     1.nohup ./Demo.sh &
 
-*    [Activity切换动画实现，以及黑屏问题解决](https://www.jianshu.com/p/9b24929cf58e)
+* [Activity切换动画实现，以及黑屏问题解决](https://www.jianshu.com/p/9b24929cf58e)
+
+* Java调用kotlin扩展函数报参数错误解决方案(vararg)
+
+    ```java
+    //文件名为ViewKt.kt
+    fun Activity.setOnClickListener(listener: View.OnClickListener, vararg ids: Int) {
+        for (id in ids) {
+            findViewById<View>(id).setOnClickListener(listener)
+        }
+    }
+    
+    ViewKt.setOnClickListener(
+        this,
+        new OnFastDoubleClickListener(this),
+        R.id.album_btn,
+        R.id.capture_btn);
+    ```
+
+    
 
 ## 权限问题
 
@@ -461,4 +480,3 @@ apikey
   
 * vps地址:https://www.vultr.com
 
-  QQ邮箱地址/Abcd12345,
