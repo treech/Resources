@@ -75,7 +75,18 @@
 	>
 	>8、支持SwipeBack滑动边缘退出(需要使用Fragmentation_SwipeBack库,详情README)
 
+## VLC有关问题
+
+1. vlc无法全屏的问题解决方案
+
+    https://code.videolan.org/videolan/libvlc-android-samples/-/blob/5c9c1ccd860f6ae1560fb1f159a6a592d6855e7d/java_sample/src/main/java/org/videolan/javasample/JavaActivity.java
+
+    https://www.programcreek.com/java-api-examples/?code=KKorvin/uPods-android/uPods-android-master/app/src/main/java/com/chickenkiller/upods2/fragments/FragmentVideoPlayer.java
+
+    注：首推第一个
+
 ## Android项目重构
+
 *	[如何将既有项目重构成 MVP 模式](https://mp.weixin.qq.com/s?__biz=MzI0MjE3OTYwMg==&mid=2649549997&idx=1&sn=774f53be2eeba53b8a0813dce1fcfcb8&chksm=f11807d0c66f8ec68dc014dd55fdbb93c755b9d11c2608ea19ae9f7f5dd10a50e1ac8f5e80d3&mpshare=1&scene=24&srcid=1027vXARAR6wV3DbwIpVTghR#rd)
 * [antoniolg/androidmvp](https://github.com/antoniolg/androidmvp)
 

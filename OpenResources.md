@@ -745,6 +745,8 @@
 *	[Android研究院之应用开发线程池的经典使用(二十九)](http://www.xuanyusong.com/archives/2439)
 
 ##	APP保活
+*   [2020年了，Android后台保活还有戏吗？看我如何优雅的实现！](http://www.52im.net/thread-2881-1-1.html)
+*   [fanqieVip/keeplive](https://github.com/fanqieVip/keeplive)
 *   [IM/推送心跳保活篇](http://www.52im.net/forum.php?mod=collection&action=view&ctid=17&fromop=all)
 *   [Android微信智能心跳方案](https://mp.weixin.qq.com/s?__biz=MzAwNDY1ODY2OQ==&mid=207243549&idx=1&sn=4ebe4beb8123f1b5ab58810ac8bc5994&amp;3rd=MzA3MDU4NTYzMw==&amp;scene=6#rd)
 *   [Android进程保活全攻略（上）](https://blog.csdn.net/u012124438/article/details/53141113)
