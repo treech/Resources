@@ -75,6 +75,16 @@
 	>
 	>8、支持SwipeBack滑动边缘退出(需要使用Fragmentation_SwipeBack库,详情README)
 
+## Android源码
+
+- https://android.googlesource.com/
+
+- 源码下载和阅读
+
+    [windows环境下 android 源码阅读](https://blog.csdn.net/xunmeng_93/article/details/78562143)
+
+- [![img](http://androidxref.com/images/title.png)](http://androidxref.com/)
+
 ## VLC有关问题
 
 1. vlc无法全屏的问题解决方案
@@ -311,7 +321,15 @@
     git remote add origin http://172.16.90.180/netposa_whapp/vid.git
     git push -u origin --all
     git push -u origin --tag
+git代码已push到服务器，如何进行回退
+
+    a、在client 端撤消错误的提交：回到之前的一个提交
+    git reset --hard HEAD^
+    b、将新的提交 强制推到 git 服务器上：
+    git push -f origin master
+
 ## github访问速度太慢解决方案
+
 *	[加快访问GitHub的速度](https://blog.csdn.net/jiduochou963/article/details/87870710)
 *	打开[码云](https://gitee.com/)，然后从github上导入进去，再下载速度贼快，大工程都这么下载
 
@@ -319,12 +337,39 @@
 *   [ADB 清除Android手机缓存区域日志](https://blog.csdn.net/u013166958/article/details/79096221)
     adb logcat -c -b main -b events -b radio -b system
     adb logcat -c
+    
 *   [ADB logcat 过滤方法(抓取日志)](https://www.cnblogs.com/bydzhangxiaowei/p/8168598.html)
     adb logcat | grep -–color=auto $pid
+    
 *   [Android PC端用ADB抓取指定应用日志](https://blog.csdn.net/sun8532685/article/details/83861002)
-    adb shell "ps | grep com.antelope.app"
-    adb logcat -c
-    adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
+    
+    1. 查看所有应用pid
+    
+    >  adb shell ps
+    
+    2. 查看指定应用的pid
+    
+    >  adb shell "ps | grep com.antelope.app"
+    >
+   
+*   在windows上不能使用grep关键字，而是应该用findstr
+   
+    如何只查看某个app日志的方法
+   
+    1. adb shell pm list packages -3 查看非系统第三方应用包名
+      
+    2. adb shell ps | findstr vchat.A  查看包名进程
+      
+    3. 根据进程来查看过滤app的日志
+    
+    ​        adb logcat | findstr vchat.A
+    
+    **注：CHCP 65001就设置成utf-8编码的了**
+    
+*   查看log并保存到本地
+   
+    1. adb logcat -c
+    2. adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
 
 ## Gradle
 * [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)
@@ -443,6 +488,12 @@ apikey
 
 ## 科学上网
 * [https://github.com/bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
+
+* [【简单稳定】Vultr的购买和SS + v2ray-plugin +BBR的部署教程](https://www.aloneray.com/1279.html)
+
+* [使用Vultr自带的Snapshots为VPS更换IP](https://www.aloneray.com/1143.html)
+
+* [自建v2ray服务器教程]([https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAv2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B](https://github.com/Alvin9999/new-pac/wiki/自建v2ray服务器教程))
 
 * [自建ss服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B)
 

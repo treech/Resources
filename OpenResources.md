@@ -756,6 +756,7 @@
 *   [Android后台保活4.0~8.0系统（三）](https://blog.csdn.net/yi_master/article/details/80025706)
 *   [Android进程保活](https://www.cnblogs.com/fuyaozhishang/p/6667301.html)
 *	[微信Android客户端后台保活经验分享](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=403445713&idx=3&sn=3a554cd59ada688ad7e0a3bd67c84d0d&scene=0#rd)
+*	[史上最强Android保活思路：深入剖析腾讯TIM的进程永生技术](http://www.52im.net/forum.php?mod=viewthread&tid=2893&highlight=%B1%A3%BB%EE)
 >   
     注：Android 进程常驻（0）----MarsDaemon使用说明
     6.0以下的保活效果很好的一个方案：
