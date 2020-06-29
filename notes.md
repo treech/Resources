@@ -333,7 +333,7 @@ git代码已push到服务器，如何进行回退
 *	[加快访问GitHub的速度](https://blog.csdn.net/jiduochou963/article/details/87870710)
 *	打开[码云](https://gitee.com/)，然后从github上导入进去，再下载速度贼快，大工程都这么下载
 
-## adb清空缓存日志
+## adb命令
 *   [ADB 清除Android手机缓存区域日志](https://blog.csdn.net/u013166958/article/details/79096221)
     adb logcat -c -b main -b events -b radio -b system
     adb logcat -c
@@ -487,6 +487,31 @@ apikey
 * google浏览器插件-谷歌访问助手
 
 ## 科学上网
+* PAC过滤规则
+
+    ```yaml
+    "github.com",
+    "gist.github.com",
+    "assets-cdn.github.com",
+    "raw.githubusercontent.com",
+    "gist.githubusercontent.com",
+    "cloud.githubusercontent.com",
+    "user-images.githubusercontent.com",
+    "camo.githubusercontent.com",
+    "avatars0.githubusercontent.com",
+    "avatars1.githubusercontent.com",
+    "avatars2.githubusercontent.com",
+    "avatars3.githubusercontent.com",
+    "avatars4.githubusercontent.com",
+    "avatars5.githubusercontent.com",
+    "avatars6.githubusercontent.com",
+    "avatars7.githubusercontent.com",
+    "avatars8.githubusercontent.com",
+    "github-cloud.s3.amazonaws.com",
+    "stackoverflow.com",
+    "flutter.dev"
+    ```
+
 * [https://github.com/bannedbook/fanqiang](https://github.com/bannedbook/fanqiang)
 
 * [【简单稳定】Vultr的购买和SS + v2ray-plugin +BBR的部署教程](https://www.aloneray.com/1279.html)
@@ -495,6 +520,47 @@ apikey
 
 * [自建v2ray服务器教程]([https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAv2ray%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B](https://github.com/Alvin9999/new-pac/wiki/自建v2ray服务器教程))
 
+* https://ssr.tools/1026
+    https://tlanyan.me/v2ray-clients-download/
+
+    https://tlanyan.me/v2ray-tutorial/
+
+    https://tlanyan.me/v2ray-clients-download/
+
+* https://github.com/233boy/v2ray/wiki
+  
+    ```yaml
+    bash <(curl -s -L https://git.io/v2ray.sh)
+    v2ray info 查看 V2Ray 配置信息
+    v2ray config 修改 V2Ray 配置
+    v2ray link 生成 V2Ray 配置文件链接
+    v2ray infolink 生成 V2Ray 配置信息链接
+    v2ray qr 生成 V2Ray 配置二维码链接
+    v2ray ss 修改 Shadowsocks 配置
+    v2ray ssinfo 查看 Shadowsocks 配置信息
+    v2ray ssqr 生成 Shadowsocks 配置二维码链接
+    v2ray status 查看 V2Ray 运行状态
+    v2ray start 启动 V2Ray
+    v2ray stop 停止 V2Ray
+    v2ray restart 重启 V2Ray
+    v2ray log 查看 V2Ray 运行日志
+    v2ray update 更新 V2Ray
+    v2ray update.sh 更新 V2Ray 管理脚本
+    v2ray uninstall 卸载 V2Ray
+    
+    # firewalld放行端口（适用于CentOS7/8）
+    firewall-cmd --permanent --add-port=23581/tcp # 23581改成你配置文件中的端口号
+    firewall-cmd --reload
+    # ufw放行端口（适用于ubuntu）
+    ufw allow 23581/tcp # 23581改成你的端口号
+    # iptables 放行端口（适用于CentOS 6/7）
+    iptables -I INPUT -p tcp --dport 23581 -j ACCEPT
+    # 设置开机启动
+    systemctl enable v2ray
+    # 运行v2ray
+    systemctl start v2ray
+    ```
+    
 * [自建ss服务器教程](https://github.com/Alvin9999/new-pac/wiki/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B)
 
 * [自建ss服务器教程](https://t1.free-air.org/%E8%87%AA%E5%BB%BAss%E6%9C%8D%E5%8A%A1%E5%99%A8%E6%95%99%E7%A8%8B/)
