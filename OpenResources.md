@@ -73,7 +73,14 @@
 
   >Material Design icons by Google http://google.github.io/material-desi…
 
+### Layer-list
+
+[layer-list实现只有左、右和下边框的圆角矩形]: https://www.cnblogs.com/liuling/p/2015-9-23-1.html
+
+
+
 ### Dialog
+
 *	[H07000223/FlycoDialog_Master](https://github.com/H07000223/FlycoDialog_Master)
 	>An Android Dialog Lib simplify customization.</br>
 	>![](https://github.com/H07000223/FlycoDialog_Master/blob/master/screenshot/normal_dialog_5.png)
@@ -215,10 +222,19 @@
 	
 	>因此，我写了这篇文章，目的有几个：一是以作者的角度对 MultiType 进行入门和进阶详解。二是传递我开发过程中的思想、设计理念，这些偏细腻的内容，即使不使用 MultiType，想必也能带来很多启发。最后就是把自我觉得不错的东西分享给大家，试想如果你制造的东西很多人在用，即使没有带来任何收益，也是一件很自豪的事情。
 	
-### ViewPager
+#### ViewPager
 * [alibaba/UltraViewPager](https://github.com/alibaba/UltraViewPager)
 
   >UltraViewPager is an extension for ViewPager to provide multiple features in a single ViewPager.
+
+#### Shinning效果
+
+[sharish/ShimmerRecyclerView](https://github.com/sharish/ShimmerRecyclerView)
+
+#### 状态布局
+
+[KingJA/LoadSir](https://github.com/KingJA/LoadSir)
+
 
 ### 可拖拽ListView
 * [bauerca/drag-sort-listview](https://github.com/bauerca/drag-sort-listview)
@@ -958,7 +974,11 @@
 ## 浏览器插件
 *	octotree github tree 树形目录查看插件
 
+## xshell/xftp工具注册码
+*   [https://www.jianshu.com/p/91499cf144f6](https://www.jianshu.com/p/91499cf144f6)
+
 ## 面试
+
 * [Android笔试面试指南](https://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650241676&idx=1&sn=81e3d4e876706e44b4e1f4cc5c671232&chksm=88638be3bf1402f5d5142a56a67416c9996703117ef117659f2224aaa716a5b662185af65546&scene=0#rd)
 * [2017下半年，一二线互联网公司Android面试题汇总 ](https://mp.weixin.qq.com/s?__biz=MzI2OTQxMTM4OQ==&mid=2247485263&idx=1&sn=519a450c4bd772afd9c0d1cdf810681d&chksm=eae1f21ddd967b0ba9c71d89c25ec9bf7b71205bc4e8e81708df0a8f59c7dd5d2b79890a35ad&mpshare=1&scene=1&srcid=1012Nl6lgxfeeythNRhj50yc#rd)
 * [android阿里面试题锦集](http://www.jianshu.com/p/cf5092fa2694)
@@ -991,7 +1011,17 @@
 * [在项目中轻松集成友盟统计](https://www.jianshu.com/p/4756af01b984)
 
 ## 百度网盘优质资源
+
 * 链接: https://pan.baidu.com/s/1-6cwQs_kdxDe4XS0sZaU0Q 提取码: b4me
+
 * 链接: https://pan.baidu.com/s/1HWBVZUeNIs-SbWCu7Rr01w 提取码: 9gbc
+
 * 链接: https://pan.baidu.com/s/1bgV3BcV4dJPv4pkvBQDgAw 提取码: 1s4z
+
 * 链接: https://pan.baidu.com/s/1XGolgSezJqzUBv64UVJPYg 提取码: ca4y
+
+## Office安装包
+* [visio软件安装包各个版本收集整理](https://blog.csdn.net/jingxiansheng/article/details/90442147)
+
+## 流程图
+* https://www.draw.io/
