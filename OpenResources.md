@@ -949,7 +949,9 @@
 
   >仿京东app 采用组件化架构 首页采用屏幕适配的较好方案
 
-## Android Studio插件
+## Android Studio
+
+### 插件
 * [balsikandar/Android-Studio-Plugins](https://github.com/balsikandar/Android-Studio-Plugins)
 
   >This is a list of all awesome and useful android studio plugins
@@ -971,7 +973,12 @@
 
   >A library for debugging android databases and shared preferences - Make Debugging Great Again https://mindorks.com/open-source-proj…
 
+### 转移配置文件
+
+[Android Studio设置，减少对C盘空间的占用](https://blog.csdn.net/hdquan321/article/details/104485701)
+
 ## 浏览器插件
+
 *	octotree github tree 树形目录查看插件
 
 ## xshell/xftp工具注册码
