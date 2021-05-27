@@ -57,6 +57,14 @@ D:\programs\flutter\bin
 
 ![image-20210524152704907](https://raw.githubusercontent.com/yeguoqiang/PicRemote/master/common/image-20210524152704907.png)
 
+# Git多用户配置
+
+参考文档：https://www.cnblogs.com/cangqinglang/p/12462272.html
+
+注:执行ssh-add时添加私钥到git中报错Could not open a connection to your authentication agent
+
+​	参考:https://blog.csdn.net/Dior_wjy/article/details/79035214
+
 # MD文档配置
 
 Typora搭配PicGo解决MD文档中的离线图片问题
