@@ -37,7 +37,13 @@
 
 ![image-20210524151049855](https://raw.githubusercontent.com/yeguoqiang/PicRemote/master/common/image-20210524151049855.png)
 
-## 3.0 dart sdk配置
+## 3.0 adb 配置
+
+```java
+%ANDROID_HOME%\platform-tools
+```
+
+## 4.0 dart sdk配置
 
 在Path环境中添加以下配置
 
@@ -45,7 +51,7 @@
 D:\programs\flutter\bin\cache\dart-sdk\bin
 ```
 
-## 4.0 flutter脚本配置
+## 5.0 flutter脚本配置
 
 在Path环境中添加以下配置
 
