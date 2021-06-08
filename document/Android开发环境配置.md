@@ -59,7 +59,28 @@ D:\programs\flutter\bin\cache\dart-sdk\bin
 D:\programs\flutter\bin
 ```
 
-## 5.0 验证环境是否配置ok
+## 6.0 NDK环境配置
+
+NDK
+
+D:\programs\Android\Sdk\ndk\21.1.6352462
+
+在Path环境中添加以下配置
+
+```java
+%NDK%
+```
+
+## 7.0 Python环境配置(多渠道打包需要)
+
+在Path环境中添加以下配置
+
+```java
+D:\programs\Python39\Scripts\
+D:\programs\Python39\
+```
+
+## 8.0 验证环境是否配置ok
 
 ![image-20210524152704907](https://raw.githubusercontent.com/yeguoqiang/PicRemote/master/common/image-20210524152704907.png)
 
