@@ -49,11 +49,46 @@ Linux 通过adb shell dumpsys activity | grep “mResume”
 
 **基本操作**
 
-> 1、插上usb连接设备后连接6666端口
->
-> adb connect 192.168.10.91:6666
->
-> 2、断线后adb tcpip 6666(断线后要调成充电模式下进行调试)
++ 操作环境：oppo K1 Android 10
++ ![image-20210709094453079](https://raw.githubusercontent.com/treech/PicRemote/master/common/image-20210709094453079.png)
+
+1. 查看设备列表
+
+   ```sh
+   adb devices
+   ```
+
+2. 连接adb端口
+
+   ```sh
+   adb connect 192.168.0.129:6666
+   ```
+
+3. 文件传输模式切换至充电模式
+
+4. 再次查看设备列表会发现报错
+
+   ```sh
+   adb devices
+   
+   cannot connect to 192.168.0.129:6666: 由于目标计算机积极拒绝，无法连接。 (10061)
+   ```
+
+5. 再次打开adb调试后
+
+   ```sh
+   adb connect 192.168.0.129:6666
+   ```
+   
+6. 再次连接adb端口会提示有多个设备，此时拔掉数据线，adb wifi环境已经OK
+
+   ```sh
+   adb tcpip 6666
+   
+   error: more than one device/emulator
+   ```
+
+参考资料：
 
 https://blog.csdn.net/ezconn/article/details/82621724
 
@@ -77,20 +112,49 @@ dev正式签名
 
 95797CB839A75DE0362C2E3E3D9C0B93815A050B
 
-# Android APP 一键退出的方法总结分析
+# android MavenCentral库上传
 
-pdf分享 弹出框item间距调大
+PGP指纹：
 
-app端和平板
+```sh
+2C9C998F86E40AD147C2C6632AF1983C6C3E621B
+```
 
-点击更多-》弹出框框应该在下方 间距调大
+github ssh keys
 
-android库上传
+```sh
+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
+```
 
-密钥对创建成功。
+picGo token
 
-指纹：2C9C998F86E40AD147C2C6632AF1983C6C3E621B
+```sh
+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
+```
 
 github token
 
-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
+```sh
+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
+```
+
+# 开源库学习
+
++ 弹出框
+
+    https://github.com/goweii/AnyDialog
+
+    https://github.com/goweii/AnyLayer
+
++ 状态布局
+
+    https://github.com/KingJA/LoadSir
+	
++ 图片编辑
+
+    https://github.com/siwangqishiq/ImageEditor-Android.git
+
+# Kotlin学习
+
+   1. [教你如何完全解析Kotlin中的类型系统](https://blog.csdn.net/u013064109/article/details/88985474)
+   2. 
