@@ -165,9 +165,9 @@ RetrofitUrlManager.getInstance().putDomain(ApiConstant.KEY_BASE_URL_USER, ApiCon
 interface ApiConstant {
 
     companion object {
-        //account base url
+        //account base url 如果直接使用https://gw.aoscdn.com/，请在请求时拼上base/passport/v1/
         const val BASE_URL_USER = "https://gw.aoscdn.com/base/passport/v1/"
-        //business base url
+        //business base url 如果直接使用https://w.aoscdn.com/，请在请求时拼上app/aimage/
         const val BASE_URL_BUSINESS = "https://w.aoscdn.com/app/aimage/"
         const val KEY_BASE_URL_USER = "base_url_user"
         const val HEADER_BASE_URL_USER = RetrofitUrlManager.DOMAIN_NAME_HEADER + KEY_BASE_URL_USER
