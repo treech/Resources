@@ -18,7 +18,11 @@
 
 - [Android 架构组件基本示例](https://github.com/android/architecture-components-samples/tree/main/BasicSample)
 
+### 自定义View
 
+[Android clipToPadding 使用与疑难点解析](https://www.jianshu.com/p/5404ff08f4fa)
+
+[Android clipChildren 使用与疑难点解析](https://www.jianshu.com/p/99cae82ad0a2)
 
 # 反编译
 
@@ -100,7 +104,7 @@ https://blog.csdn.net/u013250424/article/details/105616276
 
 ### 视频
 
-1.JNI补充_文件拆分.avi              时间节点 ： 4min
+1.JNI补充_文件拆分.avi              时间节点 ： 49min
 
 ### 获取sdk类的签名
 
@@ -129,13 +133,13 @@ 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
 picGo token
 
 ```sh
-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
+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
 ```
 
 github token
 
 ```sh
-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
+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
 ```
 
 # 开源库学习
@@ -145,6 +149,8 @@ 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
     https://github.com/goweii/AnyDialog
 
     https://github.com/goweii/AnyLayer
+    
+    https://github.com/kakajika/RelativePopupWindow
 
 + 状态布局
 
@@ -153,8 +159,30 @@ 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
 + 图片编辑
 
     https://github.com/siwangqishiq/ImageEditor-Android.git
+    
++ 工具类（更新时间20210705）
+
+    https://github.com/Blankj/AndroidUtilCode
+
++ AndroidSdk配置
+
+    ```gradle
+    signing.keyId=6C3E621B
+    signing.password=_qiang2017
+    signing.secretKeyRingFile=D\:\\wx\\yeguoqiang_0x6C3E621B_SECRET.gpg
+    sonatype.username=ygq
+    sonatype.password=Abcd1234567,
+    ```
 
 # Kotlin学习
 
    1. [教你如何完全解析Kotlin中的类型系统](https://blog.csdn.net/u013064109/article/details/88985474)
-   2. 
+
+#### 1) os.getcwd();<span id="jump2"></span>
+
+```python
+3
+```
+
+
+
