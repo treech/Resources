@@ -369,7 +369,16 @@ git代码已push到服务器，如何进行回退
 *   查看log并保存到本地
    
     1. adb logcat -c
+    
     2. adb logcat |find "13696" > C:\Users\Admin\Desktop\aaaa.txt
+    
+*   Android adb push后相册没有立马更新，需要刷新media库
+
+   ```shell
+   adb push C:\Users\ygq\Pictures\123.jpg sdcard/DCIM
+   
+   adb shell am broadcast -a android.intent.action.MEDIA_SCANNER_SCAN_FILE -d file:///sdcard/DCIM/123.jpg
+   ```
 
 ## Gradle
 * [Android Studio查看第三方库依赖树](https://www.jianshu.com/p/3b29f6890eac)

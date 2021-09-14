@@ -139,7 +139,7 @@ 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
 github token
 
 ```sh
-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
+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
 ```
 
 # 开源库学习
@@ -177,12 +177,6 @@ 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
 # Kotlin学习
 
    1. [教你如何完全解析Kotlin中的类型系统](https://blog.csdn.net/u013064109/article/details/88985474)
-
-#### 1) os.getcwd();<span id="jump2"></span>
-
-```python
-3
-```
 
 
 
