@@ -498,8 +498,32 @@
 	>A library to show emoji in TextView, EditText (like WhatsApp) for Android
 	>![](https://raw.githubusercontent.com/rockerhieu/emojicon/master/images/sample.jpg)
 
+## Jetpack
+
+### Navigation使用
+
+> 问题引入：**Android Jetpack Navigation with ViewPager and TabLayout**
+>
+> https://stackoverflow.com/questions/52540303/android-jetpack-navigation-with-viewpager-and-tablayout
+>
+> https://github.com/SmartToolFactory/NavigationComponents-Tutorials
+
+# Kotlin
+
+## suspend操作
+
++ suspend方法做的耗时操作要不要在子线程做，google官方和github大V好像意见不是很统一
+
+>  https://github.com/android/architecture-components-samples.git
+>
+> 开了子线程
+
++ **android-showcase**就没开子线程
+
+> https://github.com/igorwojda/android-showcase.git
 
 ## Log
+
 *	[Log最佳实践](http://www.jianshu.com/p/586c27e77e81)
 *	[日志库Logger/xLog:使用对比解析](http://blog.csdn.net/u013472738/article/details/76349203?locationNum=6&fps=1)
 

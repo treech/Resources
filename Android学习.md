@@ -20,9 +20,22 @@
 
 ### 自定义View
 
-[Android clipToPadding 使用与疑难点解析](https://www.jianshu.com/p/5404ff08f4fa)
++ [Android clipToPadding 使用与疑难点解析](https://www.jianshu.com/p/5404ff08f4fa)
 
-[Android clipChildren 使用与疑难点解析](https://www.jianshu.com/p/99cae82ad0a2)
++ [Android clipChildren 使用与疑难点解析](https://www.jianshu.com/p/99cae82ad0a2)
+
++ android:adjustViewBounds属性解析
+  https://blog.csdn.net/qinxue24/article/details/80093833
+
++ Paint的setStrokeCap、setStrokeJoin、setPathEffect
+  https://blog.csdn.net/lxk_1993/article/details/102936227
+  
++ Android Canvas Layer 图层
+
+  https://www.twle.cn/l/yufei/android/android-basic-canvas-layer.html
+
++ 44
+
 
 # 反编译
 
@@ -92,6 +105,12 @@ Linux 通过adb shell dumpsys activity | grep “mResume”
    error: more than one device/emulator
    ```
 
+## adb录屏
+
+   ```sh
+   adb shell screenrecord --time 8 --verbose /sdcard/demo.mp4
+   ```
+
 参考资料：
 
 https://blog.csdn.net/ezconn/article/details/82621724
@@ -133,13 +152,13 @@ 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
 picGo token
 
 ```sh
-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
+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
 ```
 
 github token
 
 ```sh
-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
+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
 ```
 
 # 开源库学习
