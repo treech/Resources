@@ -267,7 +267,7 @@ apply from: '../push.gradle' //打包+推送脚本
 buildscript {
     repositories {
         maven {
-            url 'http://maven.aoscdn.com/repository/maven-snapshots/'
+            url 'http://localhost:8081/repository/maven-snapshots/'
             allowInsecureProtocol true
             credentials {
                 username deployUserName
@@ -291,7 +291,7 @@ allprojects {
     repositories {
         //maven {url 'file://D:\\code\\android\\LocalMaven'}
         maven {
-            url 'http://maven.aoscdn.com/repository/maven-snapshots/'
+            url 'http://localhost:8081/repository/maven-snapshots/'
             allowInsecureProtocol true
             credentials {
                 username deployUserName
@@ -299,7 +299,7 @@ allprojects {
             }
         }
         maven {
-            url 'http://maven.aoscdn.com/repository/maven-releases/'
+            url 'http://localhost:8081/repository/maven-releases/'
             allowInsecureProtocol true
             credentials {
                 username deployUserName
