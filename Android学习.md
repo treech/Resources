@@ -158,7 +158,136 @@ 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
 github token
 
 ```sh
-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
+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
+```
+
+# 发布Maven库到本地仓库
+
+Gradle7.0 以上使用**publishLocal.gradle**文件
+
+```
+apply plugin: 'maven-publish'
+
+// 源代码一起打包
+task androidSourcesJar(type: Jar) {
+    // 如果有Kotlin那么就需要打入dir : getSrcDirs
+    if (project.hasProperty("kotlin")) {
+        from android.sourceSets.main.java.getSrcDirs()
+    } else if (project.hasProperty("android")) {
+        from android.sourceSets.main.java.sourceFiles
+    } else {
+        from sourceSets.main.allSource
+    }
+    classifier = 'sources'
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            // Creates a Maven publication called "release".
+            release(MavenPublication) {
+                from components.release
+
+                groupId project.ext.groupId
+                artifactId project.ext.artifactId
+                version project.ext.version
+                artifact(androidSourcesJar)
+            }
+        }
+
+        repositories {
+            maven {
+                url "http://localhost:8081/repository/maven-releases/"
+            }
+        }
+    }
+}
+```
+
+Gradle7.0 以下使用**publishLocal.gradle**文件
+
+```
+apply plugin: 'maven'
+
+def ANDROID_SDK_PATH = "D:\\code\\android\\LocalMaven"
+
+uploadArchives {
+    repositories {
+        mavenDeployer {
+            repository(url: "file://" + ANDROID_SDK_PATH)
+            pom.groupId = project.ext.groupId
+            pom.artifactId = project.ext.artifactId
+            pom.version = project.ext.version
+        }
+    }
+}
+```
+
+lib库引用
+
+```
+ext {
+    groupId = 'com.apowersoft.common'
+    artifactId = 'wxtracker'
+    version = "10.0.1"
+}
+apply from: '../publishLocal.gradle'
+```
+
+根build.gradle url
+
+```
+方式一：
+maven {
+	url 'http://maven.aoscdn.com/repository/maven-snapshots/'
+	allowInsecureProtocol true
+	credentials {
+		username deployUserName
+		password deployPassword
+	}
+}
+
+方式二：
+maven {
+	url 'file://D:\\code\\android\\LocalMaven'
+}
+```
+
+# Gradle初始化脚本（init.gradle）
+
+```
+//针对gradle7.0以下build.gradle使用
+allprojects {
+    repositories {
+        maven {url 'file://D:\\code\\android\\LocalMaven'}
+        mavenLocal()
+        google()
+        jcenter()
+        mavenCentral()
+    }
+}
+
+//针对gradle7.0以上settings.gradle使用
+settingsEvaluated {
+  it.dependencyResolutionManagement {
+    repositories {
+        maven {url 'file://D:\\code\\android\\LocalMaven'}
+        mavenLocal()
+        google()
+        jcenter()
+        mavenCentral()
+    }
+  }
+}
+```
+
+```
+//打印maven地址
+task showRepositories{
+    repositories.each {
+        println "ygq repository: ${it.name} ('${it.url}')"
+    }
+}
 ```
 
 # 开源库学习
@@ -198,4 +327,27 @@ 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
    1. [教你如何完全解析Kotlin中的类型系统](https://blog.csdn.net/u013064109/article/details/88985474)
 
 
+
+# Https抓包
+
+network_security_config.xml配置
+
+```
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">picwishsz.oss-cn-shenzhen.aliyuncs.com</domain>
+        <domain includeSubdomains="true">gw.aoscdn.com</domain>
+        <domain includeSubdomains="true">aw.aoscdn.com</domain>
+        <domain includeSubdomains="true">awpp.aoscdn.com</domain>
+        <domain includeSubdomains="true">awvp.aoscdn.com</domain>
+        <domain includeSubdomains="true">awpy.aoscdn.com</domain>
+    </domain-config>
+</network-security-config>
+```
+
+# 隐私合规检测
+
+```
+https://github.com/ChenJunsen/Hegui3.0
+```
 
