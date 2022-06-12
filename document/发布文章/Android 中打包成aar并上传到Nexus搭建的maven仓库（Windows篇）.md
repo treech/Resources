@@ -95,7 +95,7 @@ PS：如果要安装为系统服务，以管理员身份执行 `nexus /install` 
 >
 > step2 运行`nexus /install`安装服务
 >
-> step3 运行 `nexus /start` 开始服务（响应的nexus /stop是停止服务）
+> step3 运行 `nexus /start` 开始服务（相应的nexus /stop是停止服务）
 >
 > step4 运行`nexus /status` 查看服务是否已开启
 >
