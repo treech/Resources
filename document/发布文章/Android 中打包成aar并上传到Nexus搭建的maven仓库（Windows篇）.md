@@ -327,5 +327,17 @@ settingsEvaluated {
 }
 ```
 
+验证`init.gradle`
+
+```
+tasks.register('showRepos') {
+    doLast {
+        repositories.forEach {
+            println "repository: ${it.name} ('${it.url}')"
+        }
+    }
+}
+```
+
 
 
